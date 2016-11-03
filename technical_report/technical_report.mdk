@@ -2,6 +2,9 @@ Title         : Copernicus Atmospheric Monitoring Service
 Author        : Vyron Vasileiadis
 Logo          : True
 
+Package: gfsartemisia-euler
+Package: [T1]{fontenc}
+
 [TITLE]
 
 # Introduction
