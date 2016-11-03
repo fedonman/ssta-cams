@@ -1,22 +1,34 @@
-Title         : Copernicus Atmospheric Monitoring Service
+Title         : Copernicus Atmosphere Monitoring Service
 Author        : Vyron Vasileiadis
 Logo          : True
 Css           : example.css
+Doc Class   : [9pt]report
 
 Package: gfsartemisia-euler
 Package: [T1]{fontenc}
+
 
 [TITLE]
 
 # Introduction
 
-Madoko is a fast markdown processor for writing professional articles
-with a focus on simplicity and plain text readability.
+Some of today’s most important environmental concerns relate to the 
+composition of the atmosphere. The increasing concentration of the 
+greenhouse gases and the cooling effect of aerosol are prominent 
+drivers of a changing climate, but the extent of their impact is 
+often still uncertain. 
 
-* Read the [reference manual].
-* Explore the upper-right toolbox menu to discover how Markdown works. 
-* `Alt-Q` reformats the current paragraph.
+At the Earth’s surface, aerosols, ozone and other reactive gases such as 
+nitrogen dioxide determine the quality of the air around us, affecting 
+human health and life expectancy, the health of ecosystems and the 
+fabric of the built environment. Ozone distributions in the stratosphere 
+influence the amount of ultraviolet radiation reaching the surface. 
+Dust, sand, smoke and volcanic aerosols affect the safe operation of 
+transport systems and the availability of power from solar generation, 
+the formation of clouds and rainfall, and the remote sensing by satellite 
+of land, ocean and atmosphere. 
 
-Enjoy!
-
-[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
+To address these environmental concerns there is a need for data and 
+processed information. The Copernicus Atmosphere Monitoring Service (CAMS) 
+has been developed to meet these needs, aiming at supporting policymakers, 
+business and citizens with enhanced atmospheric environmental information.
