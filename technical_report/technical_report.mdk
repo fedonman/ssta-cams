@@ -32,6 +32,8 @@ business and citizens with enhanced atmospheric environmental information.
 
 ## Global Analyses
 
+### Global analyses of chemical species - ozone
+
 ### Global analyses of chemical species - carbon monoxide
 
 ### Global analyses of chemical species - nitrogen dioxide
@@ -41,6 +43,8 @@ business and citizens with enhanced atmospheric environmental information.
 ### Global analyses of chemical species - formaldehyde
 
 ## Global Reanalysis
+
+### MACC global reanalysis of assimilated chemical species - ozone
 
 ### MACC global reanalysis of assimilated chemical species - carbon monoxide
 
@@ -52,6 +56,8 @@ business and citizens with enhanced atmospheric environmental information.
 
 ## Global Forecasts
 
+### Global forecasts of assimilated chemical species - ozone
+
 ### Global forecasts of assimilated chemical species - carbon monoxide
 
 ### Global forecasts of assimilated chemical species - nitrogen dioxide
@@ -61,6 +67,10 @@ business and citizens with enhanced atmospheric environmental information.
 ### Global forecasts of assimilated chemical species - formaldehyde
 
 ### Global forecasts of non-assimilated chemical species
+
+### Global forecasts of greenhouse gases - carbon dioxide
+
+### Global forecasts of greenhouse gases - methane
 
 ## Policy Support
 
