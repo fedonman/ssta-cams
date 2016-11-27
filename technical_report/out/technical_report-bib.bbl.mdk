@@ -1,6 +1,10 @@
-~ begin bibliography { .bib-natural; cite-style:"natural:'[',']','; '" ; caption:"1" ; data-style:"author-date" ; data-hanging-indent:"2"; data-style:'american-geophysical-union';  }
+~ begin bibliography { .bib-natural; cite-style:"natural:'[',']','; '" ; caption:"2" ; data-style:"author-date" ; data-hanging-indent:"2"; data-style:'american-geophysical-union';  }
 ~ begin bibitem {id:"mollenhauer2010handbook"; cite-year:"2010"; cite-authors:"Mollenhauer and Tschöke"; cite-authors-long:"Mollenhauer and Tschöke"; cite-label:"\_Mollenhauer and Tschöke\_, 2010"; caption:"Handbook of diesel engines&nl;Mollenhauer and Tschöke, 2010"; data-line:"bibliography.bib:1"; searchterm:"Handbook%20of%20diesel%20engines%20Mollenhauer%20and%20Tsch%C3%B6ke%2C%202010"}
 Mollenhauer, K., and H.&nbsp;Tschöke (2010), _Handbook of diesel engines_, Springer.
+~ end bibitem
+
+~ begin bibitem {id:"Omidvarborna2015113"; cite-year:"2015"; cite-authors:"Omidvarborna et al."; cite-authors-long:"Omidvarborna, Kumar, and Kim"; cite-label:"\_Omidvarborna et al.\_, 2015"; caption:"&lcurly;NO\ x\ &rcurly; emissions from low-temperature combustion of biodiesel made of various feedstocks and blends &nl;Omidvarborna, Kumar, and Kim, 2015"; data-line:"bibliography.bib:9"; searchterm:"%26lcurly%3BNO%5C%20x%5C%20%26rcurly%3B%20emissions%20from%20lowtemperature%20combustion%20of%20biodiesel%20made%20of%20various%20feedstocks%20and%20blends%20Omidvarborna%2C%20Kumar%2C%20and%20Kim%2C%202015"}
+Omidvarborna, H., A.&nbsp;Kumar, and D.-S.&nbsp;Kim (2015), &lcurly;NO\ x\ &rcurly; emissions from low-temperature combustion of biodiesel made of various feedstocks and blends , _Fuel Processing Technology _, _140_, 113 – 118, doi:[10.1016/j.fuproc.2015.08.031](https://dx.doi.org/10.1016/j.fuproc.2015.08.031){.bib-doi}.
 ~ end bibitem
 
 ~ end bibliography
