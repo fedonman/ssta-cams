@@ -1,0 +1,26 @@
+{
+  "_preamble": "",
+  "_comments": "",
+  "mollenhauer2010handbook": {
+    "id": "mollenhauer2010handbook",
+    "type": "book",
+    "author": [
+      {
+        "family": "Mollenhauer",
+        "given": "Klaus"
+      }
+    ],
+    "title": "Handbook of diesel engines",
+    "issued": {
+      "date-parts": [
+        [
+          "2010"
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "isbn": "9783540890829",
+    "publisher-place": "Berlin London",
+    "_line": "bibliography.bib:1"
+  }
+}
