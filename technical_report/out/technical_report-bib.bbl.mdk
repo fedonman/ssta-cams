@@ -1,6 +1,6 @@
 ~ begin bibliography { .bib-natural; cite-style:"natural:'[',']','; '" ; caption:"1" ; data-style:"author-date" ; data-hanging-indent:"2"; data-style:'american-geophysical-union';  }
-~ begin bibitem {id:"mollenhauer2010handbook"; cite-year:"2010"; cite-authors:"Mollenhauer"; cite-authors-long:"Mollenhauer"; cite-label:"\_Mollenhauer\_, 2010"; caption:"Handbook of diesel engines&nl;Mollenhauer, 2010"; data-line:"bibliography.bib:1"; searchterm:"Handbook%20of%20diesel%20engines%20Mollenhauer%2C%202010"}
-Mollenhauer, K.&nbsp;(2010), _Handbook of diesel engines_, Springer, Berlin London.
+~ begin bibitem {id:"mollenhauer2010handbook"; cite-year:"2010"; cite-authors:"Mollenhauer and Tschöke"; cite-authors-long:"Mollenhauer and Tschöke"; cite-label:"\_Mollenhauer and Tschöke\_, 2010"; caption:"Handbook of diesel engines&nl;Mollenhauer and Tschöke, 2010"; data-line:"bibliography.bib:1"; searchterm:"Handbook%20of%20diesel%20engines%20Mollenhauer%20and%20Tsch%C3%B6ke%2C%202010"}
+Mollenhauer, K., and H.&nbsp;Tschöke (2010), _Handbook of diesel engines_, Springer, Berlin London.
 ~ end bibitem
 
 ~ end bibliography
