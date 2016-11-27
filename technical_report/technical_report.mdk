@@ -28,64 +28,33 @@ processed information. The Copernicus Atmosphere Monitoring Service (CAMS)
 has been developed to meet these needs, aiming at supporting policymakers, 
 business and citizens with enhanced atmospheric environmental information.
 
-# Data
+# Study Area, Data & Materials 
 
-## Parameter Family
+{Introduction}
 
-### Greenhouse gas
+## Pollutants
 
-### Reactive gas
+### Surface Ozone (O<sub>3</sub>)
 
-## Global Analyses
+### Nitric Oxide (NO)
 
-### Global analyses of chemical species - ozone
+### Nitrogen Dioxide (NO<sub>2</sub>)
 
-### Global analyses of chemical species - carbon monoxide
+## Study Areas 
 
-### Global analyses of chemical species - nitrogen dioxide
+### Global
 
-### Global analyses of chemical species - sulphur dioxide
+### European-scale
 
-### Global analyses of chemical species - formaldehyde
+## Data Access
 
-## Global Reanalysis
+# Methods
 
-### MACC global reanalysis of assimilated chemical species - ozone
+## Global
 
-### MACC global reanalysis of assimilated chemical species - carbon monoxide
-
-### MACC global reanalysis of assimilated chemical species - nitrogen dioxide
-
-### MACC global reanalysis of assimilated chemical species - sulphur dioxide
-
-### MACC global reanalysis of assimilated chemical species - formaldehyde
-
-## Global Forecasts
-
-### Global forecasts of assimilated chemical species - ozone
-
-### Global forecasts of assimilated chemical species - carbon monoxide
-
-### Global forecasts of assimilated chemical species - nitrogen dioxide
-
-### Global forecasts of assimilated chemical species - sulphur dioxide
-
-### Global forecasts of assimilated chemical species - formaldehyde
-
-### Global forecasts of non-assimilated chemical species
-
-### Global forecasts of greenhouse gases - carbon dioxide
-
-### Global forecasts of greenhouse gases - methane
-
-## Policy Support
-
-### Green scenarios
-
-### European air quality assessment reports
-
-### Country source-receptor calculations
-
-# Methodology
+## European-scale
 
 # Examples
+
+# Conclusions
+
