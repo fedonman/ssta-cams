@@ -1,11 +1,11 @@
 Title         : Copernicus Atmosphere Monitoring Service
 Author        : Vyron Vasileiadis
 Logo          : False
-Doc Class   : [9pt]report
-Bibliography: example.bib
-Bib Style   : plainnat
-Cite Style  : natural
-Sub Title   : Technical User Guide
+Doc Class     : [9pt]report
+Bibliography  : example.bib
+Cite Style    : natural
+Sub Title     : Technical User Guide
+Csl Style     : journal-of-geophysical-research-space-physics.csl
 
 [TITLE]
 
