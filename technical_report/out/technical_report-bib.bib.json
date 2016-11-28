@@ -59,5 +59,29 @@
     "page-first": "113",
     "volume": "140",
     "_line": "bibliography.bib:9"
+  },
+  "annamalai2007combustion": {
+    "id": "annamalai2007combustion",
+    "type": "book",
+    "author": [
+      {
+        "family": "Annamalai",
+        "given": "Kalyan"
+      }
+    ],
+    "title": "Combustion science and engineering",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "publisher": "CRC Press/Taylor &amp; Francis",
+    "isbn": "9780849320712",
+    "publisher-place": "Boca Raton",
+    "page": "775",
+    "page-first": "775",
+    "_line": "bibliography.bib:21"
   }
 }

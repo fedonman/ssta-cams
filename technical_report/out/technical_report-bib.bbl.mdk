@@ -1,4 +1,8 @@
-~ begin bibliography { .bib-natural; cite-style:"natural:'[',']','; '" ; caption:"2" ; data-style:"author-date" ; data-hanging-indent:"2"; data-style:'american-geophysical-union';  }
+~ begin bibliography { .bib-natural; cite-style:"natural:'[',']','; '" ; caption:"3" ; data-style:"author-date" ; data-hanging-indent:"2"; data-style:'american-geophysical-union';  }
+~ begin bibitem {id:"annamalai2007combustion"; cite-year:"2007"; cite-authors:"Annamalai"; cite-authors-long:"Annamalai"; cite-label:"\_Annamalai\_, 2007"; caption:"Combustion science and engineering&nl;Annamalai, 2007"; data-line:"bibliography.bib:21"; searchterm:"Combustion%20science%20and%20engineering%20Annamalai%2C%202007"}
+Annamalai, K.&nbsp;(2007), _Combustion science and engineering_, CRC Press/Taylor &amp; Francis, Boca Raton.
+~ end bibitem
+
 ~ begin bibitem {id:"mollenhauer2010handbook"; cite-year:"2010"; cite-authors:"Mollenhauer and Tschöke"; cite-authors-long:"Mollenhauer and Tschöke"; cite-label:"\_Mollenhauer and Tschöke\_, 2010"; caption:"Handbook of diesel engines&nl;Mollenhauer and Tschöke, 2010"; data-line:"bibliography.bib:1"; searchterm:"Handbook%20of%20diesel%20engines%20Mollenhauer%20and%20Tsch%C3%B6ke%2C%202010"}
 Mollenhauer, K., and H.&nbsp;Tschöke (2010), _Handbook of diesel engines_, Springer.
 ~ end bibitem
