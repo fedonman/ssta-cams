@@ -86,7 +86,7 @@ The regional service also provides posteriori reanalyses using the latest valida
 ## European-scale
 
 ### CHIMERE
-~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model";}
+~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model"; line-height: 1.5;}
 |----------------------|---------------------|---------------------------------|
 |**Item**              |**Forecast**         |**Analysis**                     |
 |:---------------------|:--------------------|:--------------------------------|
