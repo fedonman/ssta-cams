@@ -87,16 +87,15 @@ The regional service also provides posteriori reanalyses using the latest valida
 
 ### CHIMERE
 ~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model"; line-height: 1.5;}
-|--------------------------|---------------------|---------------------------------|
-|                          |**Forecast**         |**Analysis**                     |
-|:-------------------------|:--------------------|:--------------------------------|
-|**Altitudes**             |Surface,             |Surface                          |
-|                          |50m, 250m, 500m,     |                                 |
-|                          |1000m, 2000m, 3000m, |                                 |
-|                          |5000m                |                                 |
-|**Available for users at**|6:00 UTC             |09:45 UTC for the day before     |
-|**Species**               |O3, NO, NO~2~        |O3, NO, NO~2~                    |
-|**Timespan**              |0-96h, hourly        |0-24h for the day before, hourly |
+|----------------|-------------------|---------------------------------|
+|                |**Forecast**       |**Analysis**                     |
+|:---------------|:------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m |Surface                          |
+|                |500m, 1000m, 2000m |                                 |
+|                |3000m, 5000m       |                                 |
+|**Available at**|6:00 UTC           |09:45 UTC for the day before     |
+|**Species**     |O3, NO, NO~2~      |O3, NO, NO~2~                    |
+|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
 ~
 
 
