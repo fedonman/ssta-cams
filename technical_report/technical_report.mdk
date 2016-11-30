@@ -42,7 +42,19 @@ processed information. The Copernicus Atmosphere Monitoring Service (CAMS)
 has been developed to meet these needs, aiming at supporting policymakers, 
 business and citizens with enhanced atmospheric environmental information.
 
-The Copernicus Atmosphere Monitoring Service (CAMS, atmosphere.copernicus.eu/) is establishing the core global and regional atmospheric environmental service delivered as a component of Europe's Copernicus programme. 
+The chemical composition of the air close to Earth’s surface, generally referred as *air quality* (AQ), directly affects human and animal health and also the vegetation. 
+Recently, the World Health Organization reported that in 2012 around 3.7 million deaths were attributable to ambient air pollution [^intro1]
+
+Since the Helsinki Protocol in 1985, many regions and countries, including the European Union countries, have progressively put in place tools to regulate and to control the emissions of the main air pollutants. 
+This has led to an important effort to monitor the air composition near the surface but also to develop air quality forecasting systems in experimental or operational modes (see reviews by Ebel et al., 2005; Menut and Bessagnet, 2010).
+These tools can be used in cases of high pollution episodes to inform people and to take emergency measures to prevent harming effects. 
+They can also be used for policy makers for the regulations on air pollutant emissions and for monitoring the effect of these regulations on air quality.
+
+The Copernicus Atmosphere Monitoring Service (CAMS) 
+has been developed to meet these needs, aiming at supporting policymakers, 
+business and citizens with enhanced atmospheric environmental information.
+
+[^intro1]: http://www.who.int/phe/health_topics/outdoorair/databases/en/ 
 
 # Study Area, Data & Materials 
 
