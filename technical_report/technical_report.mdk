@@ -111,12 +111,23 @@ CHIMERE reproduces nicely the day to day O~3~ variation similarly at urban and r
 CHIMERE reproduces the daily NO~x~ variability along the year but underestimates significantly the concentration especially during the cold season.
 
 ### EMEP
+The EMEP/MSC-W model has been developed at the EMEP Meteorological Synthesizing Centre-West at the Norwegian Meteorological Institute. 
+The model has been publicly available as open-source code since 2008, and a detailed description is given in Simpson et al. (2012). 
+
+ One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
+ As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
+ However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013). 
 
 ### EURAD-IM
 EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
 EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).
 
 ### LOTOS-EUROS
+The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO [^fn1], RIVM [^fn2] and, more recently, KNMI [^fn3].
+It is used for regional-scale air quality forecasts in Europe and the Netherlands (De Ruyter de Wildt et al., 2011).
+[^fn1]: www.tno.nl 
+[^fn2]: www.rivm.nl
+[^fn3]: www.knmi.nl
 
 ### MATCH
 
