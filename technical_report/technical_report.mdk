@@ -88,8 +88,8 @@ The regional service also provides posteriori reanalyses using the latest valida
 ### CHIMERE
 ~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model";}
 |----------------------|---------------------|---------------------------------|
-|**Item**             |**Forecast**        |**Analysis**                    |
-+:---------------------+:--------------------+:--------------------------------+
+|**Item**              |**Forecast**         |**Analysis**                     |
+|:---------------------|:--------------------|:--------------------------------|
 |Description           |Forecast at surface, |Analysis at the surface          |
 |                      |50m, 250m, 500m,     |                                 |
 |                      |1000m, 2000m, 3000m, |                                 |
