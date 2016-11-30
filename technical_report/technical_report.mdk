@@ -129,7 +129,25 @@ It is used for regional-scale air quality forecasts in Europe and the Netherland
 [^fn2]: www.rivm.nl
 [^fn3]: www.knmi.nl
 
+The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
+The lowest dynamic layer is the mixing layer, followed by two reservoir layers. 
+The height of the mixing layer is obtained from the ECMWF meteorological input data used to drive the model.
+
+The LOTOS-EUROS model has been designed as a model of intermediate complexity, to favour short computation times. 
+For this, the vertical top of the operational model version is limited and covers only the boundary layer and reservoir layers (up to 3.5km); effectively, the model therefore employs only four dynamic layers. 
+Concentrations from the free troposphere are taken from the global boundary conditions, and therefore fully incorporate the knowledge, assimilations, and validation efforts present in the global model. 
+
+In spite of the limited complexity, the model performs well in simulation of O~3~ (Curier et al., 2012).
+
+Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO~2~ (Vlemmix et al., 2015).
+
 ### MATCH
+
+The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).
+
+The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
+Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required. 
+Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version
 
 ### MOCAGE
 
