@@ -88,7 +88,7 @@ The regional service also provides posteriori reanalyses using the latest valida
 ### CHIMERE
 ~ TableFigure {#chimere-portfolio; caption: "Products of CHIMERE model";}
 |----------------------|---------------------|---------------------------------|
-| **Item**             | **Forecast**        | **Analysis**                    |
+|**Item**             |**Forecast**        |**Analysis**                    |
 +:---------------------+:--------------------+:--------------------------------+
 |Description           |Forecast at surface, |Analysis at the surface          |
 |                      |50m, 250m, 500m,     |                                 |
@@ -101,9 +101,7 @@ The regional service also provides posteriori reanalyses using the latest valida
 |----------------------|---------------------|---------------------------------|
 |Timespan              |0-96h, hourly        |0-24h for the day before, hourly |
 |----------------------|---------------------|---------------------------------|
-
-
-
+{ .booktable }
 ~
 
 
