@@ -42,6 +42,8 @@ processed information. The Copernicus Atmosphere Monitoring Service (CAMS)
 has been developed to meet these needs, aiming at supporting policymakers, 
 business and citizens with enhanced atmospheric environmental information.
 
+The Copernicus Atmosphere Monitoring Service (CAMS, atmosphere.copernicus.eu/) is establishing the core global and regional atmospheric environmental service delivered as a component of Europe's Copernicus programme. 
+
 # Study Area, Data & Materials 
 
 {Introduction}
@@ -70,6 +72,8 @@ They are produced from the reaction among nitrogen, oxygen and even hydrocarbons
 ### Global
 
 ### European-scale
+The regional forecasting service provides daily 4-day forecasts of the main air quality species and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
+The regional service also provides posteriori reanalyses using the latest validated observation dataset available for assimilation. 
 
 ## Available Files
 
@@ -82,6 +86,20 @@ They are produced from the reaction among nitrogen, oxygen and even hydrocarbons
 ## European-scale
 
 ### CHIMERE
+~ TableFigure {#chimere-portfolio; caption: "Products of CHIMERE model";}
+|----------------------|-----------------------------------------------------------------------------|----------------------------|
+| **Item**             | **Forecast**                                                                | **Analysis**               |
++:---------------------+:----------------------------------------------------------------------------+:---------------------------+
+|Description           |Forecast at surface, 50m, 250m, 500m, 1000m, 2000m, 3000m, 5000m above ground|Analysis at the surface     |
+|----------------------|-----------------------------------------------------------------------------|----------------------------|
+|Available for users at|6:00 UTC                                                                     |09:45 UTC for the day before|
+|----------------------|-----------------------------------------------------------------------------|----------------------------|
+|Species               |O3, NO2, CO, SO2, PM2.5, PM10, NO, NH3, NMVOC, PANs, Birch pollen at surface during season|O3, PM10, NO2, CO*, SO2*, PM2.5*, NO*, NH3*, NMVOC*, PANs* |
+|----------------------|-----------------------------------------------------------------------------|----------------------------|
+|Timespan              |0-96h, hourly                                                                |0-24h for the day before, hourly|
+|----------------------|-----------------------------------------------------------------------------|----------------------------|
+~
+
 
 ### EMEP
 
