@@ -85,6 +85,23 @@ The regional service also provides posteriori reanalyses using the latest valida
 
 ## European-scale
 
+The MACC-II air quality system aims at providing analyses and forecasts of the main pollutants at the regional scale over the European continent: from 25◦W to 45◦E and from 30 to 70◦N. 
+
+Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between ∼20 and ∼10km. 
+This range of resolutions is not designed to reproduce local aspects of air pollution but to provide concentrations of pollutants at the regional scale that can then be used in particular as boundary conditions for air quality forecasts at finer resolution.
+
+The range of the forecasts is 96h from 00:00 UTC on Day0 with hourly outputs on eight vertical levels (surface, 50, 250, 500, 1000, 2000, 3000 and 5000m). 
+Day0 is defined as the day when the forecast is run. 
+The forecast initial time/date is Day0 at 00:00 UTC and final time/date is Day3 at 24:00UTC. 
+For each time step (1h), the individual model fields are interpolated on these vertical levels and on the same regular 0.1&deg; latitude by 0.1&deg; longitude grid over the European domain. 
+It is from these re-gridded fields that the ensemble median and verification products are calculated.
+
+The analysis at the surface for Day0–1 (the day before Day0) is run daily a posteriori on Day0 using the assimilation of the hourly data from the AQ monitoring stations available in Europe between 00:00 and 23:00UTC on Day0– 1. 
+Like for the forecasts, Day0 is defined as the day when the analysis is run. 
+The analysis initial time/date is Day0–1 at 00:00 UTC and final time/date is Day0–1 at 23:00 UTC. 
+Similarly to the forecasts, the hourly individual model fields are interpolated on the same 0.1&deg; latitude by 0.1&deg; longitude grid. 
+The analyses are only produced at the surface level. 
+
 ### CHIMERE
 
 CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale (Menut et al., 2013a). 
@@ -123,11 +140,8 @@ EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection
 EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).
 
 ### LOTOS-EUROS
-The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO [^fn1], RIVM [^fn2] and, more recently, KNMI [^fn3].
+The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
 It is used for regional-scale air quality forecasts in Europe and the Netherlands (De Ruyter de Wildt et al., 2011).
-[^fn1]: www.tno.nl 
-[^fn2]: www.rivm.nl
-[^fn3]: www.knmi.nl
 
 The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
 The lowest dynamic layer is the mixing layer, followed by two reservoir layers. 
@@ -150,8 +164,23 @@ Using the same vertical resolution as the IFS model is an advantage because no v
 Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version
 
 ### MOCAGE
+The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
+Its assimilation system has been developed jointly with CERFACS. 
+This model and its assimilation system have been successfully used for tropospheric and stratospheric research (e.g. Bousserez et al., 2007; Barré et al., 2013, 2014; Lacressonnière et al., 2014) and also for operational purposes (Rouïl et al., 2009).
+
+The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
+Thus, it provides a full representation of transport processes, in particular boundary layer–troposphere and troposphere–stratosphere exchanges, and the time evolution of stratospheric conditions for accurate photolysis rate calculations at the surface.
+
+The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O~3~ and NO~2~ as illustrated in the annual re-analysis reports [^mocage1]
+[^mocage1]: http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/
+
+
 
 ### SILAM
+SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
+The model has been applied with resolutions ranging from 1km up to 3&deg;, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
+The model is publicly available since 2007 and is used as an operational and research tool. 
+
 
 ### ENSEMBLE
 To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
