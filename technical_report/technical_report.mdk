@@ -79,6 +79,15 @@ Accurate long-term measurements of ozone in the troposphere, including near the 
 NO~x~ is a generic term for the mono-nitrogen oxides [@mollenhauer2010handbook; @Omidvarborna2015113], nitric oxide (NO) and nitrogen dioxide (NO~2~).
 They are produced from the reaction among nitrogen, oxygen and even hydrocarbons (during combustion), especially at high temperatures [@Omidvarborna2015113; @annamalai2007combustion].
 
+Because NO~x~ are transparent to most wavelengths of light, they allow the vast majority of photons to pass through and, therefore, have a lifetime of at least several days. 
+Because NO~2~ is  recycled from NO by the photo reaction of VOC (volatile organic compounds) to make more ozone, NO~2~ seems to have an even longer lifetime and is capable of traveling considerable distances before creating ozone.  Weather systems usually travel over the earth’s surface and allow the atmospheric effects to move downwind for several hundred miles.
+This was noted in EPA reports more than twenty years ago. [@epabulletin]
+These reports found that each major city on the East coast has a plume of ozone that extends more than a hundred miles out to sea before concentrations drop to 100 parts per billion (ppb).
+
+NOx mainly impacts on respiratory conditions causing inflammation of the airways at high levels. Long term exposure can decrease lung function, increase the risk of respiratory conditions and increases the response to allergens. 
+NO~x~ also contributes to the formation of fine particles[^nox-1].
+
+[^nox-1]: http://www.icopal-noxite.co.uk/nox-problem/nox-pollution.aspx#sthash.esEBqdj6.dpuf
 ## Study Areas 
 
 ### Global

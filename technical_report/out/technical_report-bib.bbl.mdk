@@ -1,6 +1,10 @@
-~ begin bibliography { .bib-natural; cite-style:"natural:'[',']','; '" ; caption:"3" ; data-style:"author-date" ; data-hanging-indent:"2"; data-style:'american-geophysical-union';  }
+~ begin bibliography { .bib-natural; cite-style:"natural:'[',']','; '" ; caption:"4" ; data-style:"author-date" ; data-hanging-indent:"2"; data-style:'american-geophysical-union';  }
 ~ begin bibitem {id:"annamalai2007combustion"; cite-year:"2007"; cite-authors:"Annamalai"; cite-authors-long:"Annamalai"; cite-label:"\_Annamalai\_, 2007"; caption:"Combustion science and engineering&nl;Annamalai, 2007"; data-line:"bibliography.bib:21"; searchterm:"Combustion%20science%20and%20engineering%20Annamalai%2C%202007"}
 Annamalai, K.&nbsp;(2007), _Combustion science and engineering_, CRC Press/Taylor &amp; Francis, Boca Raton.
+~ end bibitem
+
+~ begin bibitem {id:"epabulletin"; cite-year:"1999"; cite-authors:"Clean Air Technology Center et al."; cite-authors-long:"Clean Air Technology Center, Transfer, Division, Air Quality Planning, Standards, Agency, and Research Triangle Park"; cite-label:"\_Clean Air Technology Center et al.\_, 1999"; caption:"Nitrogen Oxides, why and how they are controlled&nl;Clean Air Technology Center, Transfer, Division, Air Quality Planning, Standards, Agency, and Research Triangle Park, 1999"; data-line:"bibliography.bib:31"; searchterm:"Nitrogen%20Oxides%2C%20why%20and%20how%20they%20are%20controlled%20Clean%20Air%20Technology%20Center%2C%20Transfer%2C%20Division%2C%20Air%20Quality%20Planning%2C%20Standards%2C%20Agency%2C%20and%20Research%20Triangle%20Park%2C%201999"}
+Clean Air Technology Center, I.&nbsp;Transfer, P.&nbsp;I.&nbsp;Division, O.&nbsp;of Air Quality Planning, Standards, U.&nbsp;S.&nbsp;E.&nbsp;P.&nbsp;Agency, and N.&nbsp;C.&nbsp;Research Triangle Park (1999), _Nitrogen Oxides, why and how they are controlled_.
 ~ end bibitem
 
 ~ begin bibitem {id:"mollenhauer2010handbook"; cite-year:"2010"; cite-authors:"Mollenhauer and Tschöke"; cite-authors-long:"Mollenhauer and Tschöke"; cite-label:"\_Mollenhauer and Tschöke\_, 2010"; caption:"Handbook of diesel engines&nl;Mollenhauer and Tschöke, 2010"; data-line:"bibliography.bib:1"; searchterm:"Handbook%20of%20diesel%20engines%20Mollenhauer%20and%20Tsch%C3%B6ke%2C%202010"}

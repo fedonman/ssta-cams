@@ -83,5 +83,48 @@
     "page": "775",
     "page-first": "775",
     "_line": "bibliography.bib:21"
+  },
+  "epabulletin": {
+    "id": "epabulletin",
+    "type": "report",
+    "author": [
+      {
+        "family": "Clean Air Technology Center"
+      },
+      {
+        "family": "Transfer",
+        "given": "Information"
+      },
+      {
+        "family": "Division",
+        "given": "Program Integration"
+      },
+      {
+        "family": "Air Quality Planning",
+        "given": "Office",
+        "dropping-particle": "of"
+      },
+      {
+        "family": "Standards"
+      },
+      {
+        "family": "Agency",
+        "given": "U.S. Environmental Protection"
+      },
+      {
+        "family": "Research Triangle Park",
+        "given": "North Carolina"
+      }
+    ],
+    "title": "Nitrogen Oxides, why and how they are controlled",
+    "issued": {
+      "date-parts": [
+        [
+          "1999",
+          "11"
+        ]
+      ]
+    },
+    "_line": "bibliography.bib:31"
   }
 }
