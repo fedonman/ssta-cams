@@ -59,6 +59,7 @@ business and citizens with enhanced atmospheric environmental information.
 # Study Area, Data & Materials 
 
 {Introduction}
+Pollutants -> Areas -> Services
 
 ## Pollutants
 
@@ -88,9 +89,23 @@ NOx mainly impacts on respiratory conditions causing inflammation of the airways
 NO~x~ also contributes to the formation of fine particles[^nox-1].
 
 [^nox-1]: http://www.icopal-noxite.co.uk/nox-problem/nox-pollution.aspx#sthash.esEBqdj6.dpuf
-## Study Areas 
+## Product Services 
 
 ### Global
+The global products are provided by the ECMWF Composition-Integrated Forecast System (C-IFS).
+The services consist of daily near real-time analyses and forecasts up to five days, and a re-analysis, currently for the period 2003 - 2012. 
+The geographical area covered is the whole Earth, from 180&deg;W to 180&deg; and 90&deg;S to 90&deg;N. 
+Vertically global services cover both the troposphere and stratosphere. 
+
+#### Global analyses of chemical species
+This service provides daily analyses of chemical species, including O~3~, NO and NO~2~. 
+The Service became operational on 1st July 2015
+
+#### 
+
+#### 
+
+
 
 ### European-scale
 The regional forecasting service provides daily 4-day forecasts of the main air quality species and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
