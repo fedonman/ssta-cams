@@ -120,7 +120,15 @@ Horizontal resolution is 1.125&deg; x 1.125&deg;.
 ### European-scale
 The European-scale regional products are provided for the European domain (25&deg;W to 45&deg;E and from 30&deg;N to 70&deg;N). 
 The service provides daily 4-day forecasts of the main air quality species and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
-The regional service also provides posteriori reanalyses using the latest validated observation dataset available for assimilation. 
+The regional service also provides daily posteriori interim re-analyses based on fast-track in-situ observations, and annual re-analyses based on fully validated in-situ observations. 
+
+#### European-scale air quality analysis
+
+#### European-scale air quality forecast
+
+#### European-scale air quality interim reanalysis
+
+#### European-scale air quality reanalysis
 
 ## Available Files
 
