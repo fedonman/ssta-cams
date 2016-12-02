@@ -118,7 +118,8 @@ This service time coverage spans from January 2003 to 31 December 2012, and has 
 Horizontal resolution is 1.125&deg; x 1.125&deg;.
 
 ### European-scale
-The regional forecasting service provides daily 4-day forecasts of the main air quality species and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
+The European-scale regional products are provided for the European domain (25&deg;W to 45&deg;E and from 30&deg;N to 70&deg;N). 
+The service provides daily 4-day forecasts of the main air quality species and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
 The regional service also provides posteriori reanalyses using the latest validated observation dataset available for assimilation. 
 
 ## Available Files
@@ -130,8 +131,6 @@ The regional service also provides posteriori reanalyses using the latest valida
 ## Global
 
 ## European-scale
-
-The MACC-II air quality system aims at providing analyses and forecasts of the main pollutants at the regional scale over the European continent: from 25◦W to 45◦E and from 30 to 70◦N. 
 
 Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between ∼20 and ∼10km. 
 This range of resolutions is not designed to reproduce local aspects of air pollution but to provide concentrations of pollutants at the regional scale that can then be used in particular as boundary conditions for air quality forecasts at finer resolution.
