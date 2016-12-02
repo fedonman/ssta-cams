@@ -99,18 +99,23 @@ Vertically global services cover both the troposphere and stratosphere.
 
 #### Global analyses of chemical species
 This service provides daily analyses of chemical species, including O~3~, NO and NO~2~. 
-The Service became operational on 1st July 2015 and provides data every 6 hours.
+The Service became operational on 1 July 2015 and provides data every 6 hours.
 
 #### Global forecasts of chemical species 
 This service provides daily forecasts up to 5 days of chemical species, including O~3~, NO and NO~2~. 
-The service became operational on 1st July 2015.
+The service became operational on 1 July 2015.
 
 #### MACC global reanalysis of assimilated chemical species 
 This service provides global reanalysis of chemical species that are directly constrained by observations.
-This means that only O~3~ and NO~2~ reanalysis data are available. 
-Reanalysis time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
+Only O~3~ and NO~2~ reanalysis data are available. 
+This service time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
+Horizontal resolution is approximately 60 km.
 
-
+#### MACC global reanalysis of non-assimilated chemical species 
+This service provides global reanalysis of chemical species that are not directly constrained by observations. 
+Only NO and NO~2~ reanalysis data are available. 
+This service time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
+Horizontal resolution is 1.125&deg; x 1.125&deg;.
 
 ### European-scale
 The regional forecasting service provides daily 4-day forecasts of the main air quality species and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
