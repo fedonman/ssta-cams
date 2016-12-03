@@ -140,15 +140,24 @@ An overview of the characteristics of the seven models can be seen in tables .
 Detailed descriptions of each model are presented in the following sections.
 
 ~ TableFigure {#models-1; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5;}
-|----------|-------------------|--------------------------|------------------------|
-|**Model** |**Operated By**    |**Horizontal Resolution** |**Vertical Resolution** |
-|:---------|:------------------|:-------------------------|:-----------------------|
-|CHIMERE   |INERIS, France     | 0.1&deg;×0.1&deg;        |8 levels                |
-|          |                   |                          |Top at 500 hPa          |
-|EMEP      |MET Norway, Norway |0.25&deg;x1.25&deg;       |20 levels               |
-|          |                   |                          |Top at 100 hPa          |
-|EURAD-IM  |RIU UK, Germany    |15km on a Lambert                          |23 levels                     |
-|          |                   |conformal projection                   |Top at 100 hPa                       |
+|           |                     |                          |                        |
+|**Model**  |**Operated By**      |**Horizontal Resolution** |**Vertical Resolution** |
+|:----------|:--------------------|:-------------------------|:-----------------------|
+|CHIMERE    |INERIS, France       | 0.1&deg;×0.1&deg;        |8 levels                |
+|           |                     |                          |Top at 500 hPa          |
+|EMEP       |MET Norway, Norway   |0.25&deg;x1.25&deg;       |20 levels               |
+|           |                     |                          |Top at 100 hPa          |
+|EURAD-IM   |RIU UK, Germany      |15km on a Lambert         |23 levels               |
+|           |                     |conformal projection      |Top at 100 hPa          |
+|LOTOS-EURO |KNMI, Netherlands    |0.25&deg;x1.25&deg;       |4 levels                |
+|           |                     |                          |Top at 3.5 km           |
+|MATCH      |SMHI, Sweden         |0.2&deg;x0.2&deg;         |52 levels               |
+|           |                     |                          |Top at 300 hPa          |
+|MOCAGE     |Météo-France, France |0.2&deg;x0.2&deg;         |47 levels               |
+|           |                     |                          |Top at 5 hPa            |
+|SILAM      |FMI, Finland         |0.15&deg;x0.15&deg;       |8 levels                |
+|           |                     |                          |Top at 6.7 km           |
+|           |                     |                          |                        |
 ~
 
 ### CHIMERE
