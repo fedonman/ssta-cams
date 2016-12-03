@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2015.10.13)  4 NOV 2016 01:01
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2015.10.13)  3 DEC 2016 17:31
 entering extended mode
 **./out/technical_report.tex
 (./out/technical_report.tex
@@ -845,138 +845,7 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \@snippetHeight=\skip171
 \@snippetDepth=\skip172
 \c@snippets=\count176
-) (c:/texlive/2015/texmf-dist/tex/latex/gfsartemisia/gfsartemisia-euler.sty
-File: gfsartemisia-euler.sty 2007/10/07 v1.0 Package `gfsartemisia-euler.sty'
-*****************************************************************  GFS-Artemisia-Euler style file by A. Tsolomitis and I. Vasilogiorgakis  ***************************************************************** (c:/texlive/2015/texmf-dist/tex/latex/euler/euler.sty
-Package: euler 1995/03/05 v2.5
-Package: `euler' v2.5 <1995/03/05> (FJ and FMi)
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 35.
-LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
-(Font)              `letters' in the math version `normal' on input line 35.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> U/eur/m/n on input line 35.
-LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
-(Font)              `letters' in the math version `bold' on input line 35.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> U/eur/m/n on input line 35.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  U/eur/m/n --> U/eur/b/n on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 57.
-\symEulerFraktur=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `EulerFraktur' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 63.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 64.
-LaTeX Info: Redefining \oldstylenums on input line 85.
-\symEulerScript=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `EulerScript' in version `bold'
-(Font)                  U/eus/m/n --> U/eus/b/n on input line 93.
-LaTeX Font Info:    Redeclaring math symbol \aleph on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Re on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Im on input line 99.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 101.
-LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 103.
-LaTeX Font Info:    Redeclaring math symbol \neg on input line 106.
-LaTeX Font Info:    Redeclaring math symbol \wedge on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \vee on input line 110.
-LaTeX Font Info:    Redeclaring math symbol \setminus on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \sim on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \mid on input line 114.
-LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 116.
-LaTeX Font Info:    Redeclaring math symbol \mathsection on input line 117.
-\symEulerExtension=\mathgroup9
-LaTeX Font Info:    Redeclaring math symbol \coprod@ on input line 125.
-LaTeX Font Info:    Redeclaring math symbol \prod@ on input line 125.
-LaTeX Font Info:    Redeclaring math symbol \sum@ on input line 125.
-LaTeX Font Info:    Redeclaring math symbol \intop on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \ointop on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \braceld on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \braceru on input line 135.
-LaTeX Font Info:    Redeclaring math symbol \infty on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 153.
-LaTeX Font Info:    Redeclaring math symbol \searrow on input line 154.
-LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 155.
-LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 156.
-LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 158.
-LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 159.
-LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 163.
-LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 166.
-LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 168.
-LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 170.
-LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 172.
-LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 174.
-LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 177.
-LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 178.
-LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 180.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 182.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 184.
-\symcmmigroup=\mathgroup10
-LaTeX Font Info:    Overwriting symbol font `cmmigroup' in version `bold'
-(Font)                  OML/cmm/m/it --> OML/cmm/b/it on input line 200.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 201.
-LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 202.
-LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \star on input line 204.
-LaTeX Font Info:    Redeclaring math symbol \lhook on input line 205.
-LaTeX Font Info:    Redeclaring math symbol \rhook on input line 206.
-LaTeX Font Info:    Redeclaring math symbol \flat on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \natural on input line 208.
-LaTeX Font Info:    Redeclaring math symbol \sharp on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \smile on input line 210.
-LaTeX Font Info:    Redeclaring math symbol \frown on input line 211.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
 )
-
-! LaTeX Error: Command \textlozenge already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...ashchar \@qend ... illegal, see p.192 of the manual.^^J^^JSee the LaTeX manual or LaTeX Companion for explanation.^^JType  H <return>  for immediate help\@err@                                                                   
-                                                                                                                                                                                                                                      
-l.65 \newcommand{\textlozenge}{{\usefont{U}{artemisiaeulernums}{m}{tabnums}\selectfont\char'4}}
-                                                                                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\symartemisiaeulernumbers=\mathgroup11
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/artemisiaeuler/m/n on input line 103.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/artemisiaeuler/b/n on input line 104.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/artemisiaeuler/m/it on input line 105.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 106.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 107.
-) (c:/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-(c:/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
-(c:/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
 
 LaTeX Warning: Unused global option(s):
     [9pt].
@@ -984,42 +853,38 @@ LaTeX Warning: Unused global option(s):
 No file technical_report.aux.
 \openout1 = `technical_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
 (c:/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 11.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 9.
 (c:/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Try loading font information for T1+artemisiaeuler on input line 11.
-(c:/texlive/2015/texmf-dist/tex/latex/gfsartemisia/t1artemisiaeuler.fd)
-LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
-(Font)              scaled to size 9.79996pt on input line 11.
+LaTeX Font Info:    ... okay on input line 9.
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring ON on input line 11.
+Package hyperref Info: Link coloring ON on input line 9.
 (c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1027,9 +892,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count177
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
@@ -1038,132 +903,346 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 . 
 . Adjusting the maths setup (use [no-math] to avoid this).
 .................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "euler-too-late"
-! 
-! The euler package must be loaded BEFORE fontspec.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...^J! ^^J! The euler package must be loaded BEFORE fontspec.^^J! ^^J! See the fontspec documentation for further information.^^J! ^^J! For immediate help type H <return>\use_none:n  ............................................  
-                                                                                                                                                                                                                                      
-l.11 \begin{document}
-                     
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| fontspec only overwrites euler's attempt to define the maths text fonts if
-| fontspec is loaded after euler. Type <return> to proceed with incorrect
-| \mathit, \mathbf, etc.
-|...............................................
-
-\symlegacymaths=\mathgroup12
+\symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 11.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 11.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 11.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 11.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 11.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 11.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 11.
-LaTeX Font Info:    Redeclaring math accent \check on input line 11.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 11.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 11.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 11.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 11.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 11.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 9.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 9.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 9.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 9.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 9.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 9.
+LaTeX Font Info:    Redeclaring math accent \check on input line 9.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 9.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 9.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 9.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 11.
+(Font)              `operators' in the math version `normal' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/artemisiaeuler/m/n on input line 11.
+(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 9.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 11.
+(Font)              `operators' in the math version `bold' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/artemisiaeuler/m/n on input line 11.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/artemisiaeuler/m/n --> EU1/artemisiaeuler/m/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 11.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  EU1/artemisiaeuler/m/it --> EU1/artemisiaeuler/m/it on input line 11.
+(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  EU1/artemisiaeuler/b/n --> EU1/artemisiaeuler/bx/n on input line 11.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  EU1/lmss/m/n --> EU1/lmss/m/n on input line 11.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  EU1/lmtt/m/n --> EU1/lmtt/m/n on input line 11.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/artemisiaeuler/m/n --> EU1/artemisiaeuler/bx/n on input line 11.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/artemisiaeuler/bx/it on input line 11.
+(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 11.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 11.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 11.
-LaTeX Font Info:    Encoding `EU1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 11.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/artemisiaeuler/m/n --> OT1/artemisiaeuler/m/n on input line 11.
-LaTeX Font Info:    Encoding `EU1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 11.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/artemisiaeuler/bx/n --> OT1/artemisiaeuler/m/n on input line 11.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/artemisiaeuler/m/n --> OT1/artemisiaeuler/bx/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  EU1/artemisiaeuler/bx/n --> OT1/artemisiaeuler/bx/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/artemisiaeuler/bx/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  EU1/lmss/m/n --> OT1/lmss/m/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  EU1/lmss/bx/n --> OT1/lmss/m/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  EU1/artemisiaeuler/m/it --> OT1/artemisiaeuler/m/it on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  EU1/artemisiaeuler/bx/it --> OT1/artemisiaeuler/m/it on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  EU1/lmtt/m/n --> OT1/lmtt/m/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  EU1/lmtt/bx/n --> OT1/lmtt/m/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/artemisiaeuler/m/it --> OT1/artemisiaeuler/bx/it on input line 11.
-LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
-(Font)              scaled to size 16.93431pt on input line 23.
-LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
-(Font)              scaled to size 14.11192pt on input line 23.
-LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
-(Font)              scaled to size 11.75995pt on input line 23.
-LaTeX Font Info:    Try loading font information for OT1+artemisiaeuler on input line 23.
-(c:/texlive/2015/texmf-dist/tex/latex/gfsartemisia/ot1artemisiaeuler.fd)
-LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
-(Font)              scaled to size 11.75995pt on input line 23.
-LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
-(Font)              scaled to size 7.83997pt on input line 23.
-LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
-(Font)              scaled to size 5.87997pt on input line 23.
-LaTeX Font Info:    Try loading font information for U+eur on input line 23.
-(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/ueur.fd
-File: ueur.fd 2013/01/14 v3.01 Euler Roman
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 (c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-Fil
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 24.
+(c:/texlive/2015/texmf-dist/tex/latex/stmaryrd/ustmry.fd) (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+) [1
+
+] [1]
+
+LaTeX Warning: Hyper reference `sec-introduction' on page 1 undefined on input line 39.
+
+
+LaTeX Warning: Reference `sec-introduction' on page 1 undefined on input line 39.
+
+
+LaTeX Warning: Hyper reference `sec-study-area-data-materials' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Reference `sec-study-area-data-materials' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Hyper reference `sec-pollutants' on page 1 undefined on input line 45.
+
+
+LaTeX Warning: Reference `sec-pollutants' on page 1 undefined on input line 45.
+
+
+LaTeX Warning: Hyper reference `sec-surface-ozone-o3' on page 1 undefined on input line 49.
+
+
+LaTeX Warning: Reference `sec-surface-ozone-o3' on page 1 undefined on input line 49.
+
+
+LaTeX Warning: Hyper reference `sec-nox--nitric-oxide-no-nitrogen-dioxide-no2' on page 1 undefined on input line 51.
+
+
+LaTeX Warning: Reference `sec-nox--nitric-oxide-no-nitrogen-dioxide-no2' on page 1 undefined on input line 51.
+
+
+LaTeX Warning: Hyper reference `sec-product-services' on page 1 undefined on input line 55.
+
+
+LaTeX Warning: Reference `sec-product-services' on page 1 undefined on input line 55.
+
+
+LaTeX Warning: Hyper reference `sec-global' on page 1 undefined on input line 59.
+
+
+LaTeX Warning: Reference `sec-global' on page 1 undefined on input line 59.
+
+
+LaTeX Warning: Hyper reference `sec-european-scale' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Reference `sec-european-scale' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Hyper reference `sec-available-files' on page 1 undefined on input line 65.
+
+
+LaTeX Warning: Reference `sec-available-files' on page 1 undefined on input line 65.
+
+
+LaTeX Warning: Hyper reference `sec-data-access-methods' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Reference `sec-data-access-methods' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Hyper reference `sec-models' on page 1 undefined on input line 71.
+
+
+LaTeX Warning: Reference `sec-models' on page 1 undefined on input line 71.
+
+
+LaTeX Warning: Hyper reference `sec-global' on page 1 undefined on input line 75.
+
+
+LaTeX Warning: Reference `sec-global' on page 1 undefined on input line 75.
+
+
+LaTeX Warning: Hyper reference `sec-european-scale' on page 1 undefined on input line 77.
+
+
+LaTeX Warning: Reference `sec-european-scale' on page 1 undefined on input line 77.
+
+
+LaTeX Warning: Hyper reference `sec-chimere' on page 1 undefined on input line 81.
+
+
+LaTeX Warning: Reference `sec-chimere' on page 1 undefined on input line 81.
+
+
+LaTeX Warning: Hyper reference `sec-emep' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Reference `sec-emep' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Hyper reference `sec-eurad-im' on page 1 undefined on input line 85.
+
+
+LaTeX Warning: Reference `sec-eurad-im' on page 1 undefined on input line 85.
+
+
+LaTeX Warning: Hyper reference `sec-lotos-euros' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Reference `sec-lotos-euros' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Hyper reference `sec-match' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `sec-match' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Hyper reference `sec-mocage' on page 1 undefined on input line 91.
+
+
+LaTeX Warning: Reference `sec-mocage' on page 1 undefined on input line 91.
+
+
+LaTeX Warning: Hyper reference `sec-silam' on page 1 undefined on input line 93.
+
+
+LaTeX Warning: Reference `sec-silam' on page 1 undefined on input line 93.
+
+
+LaTeX Warning: Hyper reference `sec-ensemble' on page 1 undefined on input line 95.
+
+
+LaTeX Warning: Reference `sec-ensemble' on page 1 undefined on input line 95.
+
+
+LaTeX Warning: Hyper reference `sec-examples' on page 1 undefined on input line 101.
+
+
+LaTeX Warning: Reference `sec-examples' on page 1 undefined on input line 101.
+
+
+LaTeX Warning: Hyper reference `sec-conclusions' on page 1 undefined on input line 103.
+
+
+LaTeX Warning: Reference `sec-conclusions' on page 1 undefined on input line 103.
+
+
+LaTeX Warning: Hyper reference `sec-bibliography' on page 1 undefined on input line 105.
+
+
+LaTeX Warning: Reference `sec-bibliography' on page 1 undefined on input line 105.
+
+
+LaTeX Warning: Hyper reference `models-1' on page 1 undefined on input line 117.
+
+
+LaTeX Warning: Reference `models-1' on page 1 undefined on input line 117.
+
+
+LaTeX Warning: Hyper reference `models-2' on page 1 undefined on input line 119.
+
+
+LaTeX Warning: Reference `models-2' on page 1 undefined on input line 119.
+
+
+LaTeX Warning: Hyper reference `chimere-portfolio' on page 1 undefined on input line 121.
+
+
+LaTeX Warning: Reference `chimere-portfolio' on page 1 undefined on input line 121.
+
+[1]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 176.
+
+
+LaTeX Warning: Hyper reference `mollenhauer2010handbook' on page 2 undefined on input line 179.
+
+
+LaTeX Warning: Hyper reference `omidvarborna2015113' on page 2 undefined on input line 179.
+
+
+LaTeX Warning: Hyper reference `omidvarborna2015113' on page 2 undefined on input line 180.
+
+
+LaTeX Warning: Hyper reference `annamalai2007combustion' on page 2 undefined on input line 180.
+
+
+Overfull \hbox (14.73001pt too wide) in paragraph at lines 179--181
+\EU1/lmr/m/n/10 NO$[]$ is a generic term for the mono-nitrogen oxides (Mollenhauer and Tschöke, 2010;
+ []
+
+
+LaTeX Warning: Hyper reference `epabulletin' on page 2 undefined on input line 185.
+
+[2] [3]
+Missing character: There is no ∼ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ∼ in font [lmroman10-regular]:mapping=tex-text!
+[4]
+
+LaTeX Warning: Hyper reference `models-1' on page 5 undefined on input line 297.
+
+
+LaTeX Warning: Hyper reference `models-2' on page 5 undefined on input line 297.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...e  LaTeX Error: Unknown float option `\reserved@a '.^^J^^JSee the LaTeX manual or LaTeX Companion for explanation.^^JType  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                      
+l.301 \begin{table}[H]
+                      %mdk
+Option `H' ignored and `p' used.
+
+LaTeX Font Info:    Calculating math sizes for size <90> on input line 304.
+
+Overfull \hbox (3158.43013pt too wide) in paragraph at lines 303--322
+ [] 
+ []
+
+
+Overfull \hbox (191.25002pt too wide) in paragraph at lines 328--330
+ |\EU1/lmr/bx/n/90 Table 1. []\EU1/lmr/m/n/90 Gen- 
+ []
+
+
+LaTeX Warning: Float too large for page by 2615.92271pt on input line 332.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...e  LaTeX Error: Unknown float option `\reserved@a '.^^J^^JSee the LaTeX manual or LaTeX Companion for explanation.^^JType  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                      
+l.335 \begin{table}[H]
+                      %mdk
+Option `H' ignored and `p' used.
+
+
+Overfull \hbox (129.23297pt too wide) in paragraph at lines 337--351
+ [] 
+ []
+
+[5] [6] [7]
+Overfull \hbox (17.37404pt too wide) in paragraph at lines 424--426
+\EU1/lmr/m/n/10 mentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer
+ []
+
+[8] [9] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
+[11
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
+(out/technical_report.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 530.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 530.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 27435 strings out of 493668
+ 528925 string characters out of 6148790
+ 564878 words of memory out of 5000000
+ 30585 multiletter control sequences out of 15000+600000
+ 17676 words of font info for 91 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 48i,11n,52p,10376b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/technical_report.pdf (13 pages).

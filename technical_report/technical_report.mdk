@@ -139,7 +139,7 @@ The analyses are only produced at the surface level.
 An overview of the characteristics of the seven models can be seen in tables [#models-1] and [#models-2].
 Detailed descriptions of each model are presented in the following sections.
 
-~ TableFigure {#models-1; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5; font-size: 10pt; page-align: inplace;}
+~ TableFigure {#models-1; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5; font-size: 9pt; margin-left: -100px; page-align: inplace;}
 |           |                     |                          |                        |
 |**Model**  |**Operated By**      |**Horizontal Resolution** |**Vertical Resolution** |
 |:----------|:--------------------|:-------------------------|:-----------------------|
