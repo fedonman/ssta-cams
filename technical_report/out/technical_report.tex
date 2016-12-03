@@ -93,6 +93,8 @@
 \mdtocitemx{sec-silam}{\mdref{sec-silam}{3.2.7.\hspace*{0.5em}SILAM}}%mdk
 
 \mdtocitemx{sec-ensemble}{\mdref{sec-ensemble}{3.2.8.\hspace*{0.5em}ENSEMBLE}}%mdk
+
+\mdtocitemx{sec-availability-statistics}{\mdref{sec-availability-statistics}{3.2.9.\hspace*{0.5em}Availability statistics}}%mdk
 %mdk
 \end{mdtocblock}%mdk
 %mdk
@@ -122,7 +124,17 @@
 
 \mdtocitemx{emep-portfolio}{\mdref{emep-portfolio}{\mdcaptionlabel{4}. Products of EMEP model}}%mdk
 
-\mdtocitemx{eurad-portfolio}{\mdref{eurad-portfolio}{\mdcaptionlabel{5}. Products of EMEP model}}%mdk
+\mdtocitemx{eurad-portfolio}{\mdref{eurad-portfolio}{\mdcaptionlabel{5}. Products of EURAD-IM model}}%mdk
+
+\mdtocitemx{lotos-portfolio}{\mdref{lotos-portfolio}{\mdcaptionlabel{6}. Products of LOTOS-EUROS model}}%mdk
+
+\mdtocitemx{match-portfolio}{\mdref{match-portfolio}{\mdcaptionlabel{7}. Products of MATCH model}}%mdk
+
+\mdtocitemx{mocage-portfolio}{\mdref{mocage-portfolio}{\mdcaptionlabel{8}. Products of MOCAGE model}}%mdk
+
+\mdtocitemx{silam-portfolio}{\mdref{silam-portfolio}{\mdcaptionlabel{9}. Products of SILAM model}}%mdk
+
+\mdtocitemx{ensemble-portfolio}{\mdref{ensemble-portfolio}{\mdcaptionlabel{10}. Products of SILAM model}}%mdk
 %mdk
 \end{mdtocblock}%mdk
 %mdk
@@ -396,7 +408,7 @@ The model runs over the GEMS-MACC domain with a 0.1\mdline{185}\textdegree{}\mdl
 \end{tabular}\end{mdtabular}
 
 %mdk-data-line={196}
-\noindent\mdline{196}*\mdline{196} Non-assimilated pollutants%mdk
+\noindent\mdline{196}*\mdline{196} Not assimilated%mdk
 
 %mdk-data-line={197}
 \mdhr{}%mdk
@@ -440,7 +452,7 @@ However, being one of the main research tools under the UN LRTAP (Long-range Tra
 \end{tabular}\end{mdtabular}
 
 %mdk-data-line={219}
-\noindent\mdline{219}*\mdline{219} Non-assimilated pollutants%mdk
+\noindent\mdline{219}*\mdline{219} Not assimilated%mdk
 
 %mdk-data-line={220}
 \mdhr{}%mdk
@@ -481,7 +493,7 @@ EURAD-IM has been applied on several recent air pollution studies (Monteiro et a
 \mdhr{}%mdk
 
 %mdk-data-line={237}
-\noindent\mdline{237}\mdcaption{\textbf{Table~\mdcaptionlabel{5}.}~\mdcaptiontext{Products of EMEP model}}%mdk
+\noindent\mdline{237}\mdcaption{\textbf{Table~\mdcaptionlabel{5}.}~\mdcaptiontext{Products of EURAD-IM model}}%mdk
 }}%mdk
 \end{mdcenter}\label{eurad-portfolio}%mdk
 %mdk
@@ -511,66 +523,208 @@ Concentrations from the free troposphere are taken from the global boundary cond
 \mdline{252}Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO\mdline{252}\mdsub{2}\mdline{252} (Vlemmix et al., 2015).%mdk
 
 %mdk-data-line={254}
-\subsubsection{\mdline{254}3.2.5.\hspace*{0.5em}\mdline{254}MATCH}\label{sec-match}%mdk%mdk
+\begin{table}[h!]%mdk
+\begin{mdcenter}%mdk
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{255}}&{\bfseries\mdline{255}\textbf{Forecast}\mdline{255}}&{\bfseries\mdline{255}\textbf{Analysis}\mdline{255}}\\
 
-%mdk-data-line={256}
-\noindent\mdline{256}The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).%mdk
+\midrule
+\mdline{257}\textbf{Altitudes}\mdline{257}&\mdline{257}Surface, 50m, 250m&\mdline{257}Surface\\
+\mdline{258}&\mdline{258}500m, 1000m, 2000m&\mdline{258}\\
+\mdline{259}&\mdline{259}3000m, 5000m&\mdline{259}\\
+\mdline{260}\textbf{Available at}&\mdline{260}4:00 UTC&\mdline{260}10:00 UTC for the day before\\
+\mdline{261}\textbf{Pollutants}\mdline{261}&\mdline{261}O\mdline{261}\mdsub{3}\mdline{261}, NO, NO\mdline{261}\mdsub{2}\mdline{261}&\mdline{261}O\mdline{261}\mdsub{3}\mdline{261}, NO\mdline{261}*\mdline{261}, NO\mdline{261}\mdsub{2}\mdline{261}\\
+\mdline{262}\textbf{Timespan}\mdline{262}&\mdline{262}0-96h, hourly&\mdline{262}0-24h for the day before, hourly\\
+\end{tabular}\end{mdtabular}
 
-%mdk-data-line={258}
-\mdline{258}The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
+%mdk-data-line={263}
+\noindent\mdline{263}*\mdline{263} Not assimilated%mdk
+
+%mdk-data-line={264}
+\mdhr{}%mdk
+
+%mdk-data-line={265}
+\noindent\mdline{265}\mdcaption{\textbf{Table~\mdcaptionlabel{6}.}~\mdcaptiontext{Products of LOTOS-EUROS model}}%mdk
+}}%mdk
+\end{mdcenter}\label{lotos-portfolio}%mdk
+%mdk
+\end{table}%mdk
+
+%mdk-data-line={266}
+\subsubsection{\mdline{266}3.2.5.\hspace*{0.5em}\mdline{266}MATCH}\label{sec-match}%mdk%mdk
+
+%mdk-data-line={268}
+\noindent\mdline{268}The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).%mdk
+
+%mdk-data-line={270}
+\mdline{270}The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
 Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required. 
 Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version%mdk
 
-%mdk-data-line={262}
-\subsubsection{\mdline{262}3.2.6.\hspace*{0.5em}\mdline{262}MOCAGE}\label{sec-mocage}%mdk%mdk
+%mdk-data-line={274}
+\begin{table}[h!]%mdk
+\begin{mdcenter}%mdk
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{275}}&{\bfseries\mdline{275}\textbf{Forecast}\mdline{275}}&{\bfseries\mdline{275}\textbf{Analysis}\mdline{275}}\\
 
-%mdk-data-line={263}
-\noindent\mdline{263}The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
+\midrule
+\mdline{277}\textbf{Altitudes}\mdline{277}&\mdline{277}Surface, 50m, 250m&\mdline{277}Surface\\
+\mdline{278}&\mdline{278}500m, 1000m, 2000m&\mdline{278}\\
+\mdline{279}&\mdline{279}3000m, 5000m&\mdline{279}\\
+\mdline{280}\textbf{Available at}&\mdline{280}3:00 UTC&\mdline{280}10:00 UTC for the day before\\
+\mdline{281}\textbf{Pollutants}\mdline{281}&\mdline{281}O\mdline{281}\mdsub{3}\mdline{281}, NO, NO\mdline{281}\mdsub{2}\mdline{281}&\mdline{281}O\mdline{281}\mdsub{3}\mdline{281}, NO\mdline{281}*\mdline{281}, NO\mdline{281}\mdsub{2}\mdline{281}\\
+\mdline{282}\textbf{Timespan}\mdline{282}&\mdline{282}0-96h, hourly&\mdline{282}0-24h for the day before, hourly\\
+\end{tabular}\end{mdtabular}
+
+%mdk-data-line={283}
+\noindent\mdline{283}*\mdline{283} Not assimilated%mdk
+
+%mdk-data-line={284}
+\mdhr{}%mdk
+
+%mdk-data-line={285}
+\noindent\mdline{285}\mdcaption{\textbf{Table~\mdcaptionlabel{7}.}~\mdcaptiontext{Products of MATCH model}}%mdk
+}}%mdk
+\end{mdcenter}\label{match-portfolio}%mdk
+%mdk
+\end{table}%mdk
+
+%mdk-data-line={286}
+\subsubsection{\mdline{286}3.2.6.\hspace*{0.5em}\mdline{286}MOCAGE}\label{sec-mocage}%mdk%mdk
+
+%mdk-data-line={287}
+\noindent\mdline{287}The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
 Its assimilation system has been developed jointly with CERFACS. 
 This model and its assimilation system have been successfully used for tropospheric and stratospheric research (e.g. Bousserez et al., 2007; Barré et al., 2013, 2014; Lacressonnière et al., 2014) and also for operational purposes (Rouïl et al., 2009).%mdk
 
-%mdk-data-line={267}
-\mdline{267}The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
+%mdk-data-line={291}
+\mdline{291}The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
 Thus, it provides a full representation of transport processes, in particular boundary layer–troposphere and troposphere–stratosphere exchanges, and the time evolution of stratospheric conditions for accurate photolysis rate calculations at the surface.%mdk
 
-%mdk-data-line={270}
-\mdline{270}The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O\mdline{270}\mdsub{3}\mdline{270} and NO\mdline{270}\mdsub{2}\mdline{270} as illustrated in the annual re-analysis reports\mdline{270} \mdline{270}\mdfootnote{4}{%mdk-data-line={271}
-%mdk-data-line={271}
-\noindent\mdline{271}http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/%mdk
+%mdk-data-line={294}
+\mdline{294}The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O\mdline{294}\mdsub{3}\mdline{294} and NO\mdline{294}\mdsub{2}\mdline{294} as illustrated in the annual re-analysis reports\mdline{294} \mdline{294}\mdfootnote{4}{%mdk-data-line={295}
+%mdk-data-line={295}
+\noindent\mdline{295}http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/%mdk
 \label{fn-mocage1}%mdk%mdk
-}\mdline{270}%mdk
+}\mdline{294}%mdk
 
-%mdk-data-line={275}
-\subsubsection{\mdline{275}3.2.7.\hspace*{0.5em}\mdline{275}SILAM}\label{sec-silam}%mdk%mdk
+%mdk-data-line={297}
+\begin{table}[h!]%mdk
+\begin{mdcenter}%mdk
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{298}}&{\bfseries\mdline{298}\textbf{Forecast}\mdline{298}}&{\bfseries\mdline{298}\textbf{Analysis}\mdline{298}}\\
 
-%mdk-data-line={276}
-\noindent\mdline{276}SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
-The model has been applied with resolutions ranging from 1km up to 3\mdline{277}\textdegree{}\mdline{277}, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
+\midrule
+\mdline{300}\textbf{Altitudes}\mdline{300}&\mdline{300}Surface, 50m, 250m&\mdline{300}Surface\\
+\mdline{301}&\mdline{301}500m, 1000m, 2000m&\mdline{301}\\
+\mdline{302}&\mdline{302}3000m, 5000m&\mdline{302}\\
+\mdline{303}\textbf{Available at}&\mdline{303}0:30 UTC&\mdline{303}10:30 UTC for the day before\\
+\mdline{304}\textbf{Pollutants}\mdline{304}&\mdline{304}O\mdline{304}\mdsub{3}\mdline{304}, NO, NO\mdline{304}\mdsub{2}\mdline{304}&\mdline{304}O\mdline{304}\mdsub{3}\mdline{304}, NO\mdline{304}*\mdline{304}, NO\mdline{304}\mdsub{2}\mdline{304}\\
+\mdline{305}\textbf{Timespan}\mdline{305}&\mdline{305}0-96h, hourly&\mdline{305}0-24h for the day before, hourly\\
+\end{tabular}\end{mdtabular}
+
+%mdk-data-line={306}
+\noindent\mdline{306}*\mdline{306} Not assimilated%mdk
+
+%mdk-data-line={307}
+\mdhr{}%mdk
+
+%mdk-data-line={308}
+\noindent\mdline{308}\mdcaption{\textbf{Table~\mdcaptionlabel{8}.}~\mdcaptiontext{Products of MOCAGE model}}%mdk
+}}%mdk
+\end{mdcenter}\label{mocage-portfolio}%mdk
+%mdk
+\end{table}%mdk
+
+%mdk-data-line={309}
+\subsubsection{\mdline{309}3.2.7.\hspace*{0.5em}\mdline{309}SILAM}\label{sec-silam}%mdk%mdk
+
+%mdk-data-line={310}
+\noindent\mdline{310}SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
+The model has been applied with resolutions ranging from 1km up to 3\mdline{311}\textdegree{}\mdline{311}, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
 The model is publicly available since 2007 and is used as an operational and research tool.%mdk
 
-%mdk-data-line={281}
-\subsubsection{\mdline{281}3.2.8.\hspace*{0.5em}\mdline{281}ENSEMBLE}\label{sec-ensemble}%mdk%mdk
+%mdk-data-line={313}
+\begin{table}[h!]%mdk
+\begin{mdcenter}%mdk
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{314}}&{\bfseries\mdline{314}\textbf{Forecast}\mdline{314}}&{\bfseries\mdline{314}\textbf{Analysis}\mdline{314}}\\
 
-%mdk-data-line={282}
-\noindent\mdline{282}To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
+\midrule
+\mdline{316}\textbf{Altitudes}\mdline{316}&\mdline{316}Surface, 50m, 250m&\mdline{316}Surface\\
+\mdline{317}&\mdline{317}500m, 1000m, 2000m&\mdline{317}\\
+\mdline{318}&\mdline{318}3000m, 5000m&\mdline{318}\\
+\mdline{319}\textbf{Available at}&\mdline{319}3:00 UTC&\mdline{319}9:30 UTC for the day before\\
+\mdline{320}\textbf{Pollutants}\mdline{320}&\mdline{320}O\mdline{320}\mdsub{3}\mdline{320}, NO, NO\mdline{320}\mdsub{2}\mdline{320}&\mdline{320}O\mdline{320}\mdsub{3}\mdline{320}, NO\mdline{320}*\mdline{320}, NO\mdline{320}\mdsub{2}\mdline{320}\\
+\mdline{321}\textbf{Timespan}\mdline{321}&\mdline{321}0-96h, hourly&\mdline{321}0-24h for the day before, hourly\\
+\end{tabular}\end{mdtabular}
+
+%mdk-data-line={322}
+\noindent\mdline{322}*\mdline{322} Not assimilated%mdk
+
+%mdk-data-line={323}
+\mdhr{}%mdk
+
+%mdk-data-line={324}
+\noindent\mdline{324}\mdcaption{\textbf{Table~\mdcaptionlabel{9}.}~\mdcaptiontext{Products of SILAM model}}%mdk
+}}%mdk
+\end{mdcenter}\label{silam-portfolio}%mdk
+%mdk
+\end{table}%mdk
+
+%mdk-data-line={325}
+\subsubsection{\mdline{325}3.2.8.\hspace*{0.5em}\mdline{325}ENSEMBLE}\label{sec-ensemble}%mdk%mdk
+
+%mdk-data-line={326}
+\noindent\mdline{326}To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
 For each grid point, the ensemble model value is calculated as the median value of the individual model forecasts or analyses available. 
 The median is defined as the value having 50\% of individual models with higher values and 50\% with lower values. 
 This method is rather insensitive to outliers in the forecasts or analyses and is very efficient computationally. 
-These properties are useful from an operational point of view. 
-The method is also little sensitive if a particular model forecast or analysis is occasionally missing.%mdk
+It is also little sensitive if a particular model forecast or analysis is occasionally missing.
+These properties are very useful from an operational point of view.%mdk
 
-%mdk-data-line={289}
-\mdline{289} For the forecasts, the ENSEMBLE is produced for all levels and all species. 
- For the analyses, the individual assimilation systems provide only analyses at the surface level and do not produce analyses for all species yet.%mdk
+%mdk-data-line={333}
+\mdline{333}For the forecasts, the ENSEMBLE is produced for all levels and all pollutants. 
+For the analyses, the individual assimilation systems provide only analyses at the surface level.
+The ENSEMBLR products as of May 2016 are presented in Table\mdline{335}~\mdref{ensemble-portfolio}{\mdcaptionlabel{10}}\mdline{335}.%mdk
 
-%mdk-data-line={293}
-\section{\mdline{293}4.\hspace*{0.5em}\mdline{293}Examples}\label{sec-examples}%mdk%mdk
+%mdk-data-line={337}
+\begin{table}[h!]%mdk
+\begin{mdcenter}%mdk
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{338}}&{\bfseries\mdline{338}\textbf{Forecast}\mdline{338}}&{\bfseries\mdline{338}\textbf{Analysis}\mdline{338}}\\
 
-%mdk-data-line={295}
-\section{\mdline{295}5.\hspace*{0.5em}\mdline{295}Conclusions}\label{sec-conclusions}%mdk%mdk
+\midrule
+\mdline{340}\textbf{Altitudes}\mdline{340}&\mdline{340}Surface, 50m, 250m&\mdline{340}Surface\\
+\mdline{341}&\mdline{341}500m, 1000m, 2000m&\mdline{341}\\
+\mdline{342}&\mdline{342}3000m, 5000m&\mdline{342}\\
+\mdline{343}\textbf{Available at}&\mdline{343}6:45 UTC for D0-D1&\mdline{343}11:30 UTC for the day before\\
+\mdline{344}&\mdline{344}8:45 UTC for D2-D3&\mdline{344}\\
+\mdline{345}\textbf{Pollutants}\mdline{345}&\mdline{345}O\mdline{345}\mdsub{3}\mdline{345}, NO, NO\mdline{345}\mdsub{2}\mdline{345}&\mdline{345}O\mdline{345}\mdsub{3}\mdline{345}, NO, NO\mdline{345}\mdsub{2}\mdline{345}\\
+\mdline{346}\textbf{Timespan}\mdline{346}&\mdline{346}0-96h, hourly&\mdline{346}0-24h for the day before, hourly\\
+\end{tabular}\end{mdtabular}
 
-%mdk-data-line={297;out/technical_report-bib.bbl.mdk:1}
-%mdk-data-line={297;out/technical_report-bib.bbl.mdk:2}
+%mdk-data-line={347}
+\mdhr{}%mdk
+
+%mdk-data-line={348}
+\noindent\mdline{348}\mdcaption{\textbf{Table~\mdcaptionlabel{10}.}~\mdcaptiontext{Products of SILAM model}}%mdk
+}}%mdk
+\end{mdcenter}\label{ensemble-portfolio}%mdk
+%mdk
+\end{table}%mdk
+
+%mdk-data-line={349}
+\subsubsection{\mdline{349}3.2.9.\hspace*{0.5em}\mdline{349}Availability statistics}\label{sec-availability-statistics}%mdk%mdk
+
+%mdk-data-line={352}
+\section{\mdline{352}4.\hspace*{0.5em}\mdline{352}Examples}\label{sec-examples}%mdk%mdk
+
+%mdk-data-line={354}
+\section{\mdline{354}5.\hspace*{0.5em}\mdline{354}Conclusions}\label{sec-conclusions}%mdk%mdk
+
+%mdk-data-line={356;out/technical_report-bib.bbl.mdk:1}
+%mdk-data-line={356;out/technical_report-bib.bbl.mdk:2}
 \mdsetrefname{References}%mdk
 {\mdsupressbiblabel\mdbibindent{2}\begin{thebibliography}{4}%mdk
 \label{sec-bibliography}%mdk

@@ -185,14 +185,13 @@ CHIMERE runs over a range of spatial scale from the regional scale (several thou
 The model runs over the GEMS-MACC domain with a 0.1&deg; resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere. 
 
 ~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|6:00 UTC           |09:45 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|6:00 UTC                  |09:45 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
 ~
 
@@ -208,14 +207,13 @@ As the model is designed mainly for background concentrations, urban increments 
 However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013). 
 
 ~ TableFigure {#emep-portfolio; .booktable; caption: "Products of EMEP model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|2:00 UTC           |08:45 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|2:00 UTC                  |08:45 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
 ~
 
@@ -224,14 +222,13 @@ EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection
 EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).
 
 ~ TableFigure {#eurad-portfolio; .booktable; caption: "Products of EURAD-IM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|6:00 UTC           |09:45 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|6:00 UTC                  |09:45 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements.
 ~
 
@@ -252,14 +249,13 @@ In spite of the limited complexity, the model performs well in simulation of O~3
 Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO~2~ (Vlemmix et al., 2015).
 
 ~ TableFigure {#lotos-portfolio; .booktable; caption: "Products of LOTOS-EUROS model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|4:00 UTC           |10:00 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|4:00 UTC                  |10:00 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
 ~
 
@@ -272,14 +268,13 @@ Using the same vertical resolution as the IFS model is an advantage because no v
 Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version
 
 ~ TableFigure {#match-portfolio; .booktable; caption: "Products of MATCH model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|3:00 UTC           |10:00 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|3:00 UTC                  |10:00 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
 ~
 
@@ -295,14 +290,13 @@ The MOCAGE assimilation system in its MACC conﬁguration produces robust analys
 [^mocage1]: http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/
 
 ~ TableFigure {#mocage-portfolio; .booktable; caption: "Products of MOCAGE model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|0:30 UTC           |10:30 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|0:30 UTC                  |10:30 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
 ~
 
@@ -311,14 +305,13 @@ SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is u
 The model has been applied with resolutions ranging from 1km up to 3&deg;, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
 The model is publicly available since 2007 and is used as an operational and research tool. 
 ~ TableFigure {#silam-portfolio; .booktable; caption: "Products of SILAM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|3:00 UTC           |9:30 UTC for the day before      |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|3:00 UTC                  |9:30 UTC for the day before      |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
 ~
 
@@ -335,15 +328,15 @@ For the analyses, the individual assimilation systems provide only analyses at t
 The ENSEMBLR products as of May 2016 are presented in Table [#ensemble-portfolio].
 
 ~ TableFigure {#ensemble-portfolio; .booktable; caption: "Products of SILAM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
-|                |**Forecast**       |**Analysis**                     |
-|:---------------|:------------------|:--------------------------------|
-|**Altitudes**   |Surface, 50m, 250m |Surface                          |
-|                |500m, 1000m, 2000m |                                 |
-|                |3000m, 5000m       |                                 |
-|**Available at**|6:45 UTC for D0-D1 |11:30 UTC for the day before     |
-|                |8:45 UTC for D2-D3 |                                 |
-|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO, NO~2~                  |
-|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+|                |**Forecast**              |**Analysis**                     |
+|:---------------|:-------------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
+|                |1000m, 2000m, 3000, 5000m |                                 |
+|**Available at**|6:45 UTC for D0-D1        |11:30 UTC for the day before     |
+|                |8:45 UTC for D2-D3        |                                 |
+|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO, NO~2~                  |
+|**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
+|                |                          |                                 |
 ~
 
 ### Availability statistics 
