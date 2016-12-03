@@ -1,14 +1,13 @@
 Title         : Copernicus Atmosphere Monitoring Service
 Author        : Vyron Vasileiadis
 Logo          : False
-Doc Class     : [9pt]article
+Doc Class     : [9pt]report
 Bibliography  : bibliography.bib
 Cite Style    : natural
 Sub Title     : Technical User Guide
 Csl Style     : journal-of-geophysical-research-space-physics.csl
 
 ~ { tex-cmd-after: "\pagenumbering{roman}"}
-content
 ~
 
 [TITLE]
@@ -29,6 +28,9 @@ The abstract.
 [TOC=tables]
 
 &pagebreak;
+
+~ { tex-cmd-after: "\pagenumbering{arabic}"}
+~
 
 # Introduction
 
