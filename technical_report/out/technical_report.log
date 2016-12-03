@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2015.10.13)  3 DEC 2016 17:31
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2015.10.13)  3 DEC 2016 17:34
 entering extended mode
 **./out/technical_report.tex
 (./out/technical_report.tex
@@ -1181,54 +1181,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...e  LaTeX Error: Unknown float option `\reserved@a '.^^J^^JSee the LaTeX manual or LaTeX Companion for explanation.^^JType  H <return>  for immediate help\@err@                                                                   
                                                                                                                                                                                                                                       
-l.301 \begin{table}[H]
-                      %mdk
-Option `H' ignored and `p' used.
-
-LaTeX Font Info:    Calculating math sizes for size <90> on input line 304.
-
-Overfull \hbox (3158.43013pt too wide) in paragraph at lines 303--322
- [] 
- []
-
-
-Overfull \hbox (191.25002pt too wide) in paragraph at lines 328--330
- |\EU1/lmr/bx/n/90 Table 1. []\EU1/lmr/m/n/90 Gen- 
- []
-
-
-LaTeX Warning: Float too large for page by 2615.92271pt on input line 332.
-
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...e  LaTeX Error: Unknown float option `\reserved@a '.^^J^^JSee the LaTeX manual or LaTeX Companion for explanation.^^JType  H <return>  for immediate help\@err@                                                                   
-                                                                                                                                                                                                                                      
-l.335 \begin{table}[H]
+l.336 \begin{table}[H]
                       %mdk
 Option `H' ignored and `p' used.
 
 
-Overfull \hbox (129.23297pt too wide) in paragraph at lines 337--351
+Overfull \hbox (129.23297pt too wide) in paragraph at lines 338--352
  [] 
  []
 
-[5] [6] [7]
-Overfull \hbox (17.37404pt too wide) in paragraph at lines 424--426
+[5]
+Overfull \hbox (17.37404pt too wide) in paragraph at lines 425--427
 \EU1/lmr/m/n/10 mentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer
  []
 
-[8] [9] [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
-[11
+[6] [7] [8] [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 531.
+[10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 531.
 (out/technical_report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 530.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 530.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 531.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 531.
 
 LaTeX Warning: There were undefined references.
 
@@ -1237,12 +1212,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 27435 strings out of 493668
- 528925 string characters out of 6148790
- 564878 words of memory out of 5000000
- 30585 multiletter control sequences out of 15000+600000
- 17676 words of font info for 91 fonts, out of 8000000 for 9000
+ 27418 strings out of 493668
+ 528586 string characters out of 6148790
+ 560878 words of memory out of 5000000
+ 30564 multiletter control sequences out of 15000+600000
+ 14159 words of font info for 75 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 48i,11n,52p,10376b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,52p,10376b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/technical_report.pdf (13 pages).
+Output written on out/technical_report.pdf (12 pages).
