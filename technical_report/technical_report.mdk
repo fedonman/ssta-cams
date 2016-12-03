@@ -136,7 +136,7 @@ The analysis initial time/date is Day0–1 at 00:00 UTC and final time/date is D
 Similarly to the forecasts, the hourly individual model fields are interpolated on the same 0.1&deg; latitude by 0.1&deg; longitude grid. 
 The analyses are only produced at the surface level. 
 
-An overview of the characteristics of the seven models can be seen in tables .
+An overview of the characteristics of the seven models can be seen in tables [#models-1] and [#models-2].
 Detailed descriptions of each model are presented in the following sections.
 
 ~ TableFigure {#models-1; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5;}
@@ -160,20 +160,18 @@ Detailed descriptions of each model are presented in the following sections.
 ~
 
 ~ TableFigure {#models-2; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5;}
-|           |                        |                            |                        |
-|**Model**  |**Assimilation Method** |**Observation assimilated** |**Pollutants analysed** |
-|:----------|:-----------------------|:---------------------------|:-----------------------|
-|CHIMERE    |Optimal interpolation   |O~3~ from surface stations  |O~3~                    |
-|EMEP       |3DVar                   |NO~2~ columns from OMI      |NO~2~                   |
-|           |                        |NO~2~ from surface stations |                        |
-|EURAD-IM   |3DVar                   |O~3~, NO, NO~2~ from surface stations           |O~3~, NO~2~               |
-|           |                        |NO~2~ columns from OMI and GOME-2       |         |
-|LOTOS-EURO |Ensemble Kalman ﬁlter   |O~3~ from surface stations  |O~3~                |
-|MATCH      |3DVar                   |O~3, NO~2~ from surface stations           |O~3~, NO~2~               |
-|MOCAGE     |3DVar                   |O~3~ from surface stations           |O~3~               |
-|SILAM      |4DVar                   |O~3, NO~2~ from surface stations         |O~3~, NO~2~                |
-|           |                        |                            |Top at 6.7 km           |
-|           |                        |                            |                        |
+|           |                        |                                      |                        |
+|**Model**  |**Assimilation Method** |**Observation assimilated**           |**Pollutants analysed** |
+|:----------|:-----------------------|:-------------------------------------|:-----------------------|
+|CHIMERE    |Optimal interpolation   |O~3~ from surface stations            |O~3~                    |
+|EMEP       |3DVar                   |NO~2~ columns from OMI                |NO~2~                   |
+|           |                        |NO~2~ from surface stations           |                        |
+|EURAD-IM   |3DVar                   |O~3~, NO, NO~2~ from surface stations |O~3~, NO~2~             |
+|           |                        |NO~2~ columns from OMI and GOME-2     |                        |
+|LOTOS-EURO |Ensemble Kalman ﬁlter   |O~3~ from surface stations            |O~3~                    |
+|MATCH      |3DVar                   |O~3, NO~2~ from surface stations      |O~3~, NO~2~             |
+|MOCAGE     |3DVar                   |O~3~ from surface stations            |O~3~                    |
+|SILAM      |4DVar                   |O~3, NO~2~ from surface stations      |O~3~, NO~2~             |
 ~
 
 ### CHIMERE
