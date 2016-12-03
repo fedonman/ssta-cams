@@ -7,6 +7,8 @@ Cite Style    : natural
 Sub Title     : Technical User Guide
 Csl Style     : journal-of-geophysical-research-space-physics.csl
 
+page { tex-cmd-before: "\pagenumbering{roman}"}
+
 [TITLE]
 
 ~ Abstract
@@ -19,7 +21,7 @@ The abstract.
 
 &pagebreak;
 
-[TOC=figures] {tex-cmd-after:"\addcontentsline{toc}{figures}{Declaration}"}
+[TOC=figures] { tex-cmd-after: "\pagenumbering{roman}"}
 &pagebreak;
 
 [TOC=tables]
