@@ -136,6 +136,21 @@ The analysis initial time/date is Day0–1 at 00:00 UTC and final time/date is D
 Similarly to the forecasts, the hourly individual model fields are interpolated on the same 0.1&deg; latitude by 0.1&deg; longitude grid. 
 The analyses are only produced at the surface level. 
 
+An overview of the characteristics of the seven models can be seen in tables .
+Detailed descriptions of each model are presented in the following sections.
+
+~ TableFigure {#models-1; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5;}
+|----------|-------------------|--------------------------|------------------------|
+|**Model** |**Operated By**    |**Horizontal Resolution** |**Vertical Resolution** |
+|:---------|:------------------|:-------------------------|:-----------------------|
+|CHIMERE   |INERIS, France     | 0.1&deg;×0.1&deg;        |8 levels                |
+|          |                   |                          |Top at 500 hPa          |
+|EMEP      |MET Norway, Norway |0.25&deg;x1.25&deg;       |20 levels               |
+|          |                   |                          |Top at 100 hPa          |
+|EURAD-IM  |RIU UK, Germany    |15km on a Lambert                          |23 levels                     |
+|          |                   |conformal projection                   |Top at 100 hPa                       |
+~
+
 ### CHIMERE
 
 CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale (Menut et al., 2013a). 
