@@ -140,7 +140,6 @@ An overview of the characteristics of the seven models can be seen in tables [#m
 Detailed descriptions of each model are presented in the following sections.
 
 ~ TableFigure {#models-1; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5; font-size: 8pt; page-align: forcehere;}
-|           |                     |                          |                        |
 |**Model**  |**Operated By**      |**Horizontal Resolution** |**Vertical Resolution** |
 |:----------|:--------------------|:-------------------------|:-----------------------|
 |CHIMERE    |INERIS, France       | 0.1&deg;×0.1&deg;        |8 levels                |
@@ -160,7 +159,6 @@ Detailed descriptions of each model are presented in the following sections.
 ~
 
 ~ TableFigure {#models-2; .booktable; caption: "Characteristics of the daily assimilation chains of the regional models"; line-height: 1.5; font-size: 8pt; margin-left: -50px; page-align: forcehere;}
-|           |                        |                                      |                        |
 |**Model**  |**Assimilation Method** |**Observation assimilated**           |**Pollutants analysed** |
 |:----------|:-----------------------|:-------------------------------------|:-----------------------|
 |CHIMERE    |Optimal interpolation   |O~3~ from surface stations            |O~3~                    |
@@ -355,7 +353,49 @@ Availability information of ENSEMBLE products as of May 2016 are presented in Ta
 ~
 
 ### Availability statistics 
+The statistics in Table {#models-3} describe the ratio of days for which the models' outputs were available on time to be included in the ENSEMBLE fields (analyses and forecasts) that are computed at METEO-FRANCE. 
+They are based on the following schedule: 
 
+* forecasts data before: 05:30 UTC for Day0-Day1 (up to 48h), 07:30 UTC for Day2-Day3 (from 49h to 96h)
+* analyses data before: 11:00 UTC
+
+Statistics are based on the quarter of March - May 2016, which is the latest with published data[^dossiers].
+
+~ TableFigure {#models-3; .booktable; caption: "Availabilty statistics of models' outputs for usage in ENSEMBLE"; line-height: 1.5; font-size: 8pt; page-align: forcehere;}
+|**Model**  |**Forecast Availability** |**Analysis Availability** |
+|:----------|:-------------------------|:-------------------------|
+|CHIMERE    |Day0: 85&perc;               |83&perc;        |
+|           |Day1: 85&perc;                             |                          |
+|           |Day2: 85&perc;                             |                          |
+|           |Day3: 75&perc;                             |                          |
+|EMEP       |Day0: 97&perc;           |97&perc;       |
+|           |Day1: 96&perc;                             |                          |
+|           |Day2: 96&perc;                             |                          |
+|           |Day3: 96&perc;                             |                          |
+|EURAD-IM   |Day0: 99&perc;            |98&perc;         |
+|           |Day1: 99&perc;            |      |
+|           |Day2: 99&perc;            |                          |
+|           |Day: 99&perc;            |                          |
+|LOTOS-EURO |Day0: 97&perc;            |97&perc;       |
+|           |Day1: 97&perc;            |                          |
+|           |Day2: 97&perc;            |                          |
+|           |Day3: 97&perc;            |                          |
+|MATCH      |Day0: 99&perc;            |97&perc;         |
+|           |Day1: 99&perc;            |                          |
+|           |Day2: 99&perc;            |                          |
+|           |Day3: 97&perc;            |                          |
+|MOCAGE     |Day0: 100&perc;            |98&perc;         |
+|           |Day1: 100&perc;            |                          |
+|           |Day2: 99&perc;            |                          |
+|           |Day3: 99&perc;            |                          |
+|SILAM      |Day0: 97&perc;            |96&perc;                  |
+|           |Day1: 97&perc;            |                          |
+|           |Day2: 97&perc;            |                          |
+|           |Day3: 97&perc;            |                          |
+|           |                          |                          |
+~
+
+[^dossiers]: https://atmosphere.copernicus.eu/documentation-regional-systems
 
 # Examples
 
