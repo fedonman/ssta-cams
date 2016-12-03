@@ -21,27 +21,6 @@ The abstract.
 
 # Introduction
 
-Some of today’s most important environmental concerns relate to the 
-composition of the atmosphere. The increasing concentration of the 
-greenhouse gases and the cooling effect of aerosol are prominent 
-drivers of a changing climate, but the extent of their impact is 
-often still uncertain. 
-
-At the Earth’s surface, aerosols, ozone and other reactive gases such as 
-nitrogen dioxide determine the quality of the air around us, affecting 
-human health and life expectancy, the health of ecosystems and the 
-fabric of the built environment. Ozone distributions in the stratosphere 
-influence the amount of ultraviolet radiation reaching the surface. 
-Dust, sand, smoke and volcanic aerosols affect the safe operation of 
-transport systems and the availability of power from solar generation, 
-the formation of clouds and rainfall, and the remote sensing by satellite 
-of land, ocean and atmosphere. 
-
-To address these environmental concerns there is a need for data and 
-processed information. The Copernicus Atmosphere Monitoring Service (CAMS) 
-has been developed to meet these needs, aiming at supporting policymakers, 
-business and citizens with enhanced atmospheric environmental information.
-
 The chemical composition of the air close to Earth’s surface, generally referred as *air quality* (AQ), directly affects human and animal health and also the vegetation. 
 Recently, the World Health Organization reported that in 2012 around 3.7 million deaths were attributable to ambient air pollution [^intro1]
 
@@ -90,6 +69,8 @@ NO~x~ also contributes to the formation of fine particles[^nox-1].
 
 [^nox-1]: http://www.icopal-noxite.co.uk/nox-problem/nox-pollution.aspx#sthash.esEBqdj6.dpuf
 ## Product Services 
+
+*an intro here*
 
 ### Global
 The global products are provided by the ECMWF Composition-Integrated Forecast System (C-IFS).
