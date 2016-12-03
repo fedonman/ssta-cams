@@ -119,6 +119,10 @@
 \mdtocitemx{models-2}{\mdref{models-2}{\mdcaptionlabel{2}. Characteristics of the daily assimilation chains of the regional models}}%mdk
 
 \mdtocitemx{chimere-portfolio}{\mdref{chimere-portfolio}{\mdcaptionlabel{3}. Products of CHIMERE model}}%mdk
+
+\mdtocitemx{emep-portfolio}{\mdref{emep-portfolio}{\mdcaptionlabel{4}. Products of EMEP model}}%mdk
+
+\mdtocitemx{eurad-portfolio}{\mdref{eurad-portfolio}{\mdcaptionlabel{5}. Products of EMEP model}}%mdk
 %mdk
 \end{mdtocblock}%mdk
 %mdk
@@ -333,7 +337,7 @@ Detailed descriptions of each model are presented in the following sections.%mdk
 
 %mdk-data-line={162}
 \begin{table}[h!]%mdk
-\begin{mdbmarginx}{}{}{}{\dimpx{-100}}%mdk
+\begin{mdbmarginx}{}{}{}{\dimpx{-50}}%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{4}{\dimeval{(\linewidth)/4}}{1ex}%mdk
 \begin{tabular}{llll}{\bfseries\mdline{163}}&{\bfseries\mdline{163}}&{\bfseries\mdline{163}}&{\bfseries\mdline{163}}\\
@@ -374,30 +378,32 @@ The model is developed under the General Public License licence\mdline{180}\mdfo
 
 %mdk-data-line={184}
 \mdline{184}CHIMERE runs over a range of spatial scale from the regional scale (several thousand kilometres) to the urban scale (100-200 Km) with resolutions from 1-2 Km to 100 Km. 
-The model runs over the GEMS-MACC domain with a 0.1° resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere.%mdk
+The model runs over the GEMS-MACC domain with a 0.1\mdline{185}\textdegree{}\mdline{185} resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere.%mdk
 
 %mdk-data-line={187}
-\begin{table}[tbp]%mdk
+\begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
-{\mdlineheight{1.5em}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}\midrule
-{\bfseries\mdline{189}}&{\bfseries\mdline{189}\textbf{Forecast}\mdline{189}}&{\bfseries\mdline{189}\textbf{Analysis}\mdline{189}}\\
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{188}}&{\bfseries\mdline{188}\textbf{Forecast}\mdline{188}}&{\bfseries\mdline{188}\textbf{Analysis}\mdline{188}}\\
 
 \midrule
-\mdline{191}\textbf{Altitudes}\mdline{191}&\mdline{191}Surface, 50m, 250m&\mdline{191}Surface\\
-\mdline{192}&\mdline{192}500m, 1000m, 2000m&\mdline{192}\\
-\mdline{193}&\mdline{193}3000m, 5000m&\mdline{193}\\
-\mdline{194}\textbf{Available at}&\mdline{194}6:00 UTC&\mdline{194}09:45 UTC for the day before\\
-\mdline{195}\textbf{Species}\mdline{195}&\mdline{195}O\mdline{195}\mdsub{3}\mdline{195}, NO, NO\mdline{195}\mdsub{2}\mdline{195}&\mdline{195}O\mdline{195}\mdsub{3}\mdline{195}, NO, NO\mdline{195}\mdsub{2}\mdline{195}\\
-\mdline{196}\textbf{Timespan}\mdline{196}&\mdline{196}0-96h, hourly&\mdline{196}0-24h for the day before, hourly\\
+\mdline{190}\textbf{Altitudes}\mdline{190}&\mdline{190}Surface, 50m, 250m&\mdline{190}Surface\\
+\mdline{191}&\mdline{191}500m, 1000m, 2000m&\mdline{191}\\
+\mdline{192}&\mdline{192}3000m, 5000m&\mdline{192}\\
+\mdline{193}\textbf{Available at}&\mdline{193}6:00 UTC&\mdline{193}09:45 UTC for the day before\\
+\mdline{194}\textbf{Pollutants}\mdline{194}&\mdline{194}O\mdline{194}\mdsub{3}\mdline{194}, NO, NO\mdline{194}\mdsub{2}\mdline{194}&\mdline{194}O\mdline{194}\mdsub{3}\mdline{194}, NO\mdline{194}*\mdline{194}, NO\mdline{194}\mdsub{2}\mdline{194}\\
+\mdline{195}\textbf{Timespan}\mdline{195}&\mdline{195}0-96h, hourly&\mdline{195}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
+
+%mdk-data-line={196}
+\noindent\mdline{196}*\mdline{196} Non-assimilated pollutants%mdk
 
 %mdk-data-line={197}
 \mdhr{}%mdk
 
 %mdk-data-line={198}
 \noindent\mdline{198}\mdcaption{\textbf{Table~\mdcaptionlabel{3}.}~\mdcaptiontext{Products of CHIMERE model}}%mdk
-}%mdk
+}}%mdk
 \end{mdcenter}\label{chimere-portfolio}%mdk
 %mdk
 \end{table}%mdk
@@ -414,101 +420,157 @@ CHIMERE reproduces the daily NO\mdline{200}\mdsub{x}\mdline{200} variability alo
 The model has been publicly available as open-source code since 2008, and a detailed description is given in Simpson et al. (2012).%mdk
 
 %mdk-data-line={206}
-\mdline{206} One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
- As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
- However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013).%mdk
+\mdline{206}One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
+As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
+However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013).%mdk
 
 %mdk-data-line={210}
-\subsubsection{\mdline{210}3.2.3.\hspace*{0.5em}\mdline{210}EURAD-IM}\label{sec-eurad-im}%mdk%mdk
+\begin{table}[h!]%mdk
+\begin{mdcenter}%mdk
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{211}}&{\bfseries\mdline{211}\textbf{Forecast}\mdline{211}}&{\bfseries\mdline{211}\textbf{Analysis}\mdline{211}}\\
 
-%mdk-data-line={211}
-\noindent\mdline{211}EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
+\midrule
+\mdline{213}\textbf{Altitudes}\mdline{213}&\mdline{213}Surface, 50m, 250m&\mdline{213}Surface\\
+\mdline{214}&\mdline{214}500m, 1000m, 2000m&\mdline{214}\\
+\mdline{215}&\mdline{215}3000m, 5000m&\mdline{215}\\
+\mdline{216}\textbf{Available at}&\mdline{216}2:00 UTC&\mdline{216}08:45 UTC for the day before\\
+\mdline{217}\textbf{Pollutants}\mdline{217}&\mdline{217}O\mdline{217}\mdsub{3}\mdline{217}, NO, NO\mdline{217}\mdsub{2}\mdline{217}&\mdline{217}O\mdline{217}\mdsub{3}\mdline{217}, NO\mdline{217}*\mdline{217}, NO\mdline{217}\mdsub{2}\mdline{217}\\
+\mdline{218}\textbf{Timespan}\mdline{218}&\mdline{218}0-96h, hourly&\mdline{218}0-24h for the day before, hourly\\
+\end{tabular}\end{mdtabular}
+
+%mdk-data-line={219}
+\noindent\mdline{219}*\mdline{219} Non-assimilated pollutants%mdk
+
+%mdk-data-line={220}
+\mdhr{}%mdk
+
+%mdk-data-line={221}
+\noindent\mdline{221}\mdcaption{\textbf{Table~\mdcaptionlabel{4}.}~\mdcaptiontext{Products of EMEP model}}%mdk
+}}%mdk
+\end{mdcenter}\label{emep-portfolio}%mdk
+%mdk
+\end{table}%mdk
+
+%mdk-data-line={222}
+\subsubsection{\mdline{222}3.2.3.\hspace*{0.5em}\mdline{222}EURAD-IM}\label{sec-eurad-im}%mdk%mdk
+
+%mdk-data-line={223}
+\noindent\mdline{223}EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
 EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).%mdk
 
-%mdk-data-line={214}
-\subsubsection{\mdline{214}3.2.4.\hspace*{0.5em}\mdline{214}LOTOS-EUROS}\label{sec-lotos-euros}%mdk%mdk
+%mdk-data-line={226}
+\begin{table}[h!]%mdk
+\begin{mdcenter}%mdk
+{\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
+\begin{tabular}{lll}{\bfseries\mdline{227}}&{\bfseries\mdline{227}\textbf{Forecast}\mdline{227}}&{\bfseries\mdline{227}\textbf{Analysis}\mdline{227}}\\
 
-%mdk-data-line={215}
-\noindent\mdline{215}The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
+\midrule
+\mdline{229}\textbf{Altitudes}\mdline{229}&\mdline{229}Surface, 50m, 250m&\mdline{229}Surface\\
+\mdline{230}&\mdline{230}500m, 1000m, 2000m&\mdline{230}\\
+\mdline{231}&\mdline{231}3000m, 5000m&\mdline{231}\\
+\mdline{232}\textbf{Available at}&\mdline{232}6:00 UTC&\mdline{232}09:45 UTC for the day before\\
+\mdline{233}\textbf{Pollutants}\mdline{233}&\mdline{233}O\mdline{233}\mdsub{3}\mdline{233}, NO, NO\mdline{233}\mdsub{2}\mdline{233}&\mdline{233}O\mdline{233}\mdsub{3}\mdline{233}, NO\mdline{233}*\mdline{233}, NO\mdline{233}\mdsub{2}\mdline{233}\\
+\mdline{234}\textbf{Timespan}\mdline{234}&\mdline{234}0-96h, hourly&\mdline{234}0-24h for the day before, hourly\\
+\end{tabular}\end{mdtabular}
+
+%mdk-data-line={235}
+\noindent\mdline{235}*\mdline{235} Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements.%mdk
+
+%mdk-data-line={236}
+\mdhr{}%mdk
+
+%mdk-data-line={237}
+\noindent\mdline{237}\mdcaption{\textbf{Table~\mdcaptionlabel{5}.}~\mdcaptiontext{Products of EMEP model}}%mdk
+}}%mdk
+\end{mdcenter}\label{eurad-portfolio}%mdk
+%mdk
+\end{table}%mdk
+
+%mdk-data-line={238}
+\subsubsection{\mdline{238}3.2.4.\hspace*{0.5em}\mdline{238}LOTOS-EUROS}\label{sec-lotos-euros}%mdk%mdk
+
+%mdk-data-line={239}
+\noindent\mdline{239}The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
 It is used for regional-scale air quality forecasts in Europe and the Netherlands (De Ruyter de Wildt et al., 2011).%mdk
 
-%mdk-data-line={218}
-\mdline{218}The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
+%mdk-data-line={242}
+\mdline{242}The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
 The lowest dynamic layer is the mixing layer, followed by two reservoir layers. 
 The height of the mixing layer is obtained from the ECMWF meteorological input data used to drive the model.%mdk
 
-%mdk-data-line={222}
-\mdline{222}The LOTOS-EUROS model has been designed as a model of intermediate complexity, to favour short computation times. 
+%mdk-data-line={246}
+\mdline{246}The LOTOS-EUROS model has been designed as a model of intermediate complexity, to favour short computation times. 
 For this, the vertical top of the operational model version is limited and covers only the boundary layer and reservoir layers (up to 3.5km); effectively, the model therefore employs only four dynamic layers. 
 Concentrations from the free troposphere are taken from the global boundary conditions, and therefore fully incorporate the knowledge, assimilations, and validation efforts present in the global model.%mdk
 
-%mdk-data-line={226}
-\mdline{226}In spite of the limited complexity, the model performs well in simulation of O\mdline{226}\mdsub{3}\mdline{226} (Curier et al., 2012).%mdk
+%mdk-data-line={250}
+\mdline{250}In spite of the limited complexity, the model performs well in simulation of O\mdline{250}\mdsub{3}\mdline{250} (Curier et al., 2012).%mdk
 
-%mdk-data-line={228}
-\mdline{228}Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO\mdline{228}\mdsub{2}\mdline{228} (Vlemmix et al., 2015).%mdk
+%mdk-data-line={252}
+\mdline{252}Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO\mdline{252}\mdsub{2}\mdline{252} (Vlemmix et al., 2015).%mdk
 
-%mdk-data-line={230}
-\subsubsection{\mdline{230}3.2.5.\hspace*{0.5em}\mdline{230}MATCH}\label{sec-match}%mdk%mdk
+%mdk-data-line={254}
+\subsubsection{\mdline{254}3.2.5.\hspace*{0.5em}\mdline{254}MATCH}\label{sec-match}%mdk%mdk
 
-%mdk-data-line={232}
-\noindent\mdline{232}The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).%mdk
+%mdk-data-line={256}
+\noindent\mdline{256}The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).%mdk
 
-%mdk-data-line={234}
-\mdline{234}The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
+%mdk-data-line={258}
+\mdline{258}The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
 Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required. 
 Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version%mdk
 
-%mdk-data-line={238}
-\subsubsection{\mdline{238}3.2.6.\hspace*{0.5em}\mdline{238}MOCAGE}\label{sec-mocage}%mdk%mdk
+%mdk-data-line={262}
+\subsubsection{\mdline{262}3.2.6.\hspace*{0.5em}\mdline{262}MOCAGE}\label{sec-mocage}%mdk%mdk
 
-%mdk-data-line={239}
-\noindent\mdline{239}The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
+%mdk-data-line={263}
+\noindent\mdline{263}The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
 Its assimilation system has been developed jointly with CERFACS. 
 This model and its assimilation system have been successfully used for tropospheric and stratospheric research (e.g. Bousserez et al., 2007; Barré et al., 2013, 2014; Lacressonnière et al., 2014) and also for operational purposes (Rouïl et al., 2009).%mdk
 
-%mdk-data-line={243}
-\mdline{243}The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
+%mdk-data-line={267}
+\mdline{267}The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
 Thus, it provides a full representation of transport processes, in particular boundary layer–troposphere and troposphere–stratosphere exchanges, and the time evolution of stratospheric conditions for accurate photolysis rate calculations at the surface.%mdk
 
-%mdk-data-line={246}
-\mdline{246}The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O\mdline{246}\mdsub{3}\mdline{246} and NO\mdline{246}\mdsub{2}\mdline{246} as illustrated in the annual re-analysis reports\mdline{246} \mdline{246}\mdfootnote{4}{%mdk-data-line={247}
-%mdk-data-line={247}
-\noindent\mdline{247}http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/%mdk
+%mdk-data-line={270}
+\mdline{270}The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O\mdline{270}\mdsub{3}\mdline{270} and NO\mdline{270}\mdsub{2}\mdline{270} as illustrated in the annual re-analysis reports\mdline{270} \mdline{270}\mdfootnote{4}{%mdk-data-line={271}
+%mdk-data-line={271}
+\noindent\mdline{271}http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/%mdk
 \label{fn-mocage1}%mdk%mdk
-}\mdline{246}%mdk
+}\mdline{270}%mdk
 
-%mdk-data-line={251}
-\subsubsection{\mdline{251}3.2.7.\hspace*{0.5em}\mdline{251}SILAM}\label{sec-silam}%mdk%mdk
+%mdk-data-line={275}
+\subsubsection{\mdline{275}3.2.7.\hspace*{0.5em}\mdline{275}SILAM}\label{sec-silam}%mdk%mdk
 
-%mdk-data-line={252}
-\noindent\mdline{252}SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
-The model has been applied with resolutions ranging from 1km up to 3\mdline{253}\textdegree{}\mdline{253}, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
+%mdk-data-line={276}
+\noindent\mdline{276}SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
+The model has been applied with resolutions ranging from 1km up to 3\mdline{277}\textdegree{}\mdline{277}, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
 The model is publicly available since 2007 and is used as an operational and research tool.%mdk
 
-%mdk-data-line={257}
-\subsubsection{\mdline{257}3.2.8.\hspace*{0.5em}\mdline{257}ENSEMBLE}\label{sec-ensemble}%mdk%mdk
+%mdk-data-line={281}
+\subsubsection{\mdline{281}3.2.8.\hspace*{0.5em}\mdline{281}ENSEMBLE}\label{sec-ensemble}%mdk%mdk
 
-%mdk-data-line={258}
-\noindent\mdline{258}To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
+%mdk-data-line={282}
+\noindent\mdline{282}To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
 For each grid point, the ensemble model value is calculated as the median value of the individual model forecasts or analyses available. 
 The median is defined as the value having 50\% of individual models with higher values and 50\% with lower values. 
 This method is rather insensitive to outliers in the forecasts or analyses and is very efficient computationally. 
 These properties are useful from an operational point of view. 
 The method is also little sensitive if a particular model forecast or analysis is occasionally missing.%mdk
 
-%mdk-data-line={265}
-\mdline{265} For the forecasts, the ENSEMBLE is produced for all levels and all species. 
+%mdk-data-line={289}
+\mdline{289} For the forecasts, the ENSEMBLE is produced for all levels and all species. 
  For the analyses, the individual assimilation systems provide only analyses at the surface level and do not produce analyses for all species yet.%mdk
 
-%mdk-data-line={269}
-\section{\mdline{269}4.\hspace*{0.5em}\mdline{269}Examples}\label{sec-examples}%mdk%mdk
+%mdk-data-line={293}
+\section{\mdline{293}4.\hspace*{0.5em}\mdline{293}Examples}\label{sec-examples}%mdk%mdk
 
-%mdk-data-line={271}
-\section{\mdline{271}5.\hspace*{0.5em}\mdline{271}Conclusions}\label{sec-conclusions}%mdk%mdk
+%mdk-data-line={295}
+\section{\mdline{295}5.\hspace*{0.5em}\mdline{295}Conclusions}\label{sec-conclusions}%mdk%mdk
 
-%mdk-data-line={273;out/technical_report-bib.bbl.mdk:1}
-%mdk-data-line={273;out/technical_report-bib.bbl.mdk:2}
+%mdk-data-line={297;out/technical_report-bib.bbl.mdk:1}
+%mdk-data-line={297;out/technical_report-bib.bbl.mdk:2}
 \mdsetrefname{References}%mdk
 {\mdsupressbiblabel\mdbibindent{2}\begin{thebibliography}{4}%mdk
 \label{sec-bibliography}%mdk
