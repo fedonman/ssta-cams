@@ -15,9 +15,17 @@ The abstract.
 
 [TOC]
 
+&pagebreak;
+
+&pagebreak;
+
 [TOC=figures]
 
+&pagebreak;
+
 [TOC=tables]
+
+&pagebreak;
 
 # Introduction
 
@@ -185,7 +193,7 @@ The model runs over the GEMS-MACC domain with a 0.1&deg; resolution and 8 vertic
 CHIMERE reproduces nicely the day to day O~3~ variation similarly at urban and rural sites with an overestimation which is higher during the winter at urban sites. 
 CHIMERE reproduces the daily NO~x~ variability along the year but underestimates significantly the concentration especially during the cold season.
 
-Availability information of CHIMERE products as of May 2016 are presented in Table {#chimere-portfolio}. 
+Availability information of CHIMERE products as of May 2016 are presented in Table [#chimere-portfolio]. 
 
 ~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -206,7 +214,7 @@ One strength of the EMEP model is that its domain extends throughout the whole t
 As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
 However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013). 
 
-Availability information of EMEP products as of May 2016 are presented in Table {#emep-portfolio}. 
+Availability information of EMEP products as of May 2016 are presented in Table [#emep-portfolio]. 
 
 ~ TableFigure {#emep-portfolio; .booktable; caption: "Products of EMEP model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -223,7 +231,7 @@ Availability information of EMEP products as of May 2016 are presented in Table 
 EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
 EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).
 
-Availability information of EURAD-IM products as of May 2016 are presented in Table {#eurad-portfolio}. 
+Availability information of EURAD-IM products as of May 2016 are presented in Table [#eurad-portfolio]. 
 
 ~ TableFigure {#eurad-portfolio; .booktable; caption: "Products of EURAD-IM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -252,7 +260,7 @@ In spite of the limited complexity, the model performs well in simulation of O~3
 
 Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO~2~ (Vlemmix et al., 2015).
 
-Availability information of LOTOS-EUROS products as of May 2016 are presented in Table {#lotos-portfolio}. 
+Availability information of LOTOS-EUROS products as of May 2016 are presented in Table [#lotos-portfolio]. 
 
 ~ TableFigure {#lotos-portfolio; .booktable; caption: "Products of LOTOS-EUROS model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -273,7 +281,7 @@ The strength of the MATCH model is that it spans vertically the troposphere and 
 Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required. 
 Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version
 
-Availability information of MATCH products as of May 2016 are presented in Table {#match-portfolio}. 
+Availability information of MATCH products as of May 2016 are presented in Table [#match-portfolio]. 
 
 ~ TableFigure {#match-portfolio; .booktable; caption: "Products of MATCH model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -297,7 +305,7 @@ Thus, it provides a full representation of transport processes, in particular bo
 The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O~3~ and NO~2~ as illustrated in the annual re-analysis reports [^mocage1]
 [^mocage1]: http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/
 
-Availability information of MOCAGE products as of May 2016 are presented in Table {#mocage-portfolio}. 
+Availability information of MOCAGE products as of May 2016 are presented in Table [#mocage-portfolio]. 
 
 ~ TableFigure {#mocage-portfolio; .booktable; caption: "Products of MOCAGE model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -315,7 +323,7 @@ SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is u
 The model has been applied with resolutions ranging from 1km up to 3&deg;, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
 SILAM is publicly available since 2007 and is used as an operational and research tool. 
 
-Availability information of SILAM products as of May 2016 are presented in Table {#silam-portfolio}. 
+Availability information of SILAM products as of May 2016 are presented in Table [#silam-portfolio]. 
 
 ~ TableFigure {#silam-portfolio; .booktable; caption: "Products of SILAM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -339,7 +347,7 @@ These properties are very useful from an operational point of view.
 For the forecasts, the ENSEMBLE is produced for all levels and all pollutants. 
 For the analyses, the individual assimilation systems provide only analyses at the surface level.
 
-Availability information of ENSEMBLE products as of May 2016 are presented in Table {#ensemble-portfolio}. 
+Availability information of ENSEMBLE products as of May 2016 are presented in Table [#ensemble-portfolio]. 
 
 ~ TableFigure {#ensemble-portfolio; .booktable; caption: "Products of SILAM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -353,7 +361,7 @@ Availability information of ENSEMBLE products as of May 2016 are presented in Ta
 ~
 
 ### Availability statistics 
-The statistics in Table {#models-3} describe the ratio of days for which the models' outputs were available on time to be included in the ENSEMBLE fields (analyses and forecasts) that are computed at METEO-FRANCE. 
+The statistics in Table [#models-3] describe the ratio of days for which the models' outputs were available on time to be included in the ENSEMBLE fields (analyses and forecasts) that are computed at METEO-FRANCE. 
 They are based on the following schedule: 
 
 * forecasts data before: 05:30 UTC for Day0-Day1 (up to 48h), 07:30 UTC for Day2-Day3 (from 49h to 96h)
