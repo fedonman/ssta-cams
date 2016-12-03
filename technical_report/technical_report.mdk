@@ -159,7 +159,7 @@ Detailed descriptions of each model are presented in the following sections.
 |           |                     |                          |Top at 6.7 km           |
 ~
 
-~ TableFigure {#models-2; .booktable; caption: "General characteristics of the regional models."; line-height: 1.5;}
+~ TableFigure {#models-2; .booktable; caption: "Characteristics of the daily assimilation chains of the regional models"; line-height: 1.5; font-size: 10pt}
 |           |                        |                                      |                        |
 |**Model**  |**Assimilation Method** |**Observation assimilated**           |**Pollutants analysed** |
 |:----------|:-----------------------|:-------------------------------------|:-----------------------|
