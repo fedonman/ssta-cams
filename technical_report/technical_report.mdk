@@ -7,7 +7,7 @@ Cite Style    : natural
 Sub Title     : Technical User Guide
 Csl Style     : journal-of-geophysical-research-space-physics.csl
 
-~ { tex-cmd: "\textit"}
+~ { tex-cmd-after: "\pagenumbering{roman}"}
 content
 ~
 
