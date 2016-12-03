@@ -6,9 +6,6 @@ Bibliography  : bibliography.bib
 Cite Style    : natural
 Sub Title     : Technical User Guide
 Csl Style     : journal-of-geophysical-research-space-physics.csl
-Tex Header:   : \pagenumbering{alph}
-
-\pagenumbering{alph}
 
 [TITLE]
 
@@ -22,8 +19,7 @@ The abstract.
 
 &pagebreak;
 
-[TOC=figures]
-
+[TOC=figures] {tex-cmd-after:"\addcontentsline{toc}{figures}{Declaration}"}
 &pagebreak;
 
 [TOC=tables]
