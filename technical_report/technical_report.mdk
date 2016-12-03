@@ -159,7 +159,7 @@ Detailed descriptions of each model are presented in the following sections.
 |           |                     |                          |Top at 6.7 km           |
 ~
 
-~ TableFigure {#models-2; .booktable; caption: "Characteristics of the daily assimilation chains of the regional models"; line-height: 1.5; font-size: 8pt; margin-left: -100px; page-align: forcehere;}
+~ TableFigure {#models-2; .booktable; caption: "Characteristics of the daily assimilation chains of the regional models"; line-height: 1.5; font-size: 8pt; margin-left: -50px; page-align: forcehere;}
 |           |                        |                                      |                        |
 |**Model**  |**Assimilation Method** |**Observation assimilated**           |**Pollutants analysed** |
 |:----------|:-----------------------|:-------------------------------------|:-----------------------|
@@ -182,18 +182,18 @@ The model is developed under the General Public License licence[^fn]. CHIMERE is
 [^fn]:Official website: http://www.lmd.polytechnique.fr/chimere/
 
 CHIMERE runs over a range of spatial scale from the regional scale (several thousand kilometres) to the urban scale (100-200 Km) with resolutions from 1-2 Km to 100 Km. 
-The model runs over the GEMS-MACC domain with a 0.1° resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere. 
+The model runs over the GEMS-MACC domain with a 0.1&deg; resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere. 
 
-~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model"; line-height: 1.5;}
-|----------------|-------------------|---------------------------------|
+~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**       |**Analysis**                     |
 |:---------------|:------------------|:--------------------------------|
 |**Altitudes**   |Surface, 50m, 250m |Surface                          |
 |                |500m, 1000m, 2000m |                                 |
 |                |3000m, 5000m       |                                 |
 |**Available at**|6:00 UTC           |09:45 UTC for the day before     |
-|**Species**     |O~3~, NO, NO~2~    |O~3~, NO, NO~2~                  |
+|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+&ast; Non-assimilated pollutants
 ~
 
 CHIMERE reproduces nicely the day to day O~3~ variation similarly at urban and rural sites with an overestimation which is higher during the winter at urban sites. 
@@ -203,13 +203,37 @@ CHIMERE reproduces the daily NO~x~ variability along the year but underestimates
 The EMEP/MSC-W model has been developed at the EMEP Meteorological Synthesizing Centre-West at the Norwegian Meteorological Institute. 
 The model has been publicly available as open-source code since 2008, and a detailed description is given in Simpson et al. (2012). 
 
- One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
- As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
- However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013). 
+One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
+As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
+However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013). 
+
+~ TableFigure {#emep-portfolio; .booktable; caption: "Products of EMEP model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
+|                |**Forecast**       |**Analysis**                     |
+|:---------------|:------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m |Surface                          |
+|                |500m, 1000m, 2000m |                                 |
+|                |3000m, 5000m       |                                 |
+|**Available at**|2:00 UTC           |08:45 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+&ast; Non-assimilated pollutants
+~
 
 ### EURAD-IM
 EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
 EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).
+
+~ TableFigure {#eurad-portfolio; .booktable; caption: "Products of EMEP model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
+|                |**Forecast**       |**Analysis**                     |
+|:---------------|:------------------|:--------------------------------|
+|**Altitudes**   |Surface, 50m, 250m |Surface                          |
+|                |500m, 1000m, 2000m |                                 |
+|                |3000m, 5000m       |                                 |
+|**Available at**|6:00 UTC           |09:45 UTC for the day before     |
+|**Pollutants**  |O~3~, NO, NO~2~    |O~3~, NO&ast;, NO~2~             |
+|**Timespan**    |0-96h, hourly      |0-24h for the day before, hourly |
+&ast; Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements.
+~
 
 ### LOTOS-EUROS
 The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
