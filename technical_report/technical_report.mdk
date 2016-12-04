@@ -114,20 +114,30 @@ Horizontal resolution is 1.125&deg; x 1.125&deg;.
 
 ### European-scale
 The European-scale regional products are provided for the European domain (25&deg;W to 45&deg;E and from 30&deg;N to 70&deg;N). 
-The service provides daily 4-day forecasts of the main air quality species and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
+The service provides daily 4-day forecasts of the main air quality species, including O~3~, NO, NO~2~, and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
+The 7 atmospheric chemistry models are: CHIMERE, EMEP, EURAD-IM, LOTOS-EUROS, MATCH, MOCAGE, SILAM.
 The regional service also provides daily posteriori interim re-analyses based on fast-track in-situ observations, and annual re-analyses based on fully validated in-situ observations. 
 
 #### European-scale air quality analysis
 This service provides European-scale air quality analyses for every hour of the previous day for every of the 7 models and the ensemble median. 
-The service became operational on Octomber 1st 2015.
+The service became operational on October 1st 2015.
 
 #### European-scale air quality forecast
 This service provides European-scale air quality forecasts for every hour up to 4 days in advance for every of the 7 models and the ensemble median. 
-The service became operational on Octomber 1st 2015.
+The service became operational on October 1st 2015.
 
-## Available Files
+## Data access
+Products delivered by CAMS are provided free of charge, since October 1st 2015, through an Interactive Catalogue available on the CAMS web portal. 
+The default procedure that should be used by common user is the following:
 
-## Data Access Methods
+1. Go to the CAMS website http://atmosphere.copernicus.eu
+2. Click CATALOGUE. The CAMS catalogue lists the various CAMS products.
+3. Filter the catalogue for the service or product of interest. The filters change depending on the selection.
+4. Once a suitable product is identified, click on its name. A popup window opens, showing details and a preview.
+5. At the bottom of the window follow the links to Plots (maps and graphs), Data Access, Documentation, etc. These links take you to pages specific to the selected product.
+6. From here the procedure is different for every product, depending on the provider.
+
+
 
 # Models
 
