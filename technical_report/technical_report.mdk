@@ -137,7 +137,23 @@ The default procedure that should be used by common user is the following:
 5. At the bottom of the window follow the links to Plots (maps and graphs), Data Access, Documentation, etc. These links take you to pages specific to the selected product.
 6. From here the procedure is different for every product, depending on the provider.
 
+In particular:
 
+**Global products** are served by European Centre for Medium-Range Weather Forecasts (ECMWF).
+A registration is required to access the data. 
+CAMS provides its global data sets in two different ways.
+
+One option is the interactive web interface of ECMWF[^ecmwf-web] data server which provides batch data access to real-time analyses and forecasts, reanalysis results in GRIB and NetCDF format.
+It also provides a programmatic way of accessing data using python language. Detailed information can be found in ECMWF wiki[^ecmwf-wiki].
+
+The second option is through the ECMWF FTP server[^ecmwf-ftp], which provides archived real-time forecasts of the latest three days in GRIB and NetCDF format.
+CAMS data files can be accessed through directory `/DATA/CAMS_NREALTIME/${YYYYMMDDhh}`and follow a naming convention proposed by World Meteorological Organization (WMO). 
+Detailed information can be found in CAMS website[^ftp].
+
+[^ecmwf-web]: http://apps.ecmwf.int/datasets/data/cams-nrealtime/levtype=sfc/
+[^ecmwf-wiki]: https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets
+[^ecmwf-ftp]: ftp://dissemination.ecmwf.int/
+[^ftp]: http://atmosphere.copernicus.eu/ftp-access-global-data
 
 # Models
 
