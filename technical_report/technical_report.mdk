@@ -188,10 +188,15 @@ Consult the catalogue of metadata, in order to discover all the CAMS Regional Ai
 # Models
 
 ## Global
+The operational CAMS global assimilation and forecasting system uses fully integrated chemistry in the ECMWF Integrated Forecasting System (IFS). The version of the IFS is named Composition-IFS (C-IFS). 
+C-IFS makes it possible  
+* to use the detailed meteorological simulation of the IFS for the simulation of the fate of constituents,  
+* to simulate atmospheric chemistry globally at high resolution because of the computational parallel efficiency of the IFS,  
+* to use the IFS data assimilation system to assimilate observation of atmospheric composition and (iv) to simulate feedback between atmospheric composition and weather. Different chemical schemes can be used with the current operational version being based on the CB05 scheme. 
 
 ## European-scale
 
-Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between ∼20 and ∼10km. 
+Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between 10 and 20 km. 
 This range of resolutions is not designed to reproduce local aspects of air pollution but to provide concentrations of pollutants at the regional scale that can then be used in particular as boundary conditions for air quality forecasts at finer resolution.
 
 The range of the forecasts is 96h from 00:00 UTC on Day0 with hourly outputs on eight vertical levels (surface, 50, 250, 500, 1000, 2000, 3000 and 5000m). 
