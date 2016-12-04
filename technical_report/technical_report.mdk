@@ -190,9 +190,16 @@ Consult the catalogue of metadata, in order to discover all the CAMS Regional Ai
 ## Global
 The operational CAMS global assimilation and forecasting system uses fully integrated chemistry in the ECMWF Integrated Forecasting System (IFS). The version of the IFS is named Composition-IFS (C-IFS). 
 C-IFS makes it possible  
+
 * to use the detailed meteorological simulation of the IFS for the simulation of the fate of constituents,  
+
 * to simulate atmospheric chemistry globally at high resolution because of the computational parallel efficiency of the IFS,  
-* to use the IFS data assimilation system to assimilate observation of atmospheric composition and (iv) to simulate feedback between atmospheric composition and weather. Different chemical schemes can be used with the current operational version being based on the CB05 scheme. 
+
+* to use the IFS data assimilation system to assimilate observation of atmospheric composition and  
+
+* to simulate feedback between atmospheric composition and weather. Different chemical schemes can be used with the current operational version being based on the CB05 scheme. 
+
+C-IFS  replaces the coupled system IFS-MOZART for forecast and assimilation of reactive gases within the pre-operational Copernicus Atmosphere Monitoring Service. 
 
 ## European-scale
 
