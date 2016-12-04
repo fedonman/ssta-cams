@@ -123,7 +123,7 @@ The 7 atmospheric chemistry models are: CHIMERE, EMEP, EURAD-IM, LOTOS-EUROS, MA
 The regional service also provides daily posteriori interim re-analyses based on fast-track in-situ observations, and annual re-analyses based on fully validated in-situ observations. 
 
 #### European-scale air quality analysis
-
+\
 This service provides European-scale air quality analyses for every hour of the previous day for every of the 7 models and the ensemble median. 
 The service became operational on October 1st 2015.
 
@@ -133,7 +133,8 @@ This service provides European-scale air quality forecasts for every hour up to 
 The service became operational on October 1st 2015.
 
 ## Data access
-Products delivered by CAMS are provided free of charge, since October 1st 2015, through an Interactive Catalogue available on the CAMS web portal. 
+Products delivered by CAMS are provided free of charge, since October 1st 2015.
+There is a universal search engine available on the CAMS web portal. 
 The default procedure that should be used by common user is the following:
 
 1. Go to the CAMS website http://atmosphere.copernicus.eu
@@ -161,6 +162,28 @@ Detailed information can be found in CAMS website[^ftp].
 [^ecmwf-wiki]: https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets
 [^ecmwf-ftp]: ftp://dissemination.ecmwf.int/
 [^ftp]: http://atmosphere.copernicus.eu/ftp-access-global-data
+
+\
+**European-scale products** are accessed directly through CAMS web portal[^regional-web]. Files are available in Grib2 format and Netcdf format for model ENSEMBLE for both Forecast (surface as well as other levels ) & Analysis (surface).
+Files are available only in Netcdf format for models: CHIMERE, EMEP, EURAD, LOTOSEUROS, MATCH, MOCAGE, SILAM for both Forecast (surface as well as other levels) & Analysis (surface). 
+There are six available choices:
+
+* **Download online data**  
+Files produced less than 30 days ago are available. Available formats are GRIB2, NetCDF or TXT, depending on the type of product.
+* **Download archived data**  
+Archived data are older than 30 days. Archiving starts in October 2015. Available formats are GRIB2, NetCDF or TXT, depending on the type of product. 
+* **Download reanalysis data**  
+Download numerical data about atmospheric composition in Europe (reanalysis). Archiving starts in 2015 and the available data format is NetCDF.
+* **Download on map viewing**  
+Visualize data over a map of Europe. Very useful for an interesting air quality phenomenon spotted on a map view.
+* **Data server - subscribe mode**  
+Data server subsribe mode allows users to subscribe to a product, to choose the delivery type (ftp,...), as well as the delivery time (upon arrival, on a specific chosen time).
+* **Data server - catalogue**  
+Consult the catalogue of metadata, in order to discover all the CAMS Regional Air Quality products.
+
+
+
+[^regional-web]: http://www.regional.atmosphere.copernicus.eu/index.php?category=data_access&subensemble=dataserver_services
 
 # Models
 
