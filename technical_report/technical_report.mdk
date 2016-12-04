@@ -106,7 +106,8 @@ Only O~3~ and NO~2~ reanalysis data are available.
 This service time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
 Horizontal resolution is approximately 60 km.
 
-#### MACC global reanalysis of non-assimilated chemical species 
+#### MACC global reanalysis of non-assimilated chemical species
+ 
 This service provides global reanalysis of chemical species that are not directly constrained by observations. 
 Only NO and NO~2~ reanalysis data are available. 
 This service time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
@@ -119,10 +120,12 @@ The 7 atmospheric chemistry models are: CHIMERE, EMEP, EURAD-IM, LOTOS-EUROS, MA
 The regional service also provides daily posteriori interim re-analyses based on fast-track in-situ observations, and annual re-analyses based on fully validated in-situ observations. 
 
 #### European-scale air quality analysis
+
 This service provides European-scale air quality analyses for every hour of the previous day for every of the 7 models and the ensemble median. 
 The service became operational on October 1st 2015.
 
 #### European-scale air quality forecast
+\
 This service provides European-scale air quality forecasts for every hour up to 4 days in advance for every of the 7 models and the ensemble median. 
 The service became operational on October 1st 2015.
 
@@ -138,8 +141,8 @@ The default procedure that should be used by common user is the following:
 6. From here the procedure is different for every product, depending on the provider.
 
 In particular:
-
-
+\
+\
 **Global products** are served by European Centre for Medium-Range Weather Forecasts (ECMWF).
 A registration is required to access the data. 
 CAMS provides its global data sets in two different ways.

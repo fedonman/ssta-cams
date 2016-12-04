@@ -328,564 +328,564 @@ The default procedure that should be used by common user is the following:%mdk
 \end{enumerate}%mdk
 
 %mdk-data-line={140}
-\noindent\mdline{140}In particular:%mdk
-
-%mdk-data-line={142}
-\mdline{142}\textbf{Global products}\mdline{142} are served by European Centre for Medium-Range Weather Forecasts (ECMWF).
+\noindent\mdline{140}In particular:
+\mdline{141}\mdbr
+\mdline{142}\mdbr
+\mdline{143}\textbf{Global products}\mdline{143} are served by European Centre for Medium-Range Weather Forecasts (ECMWF).
 A registration is required to access the data. 
 CAMS provides its global data sets in two different ways.%mdk
 
-%mdk-data-line={146}
-\mdline{146}One option is the interactive web interface of ECMWF\mdline{146}\mdfootnote{3}{%mdk-data-line={153}
-%mdk-data-line={153}
-\noindent\mdline{153}http://apps.ecmwf.int/datasets/data/cams-nrealtime/levtype=sfc/%mdk
-\label{fn-ecmwf-web}%mdk%mdk
-}\mdline{146} data server which provides batch data access to real-time analyses and forecasts, reanalysis results in GRIB and NetCDF format.
-It also provides a programmatic way of accessing data using python language. Detailed information can be found in ECMWF wiki\mdline{147}\mdfootnote{4}{%mdk-data-line={154}
+%mdk-data-line={147}
+\mdline{147}One option is the interactive web interface of ECMWF\mdline{147}\mdfootnote{3}{%mdk-data-line={154}
 %mdk-data-line={154}
-\noindent\mdline{154}https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets%mdk
-\label{fn-ecmwf-wiki}%mdk%mdk
-}\mdline{147}.%mdk
-
-%mdk-data-line={149}
-\mdline{149}The second option is through the ECMWF FTP server\mdline{149}\mdfootnote{5}{%mdk-data-line={155}
+\noindent\mdline{154}http://apps.ecmwf.int/datasets/data/cams-nrealtime/levtype=sfc/%mdk
+\label{fn-ecmwf-web}%mdk%mdk
+}\mdline{147} data server which provides batch data access to real-time analyses and forecasts, reanalysis results in GRIB and NetCDF format.
+It also provides a programmatic way of accessing data using python language. Detailed information can be found in ECMWF wiki\mdline{148}\mdfootnote{4}{%mdk-data-line={155}
 %mdk-data-line={155}
-\noindent\mdline{155}ftp://dissemination.ecmwf.int/%mdk
-\label{fn-ecmwf-ftp}%mdk%mdk
-}\mdline{149}, which provides archived real-time forecasts of the latest three days in GRIB and NetCDF format.
-CAMS data files can be accessed through directory \mdline{150}\mdcode{/DATA/CAMS\_NREALTIME/\$\{YYYYMMDDhh\}}\mdline{150}and follow a naming convention proposed by World Meteorological Organization (WMO). 
-Detailed information can be found in CAMS website\mdline{151}\mdfootnote{6}{%mdk-data-line={156}
+\noindent\mdline{155}https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets%mdk
+\label{fn-ecmwf-wiki}%mdk%mdk
+}\mdline{148}.%mdk
+
+%mdk-data-line={150}
+\mdline{150}The second option is through the ECMWF FTP server\mdline{150}\mdfootnote{5}{%mdk-data-line={156}
 %mdk-data-line={156}
-\noindent\mdline{156}http://atmosphere.copernicus.eu/ftp-access-global-data%mdk
+\noindent\mdline{156}ftp://dissemination.ecmwf.int/%mdk
+\label{fn-ecmwf-ftp}%mdk%mdk
+}\mdline{150}, which provides archived real-time forecasts of the latest three days in GRIB and NetCDF format.
+CAMS data files can be accessed through directory \mdline{151}~\mdline{151}\mdcode{/DATA/CAMS\_NREALTIME/\$\{YYYYMMDDhh\}}\mdline{151} and follow a naming convention proposed by World Meteorological Organization (WMO). 
+Detailed information can be found in CAMS website\mdline{152}\mdfootnote{6}{%mdk-data-line={157}
+%mdk-data-line={157}
+\noindent\mdline{157}http://atmosphere.copernicus.eu/ftp-access-global-data%mdk
 \label{fn-ftp}%mdk%mdk
-}\mdline{151}.%mdk
+}\mdline{152}.%mdk
 
-%mdk-data-line={158}
-\section{\mdline{158}3.\hspace*{0.5em}\mdline{158}Models}\label{sec-models}%mdk%mdk
+%mdk-data-line={159}
+\section{\mdline{159}3.\hspace*{0.5em}\mdline{159}Models}\label{sec-models}%mdk%mdk
 
-%mdk-data-line={160}
-\subsection{\mdline{160}3.1.\hspace*{0.5em}\mdline{160}Global}\label{sec-global}%mdk%mdk
+%mdk-data-line={161}
+\subsection{\mdline{161}3.1.\hspace*{0.5em}\mdline{161}Global}\label{sec-global}%mdk%mdk
 
-%mdk-data-line={162}
-\subsection{\mdline{162}3.2.\hspace*{0.5em}\mdline{162}European-scale}\label{sec-european-scale}%mdk%mdk
+%mdk-data-line={163}
+\subsection{\mdline{163}3.2.\hspace*{0.5em}\mdline{163}European-scale}\label{sec-european-scale}%mdk%mdk
 
-%mdk-data-line={164}
-\noindent\mdline{164}Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between ∼20 and ∼10km. 
+%mdk-data-line={165}
+\noindent\mdline{165}Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between ∼20 and ∼10km. 
 This range of resolutions is not designed to reproduce local aspects of air pollution but to provide concentrations of pollutants at the regional scale that can then be used in particular as boundary conditions for air quality forecasts at finer resolution.%mdk
 
-%mdk-data-line={167}
-\mdline{167}The range of the forecasts is 96h from 00:00 UTC on Day0 with hourly outputs on eight vertical levels (surface, 50, 250, 500, 1000, 2000, 3000 and 5000m). 
+%mdk-data-line={168}
+\mdline{168}The range of the forecasts is 96h from 00:00 UTC on Day0 with hourly outputs on eight vertical levels (surface, 50, 250, 500, 1000, 2000, 3000 and 5000m). 
 Day0 is defined as the day when the forecast is run. 
 The forecast initial time/date is Day0 at 00:00 UTC and final time/date is Day3 at 24:00UTC. 
-For each time step (1h), the individual model fields are interpolated on these vertical levels and on the same regular 0.1\mdline{170}\textdegree{}\mdline{170} latitude by 0.1\mdline{170}\textdegree{}\mdline{170} longitude grid over the European domain. 
+For each time step (1h), the individual model fields are interpolated on these vertical levels and on the same regular 0.1\mdline{171}\textdegree{}\mdline{171} latitude by 0.1\mdline{171}\textdegree{}\mdline{171} longitude grid over the European domain. 
 It is from these re-gridded fields that the ensemble median and verification products are calculated.%mdk
 
-%mdk-data-line={173}
-\mdline{173}The analysis at the surface for Day0–1 (the day before Day0) is run daily a posteriori on Day0 using the assimilation of the hourly data from the AQ monitoring stations available in Europe between 00:00 and 23:00UTC on Day0– 1. 
+%mdk-data-line={174}
+\mdline{174}The analysis at the surface for Day0–1 (the day before Day0) is run daily a posteriori on Day0 using the assimilation of the hourly data from the AQ monitoring stations available in Europe between 00:00 and 23:00UTC on Day0– 1. 
 Like for the forecasts, Day0 is defined as the day when the analysis is run. 
 The analysis initial time/date is Day0–1 at 00:00 UTC and final time/date is Day0–1 at 23:00 UTC. 
-Similarly to the forecasts, the hourly individual model fields are interpolated on the same 0.1\mdline{176}\textdegree{}\mdline{176} latitude by 0.1\mdline{176}\textdegree{}\mdline{176} longitude grid. 
+Similarly to the forecasts, the hourly individual model fields are interpolated on the same 0.1\mdline{177}\textdegree{}\mdline{177} latitude by 0.1\mdline{177}\textdegree{}\mdline{177} longitude grid. 
 The analyses are only produced at the surface level.%mdk
 
-%mdk-data-line={179}
-\mdline{179}An overview of the characteristics of the seven models can be seen in tables\mdline{179}~\mdref{models-1}{\mdcaptionlabel{1}}\mdline{179} and\mdline{179}~\mdref{models-2}{\mdcaptionlabel{2}}\mdline{179}.
+%mdk-data-line={180}
+\mdline{180}An overview of the characteristics of the seven models can be seen in tables\mdline{180}~\mdref{models-1}{\mdcaptionlabel{1}}\mdline{180} and\mdline{180}~\mdref{models-2}{\mdcaptionlabel{2}}\mdline{180}.
 Detailed descriptions of each model are presented in the following sections.%mdk
 
-%mdk-data-line={182}
+%mdk-data-line={183}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{4}{\dimeval{(\linewidth)/4}}{1ex}%mdk
-\begin{tabular}{llll}{\bfseries\mdline{183}\textbf{Model}\mdline{183}}&{\bfseries\mdline{183}\textbf{Operated By}\mdline{183}}&{\bfseries\mdline{183}\textbf{Horizontal Resolution}\mdline{183}}&{\bfseries\mdline{183}\textbf{Vertical Resolution}\mdline{183}}\\
+\begin{tabular}{llll}{\bfseries\mdline{184}\textbf{Model}\mdline{184}}&{\bfseries\mdline{184}\textbf{Operated By}\mdline{184}}&{\bfseries\mdline{184}\textbf{Horizontal Resolution}\mdline{184}}&{\bfseries\mdline{184}\textbf{Vertical Resolution}\mdline{184}}\\
 
 \midrule
-\mdline{185}CHIMERE&\mdline{185}INERIS, France&\mdline{185} 0.1\mdline{185}\textdegree{}\mdline{185}×0.1\mdline{185}\textdegree{}\mdline{185}&\mdline{185}8 levels\\
-\mdline{186}&\mdline{186}&\mdline{186}&\mdline{186}Top at 500 hPa\\
-\mdline{187}EMEP&\mdline{187}MET Norway, Norway&\mdline{187}0.25\mdline{187}\textdegree{}\mdline{187}x1.25\mdline{187}\textdegree{}\mdline{187}&\mdline{187}20 levels\\
-\mdline{188}&\mdline{188}&\mdline{188}&\mdline{188}Top at 100 hPa\\
-\mdline{189}EURAD-IM&\mdline{189}RIU UK, Germany&\mdline{189}15km on a Lambert&\mdline{189}23 levels\\
-\mdline{190}&\mdline{190}&\mdline{190}conformal projection&\mdline{190}Top at 100 hPa\\
-\mdline{191}LOTOS-EURO&\mdline{191}KNMI, Netherlands&\mdline{191}0.25\mdline{191}\textdegree{}\mdline{191}x1.25\mdline{191}\textdegree{}\mdline{191}&\mdline{191}4 levels\\
-\mdline{192}&\mdline{192}&\mdline{192}&\mdline{192}Top at 3.5 km\\
-\mdline{193}MATCH&\mdline{193}SMHI, Sweden&\mdline{193}0.2\mdline{193}\textdegree{}\mdline{193}x0.2\mdline{193}\textdegree{}\mdline{193}&\mdline{193}52 levels\\
-\mdline{194}&\mdline{194}&\mdline{194}&\mdline{194}Top at 300 hPa\\
-\mdline{195}MOCAGE&\mdline{195}Météo-France, France&\mdline{195}0.2\mdline{195}\textdegree{}\mdline{195}x0.2\mdline{195}\textdegree{}\mdline{195}&\mdline{195}47 levels\\
-\mdline{196}&\mdline{196}&\mdline{196}&\mdline{196}Top at 5 hPa\\
-\mdline{197}SILAM&\mdline{197}FMI, Finland&\mdline{197}0.15\mdline{197}\textdegree{}\mdline{197}x0.15\mdline{197}\textdegree{}\mdline{197}&\mdline{197}8 levels\\
-\mdline{198}&\mdline{198}&\mdline{198}&\mdline{198}Top at 6.7 km\\
+\mdline{186}CHIMERE&\mdline{186}INERIS, France&\mdline{186} 0.1\mdline{186}\textdegree{}\mdline{186}×0.1\mdline{186}\textdegree{}\mdline{186}&\mdline{186}8 levels\\
+\mdline{187}&\mdline{187}&\mdline{187}&\mdline{187}Top at 500 hPa\\
+\mdline{188}EMEP&\mdline{188}MET Norway, Norway&\mdline{188}0.25\mdline{188}\textdegree{}\mdline{188}x1.25\mdline{188}\textdegree{}\mdline{188}&\mdline{188}20 levels\\
+\mdline{189}&\mdline{189}&\mdline{189}&\mdline{189}Top at 100 hPa\\
+\mdline{190}EURAD-IM&\mdline{190}RIU UK, Germany&\mdline{190}15km on a Lambert&\mdline{190}23 levels\\
+\mdline{191}&\mdline{191}&\mdline{191}conformal projection&\mdline{191}Top at 100 hPa\\
+\mdline{192}LOTOS-EURO&\mdline{192}KNMI, Netherlands&\mdline{192}0.25\mdline{192}\textdegree{}\mdline{192}x1.25\mdline{192}\textdegree{}\mdline{192}&\mdline{192}4 levels\\
+\mdline{193}&\mdline{193}&\mdline{193}&\mdline{193}Top at 3.5 km\\
+\mdline{194}MATCH&\mdline{194}SMHI, Sweden&\mdline{194}0.2\mdline{194}\textdegree{}\mdline{194}x0.2\mdline{194}\textdegree{}\mdline{194}&\mdline{194}52 levels\\
+\mdline{195}&\mdline{195}&\mdline{195}&\mdline{195}Top at 300 hPa\\
+\mdline{196}MOCAGE&\mdline{196}Météo-France, France&\mdline{196}0.2\mdline{196}\textdegree{}\mdline{196}x0.2\mdline{196}\textdegree{}\mdline{196}&\mdline{196}47 levels\\
+\mdline{197}&\mdline{197}&\mdline{197}&\mdline{197}Top at 5 hPa\\
+\mdline{198}SILAM&\mdline{198}FMI, Finland&\mdline{198}0.15\mdline{198}\textdegree{}\mdline{198}x0.15\mdline{198}\textdegree{}\mdline{198}&\mdline{198}8 levels\\
+\mdline{199}&\mdline{199}&\mdline{199}&\mdline{199}Top at 6.7 km\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={199}
+%mdk-data-line={200}
 \mdhr{}%mdk
 
-%mdk-data-line={200}
-\noindent\mdline{200}\mdcaption{\textbf{Table~\mdcaptionlabel{1}.}~\mdcaptiontext{General characteristics of the regional models.}}%mdk
+%mdk-data-line={201}
+\noindent\mdline{201}\mdcaption{\textbf{Table~\mdcaptionlabel{1}.}~\mdcaptiontext{General characteristics of the regional models.}}%mdk
 }}%mdk
 \end{mdcenter}\label{models-1}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={201}
+%mdk-data-line={202}
 \begin{table}[h!]%mdk
 \begin{mdbmarginx}{}{}{}{\dimpx{-50}}%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{4}{\dimeval{(\linewidth)/4}}{1ex}%mdk
-\begin{tabular}{llll}{\bfseries\mdline{202}\textbf{Model}\mdline{202}}&{\bfseries\mdline{202}\textbf{Assimilation Method}\mdline{202}}&{\bfseries\mdline{202}\textbf{Observation assimilated}\mdline{202}}&{\bfseries\mdline{202}\textbf{Pollutants analysed}\mdline{202}}\\
+\begin{tabular}{llll}{\bfseries\mdline{203}\textbf{Model}\mdline{203}}&{\bfseries\mdline{203}\textbf{Assimilation Method}\mdline{203}}&{\bfseries\mdline{203}\textbf{Observation assimilated}\mdline{203}}&{\bfseries\mdline{203}\textbf{Pollutants analysed}\mdline{203}}\\
 
 \midrule
-\mdline{204}CHIMERE&\mdline{204}Optimal interpolation&\mdline{204}O\mdline{204}\mdsub{3}\mdline{204} from surface stations&\mdline{204}O\mdline{204}\mdsub{3}\mdline{204}, NO, NO\mdline{204}\mdsub{2}\mdline{204}\\
-\mdline{205}EMEP&\mdline{205}3DVar&\mdline{205}NO\mdline{205}\mdsub{2}\mdline{205} columns from OMI&\mdline{205}O\mdline{205}\mdsub{3}\mdline{205}, NO, NO\mdline{205}\mdsub{2}\mdline{205}\\
-\mdline{206}&\mdline{206}&\mdline{206}NO\mdline{206}\mdsub{2}\mdline{206} from surface stations&\mdline{206}O\mdline{206}\mdsub{3}\mdline{206}, NO, NO\mdline{206}\mdsub{2}\mdline{206}\\
-\mdline{207}EURAD-IM&\mdline{207}3DVar&\mdline{207}O\mdline{207}\mdsub{3}\mdline{207}, NO, NO\mdline{207}\mdsub{2}\mdline{207} from surface stations&\mdline{207}O\mdline{207}\mdsub{3}\mdline{207}, NO, NO\mdline{207}\mdsub{2}\mdline{207}\\
-\mdline{208}&\mdline{208}&\mdline{208}NO\mdline{208}\mdsub{2}\mdline{208} columns from OMI and GOME-2&\mdline{208}O\mdline{208}\mdsub{3}\mdline{208}, NO, NO\mdline{208}\mdsub{2}\mdline{208}\\
-\mdline{209}LOTOS-EURO&\mdline{209}Ensemble Kalman ﬁlter&\mdline{209}O\mdline{209}\mdsub{3}\mdline{209} from surface stations&\mdline{209}O\mdline{209}\mdsub{3}\mdline{209}, NO, NO\mdline{209}\mdsub{2}\mdline{209}\\
-\mdline{210}MATCH&\mdline{210}3DVar&\mdline{210}O\mdline{210}\textasciitilde{}\mdline{210}3, NO\mdline{210}\mdsub{2}\mdline{210} from surface stations&\mdline{210}O\mdline{210}\mdsub{3}\mdline{210}, NO, NO\mdline{210}\mdsub{2}\mdline{210}\\
-\mdline{211}MOCAGE&\mdline{211}3DVar&\mdline{211}O\mdline{211}\mdsub{3}\mdline{211} from surface stations&\mdline{211}O\mdline{211}\mdsub{3}\mdline{211}, NO, NO\mdline{211}\mdsub{2}\mdline{211}\\
-\mdline{212}SILAM&\mdline{212}4DVar&\mdline{212}O\mdline{212}\textasciitilde{}\mdline{212}3, NO\mdline{212}\mdsub{2}\mdline{212} from surface stations&\mdline{212}O\mdline{212}\mdsub{3}\mdline{212}, NO, NO\mdline{212}\mdsub{2}\mdline{212}\\
+\mdline{205}CHIMERE&\mdline{205}Optimal interpolation&\mdline{205}O\mdline{205}\mdsub{3}\mdline{205} from surface stations&\mdline{205}O\mdline{205}\mdsub{3}\mdline{205}, NO, NO\mdline{205}\mdsub{2}\mdline{205}\\
+\mdline{206}EMEP&\mdline{206}3DVar&\mdline{206}NO\mdline{206}\mdsub{2}\mdline{206} columns from OMI&\mdline{206}O\mdline{206}\mdsub{3}\mdline{206}, NO, NO\mdline{206}\mdsub{2}\mdline{206}\\
+\mdline{207}&\mdline{207}&\mdline{207}NO\mdline{207}\mdsub{2}\mdline{207} from surface stations&\mdline{207}O\mdline{207}\mdsub{3}\mdline{207}, NO, NO\mdline{207}\mdsub{2}\mdline{207}\\
+\mdline{208}EURAD-IM&\mdline{208}3DVar&\mdline{208}O\mdline{208}\mdsub{3}\mdline{208}, NO, NO\mdline{208}\mdsub{2}\mdline{208} from surface stations&\mdline{208}O\mdline{208}\mdsub{3}\mdline{208}, NO, NO\mdline{208}\mdsub{2}\mdline{208}\\
+\mdline{209}&\mdline{209}&\mdline{209}NO\mdline{209}\mdsub{2}\mdline{209} columns from OMI and GOME-2&\mdline{209}O\mdline{209}\mdsub{3}\mdline{209}, NO, NO\mdline{209}\mdsub{2}\mdline{209}\\
+\mdline{210}LOTOS-EURO&\mdline{210}Ensemble Kalman ﬁlter&\mdline{210}O\mdline{210}\mdsub{3}\mdline{210} from surface stations&\mdline{210}O\mdline{210}\mdsub{3}\mdline{210}, NO, NO\mdline{210}\mdsub{2}\mdline{210}\\
+\mdline{211}MATCH&\mdline{211}3DVar&\mdline{211}O\mdline{211}\textasciitilde{}\mdline{211}3, NO\mdline{211}\mdsub{2}\mdline{211} from surface stations&\mdline{211}O\mdline{211}\mdsub{3}\mdline{211}, NO, NO\mdline{211}\mdsub{2}\mdline{211}\\
+\mdline{212}MOCAGE&\mdline{212}3DVar&\mdline{212}O\mdline{212}\mdsub{3}\mdline{212} from surface stations&\mdline{212}O\mdline{212}\mdsub{3}\mdline{212}, NO, NO\mdline{212}\mdsub{2}\mdline{212}\\
+\mdline{213}SILAM&\mdline{213}4DVar&\mdline{213}O\mdline{213}\textasciitilde{}\mdline{213}3, NO\mdline{213}\mdsub{2}\mdline{213} from surface stations&\mdline{213}O\mdline{213}\mdsub{3}\mdline{213}, NO, NO\mdline{213}\mdsub{2}\mdline{213}\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={213}
+%mdk-data-line={214}
 \mdhr{}%mdk
 
-%mdk-data-line={214}
-\noindent\mdline{214}\mdcaption{\textbf{Table~\mdcaptionlabel{2}.}~\mdcaptiontext{Characteristics of the daily assimilation chains of the regional models}}%mdk
+%mdk-data-line={215}
+\noindent\mdline{215}\mdcaption{\textbf{Table~\mdcaptionlabel{2}.}~\mdcaptiontext{Characteristics of the daily assimilation chains of the regional models}}%mdk
 }}%mdk
 \end{mdcenter}\label{models-2}%mdk%mdk
 \end{mdbmarginx}%mdk
 \end{table}%mdk
 
-%mdk-data-line={215}
-\subsubsection{\mdline{215}3.2.1.\hspace*{0.5em}\mdline{215}CHIMERE}\label{sec-chimere}%mdk%mdk
+%mdk-data-line={216}
+\subsubsection{\mdline{216}3.2.1.\hspace*{0.5em}\mdline{216}CHIMERE}\label{sec-chimere}%mdk%mdk
 
-%mdk-data-line={217}
-\noindent\mdline{217}CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale (Menut et al., 2013a). 
-The model is developed under the General Public License licence\mdline{218}\mdfootnote{7}{%mdk-data-line={220}
-%mdk-data-line={220}
-\noindent\mdline{220}Official website: http://www.lmd.polytechnique.fr/chimere/%mdk
+%mdk-data-line={218}
+\noindent\mdline{218}CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale (Menut et al., 2013a). 
+The model is developed under the General Public License licence\mdline{219}\mdfootnote{7}{%mdk-data-line={221}
+%mdk-data-line={221}
+\noindent\mdline{221}Official website: http://www.lmd.polytechnique.fr/chimere/%mdk
 \label{fn-fn}%mdk%mdk
-}\mdline{218}. CHIMERE is used for analysis of pollution events, process studies, (Bessagnet et al., 2009; Beekmann and Vautard, 2010), experimental and operational forecasts (Rouïl et al., 2009), regional climate studies and trends (Colette et al., 2011), among others.%mdk
+}\mdline{219}. CHIMERE is used for analysis of pollution events, process studies, (Bessagnet et al., 2009; Beekmann and Vautard, 2010), experimental and operational forecasts (Rouïl et al., 2009), regional climate studies and trends (Colette et al., 2011), among others.%mdk
 
-%mdk-data-line={222}
-\mdline{222}CHIMERE runs over a range of spatial scale from the regional scale (several thousand kilometres) to the urban scale (100-200 Km) with resolutions from 1-2 Km to 100 Km. 
-The model runs over the GEMS-MACC domain with a 0.1\mdline{223}\textdegree{}\mdline{223} resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere.%mdk
+%mdk-data-line={223}
+\mdline{223}CHIMERE runs over a range of spatial scale from the regional scale (several thousand kilometres) to the urban scale (100-200 Km) with resolutions from 1-2 Km to 100 Km. 
+The model runs over the GEMS-MACC domain with a 0.1\mdline{224}\textdegree{}\mdline{224} resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere.%mdk
 
-%mdk-data-line={225}
-\mdline{225}CHIMERE reproduces nicely the day to day O\mdline{225}\mdsub{3}\mdline{225} variation similarly at urban and rural sites with an overestimation which is higher during the winter at urban sites. 
-CHIMERE reproduces the daily NO\mdline{226}\mdsub{x}\mdline{226} variability along the year but underestimates significantly the concentration especially during the cold season.%mdk
+%mdk-data-line={226}
+\mdline{226}CHIMERE reproduces nicely the day to day O\mdline{226}\mdsub{3}\mdline{226} variation similarly at urban and rural sites with an overestimation which is higher during the winter at urban sites. 
+CHIMERE reproduces the daily NO\mdline{227}\mdsub{x}\mdline{227} variability along the year but underestimates significantly the concentration especially during the cold season.%mdk
 
-%mdk-data-line={228}
-\mdline{228}Availability information of CHIMERE products as of May 2016 are presented in Table\mdline{228}~\mdref{chimere-portfolio}{\mdcaptionlabel{3}}\mdline{228}.%mdk
+%mdk-data-line={229}
+\mdline{229}Availability information of CHIMERE products as of May 2016 are presented in Table\mdline{229}~\mdref{chimere-portfolio}{\mdcaptionlabel{3}}\mdline{229}.%mdk
 
-%mdk-data-line={230}
+%mdk-data-line={231}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{231}}&{\bfseries\mdline{231}\textbf{Forecast}\mdline{231}}&{\bfseries\mdline{231}\textbf{Analysis}\mdline{231}}\\
+\begin{tabular}{lll}{\bfseries\mdline{232}}&{\bfseries\mdline{232}\textbf{Forecast}\mdline{232}}&{\bfseries\mdline{232}\textbf{Analysis}\mdline{232}}\\
 
 \midrule
-\mdline{233}\textbf{Altitudes}\mdline{233}&\mdline{233}Surface, 50m, 250m, 500m,&\mdline{233}Surface\\
-\mdline{234}&\mdline{234}1000m, 2000m, 3000, 5000m&\mdline{234}\\
-\mdline{235}\textbf{Available at}&\mdline{235}6:00 UTC&\mdline{235}09:45 UTC for the day before\\
-\mdline{236}\textbf{Pollutants}\mdline{236}&\mdline{236}O\mdline{236}\mdsub{3}\mdline{236}, NO, NO\mdline{236}\mdsub{2}\mdline{236}&\mdline{236}O\mdline{236}\mdsub{3}\mdline{236}, NO\mdline{236}*\mdline{236}, NO\mdline{236}\mdsub{2}\mdline{236}\\
-\mdline{237}\textbf{Timespan}\mdline{237}&\mdline{237}0-96h, hourly&\mdline{237}0-24h for the day before, hourly\\
+\mdline{234}\textbf{Altitudes}\mdline{234}&\mdline{234}Surface, 50m, 250m, 500m,&\mdline{234}Surface\\
+\mdline{235}&\mdline{235}1000m, 2000m, 3000, 5000m&\mdline{235}\\
+\mdline{236}\textbf{Available at}&\mdline{236}6:00 UTC&\mdline{236}09:45 UTC for the day before\\
+\mdline{237}\textbf{Pollutants}\mdline{237}&\mdline{237}O\mdline{237}\mdsub{3}\mdline{237}, NO, NO\mdline{237}\mdsub{2}\mdline{237}&\mdline{237}O\mdline{237}\mdsub{3}\mdline{237}, NO\mdline{237}*\mdline{237}, NO\mdline{237}\mdsub{2}\mdline{237}\\
+\mdline{238}\textbf{Timespan}\mdline{238}&\mdline{238}0-96h, hourly&\mdline{238}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={238}
-\noindent\mdline{238}*\mdline{238} Not assimilated%mdk
-
 %mdk-data-line={239}
-\mdhr{}%mdk
+\noindent\mdline{239}*\mdline{239} Not assimilated%mdk
 
 %mdk-data-line={240}
-\noindent\mdline{240}\mdcaption{\textbf{Table~\mdcaptionlabel{3}.}~\mdcaptiontext{Products of CHIMERE model}}%mdk
+\mdhr{}%mdk
+
+%mdk-data-line={241}
+\noindent\mdline{241}\mdcaption{\textbf{Table~\mdcaptionlabel{3}.}~\mdcaptiontext{Products of CHIMERE model}}%mdk
 }}%mdk
 \end{mdcenter}\label{chimere-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={241}
-\subsubsection{\mdline{241}3.2.2.\hspace*{0.5em}\mdline{241}EMEP}\label{sec-emep}%mdk%mdk
-
 %mdk-data-line={242}
-\noindent\mdline{242}The EMEP/MSC-W model has been developed at the EMEP Meteorological Synthesizing Centre-West at the Norwegian Meteorological Institute. 
+\subsubsection{\mdline{242}3.2.2.\hspace*{0.5em}\mdline{242}EMEP}\label{sec-emep}%mdk%mdk
+
+%mdk-data-line={243}
+\noindent\mdline{243}The EMEP/MSC-W model has been developed at the EMEP Meteorological Synthesizing Centre-West at the Norwegian Meteorological Institute. 
 The model has been publicly available as open-source code since 2008, and a detailed description is given in Simpson et al. (2012).%mdk
 
-%mdk-data-line={245}
-\mdline{245}One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
+%mdk-data-line={246}
+\mdline{246}One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
 As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
 However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013).%mdk
 
-%mdk-data-line={249}
-\mdline{249}Availability information of EMEP products as of May 2016 are presented in Table\mdline{249}~\mdref{emep-portfolio}{\mdcaptionlabel{4}}\mdline{249}.%mdk
+%mdk-data-line={250}
+\mdline{250}Availability information of EMEP products as of May 2016 are presented in Table\mdline{250}~\mdref{emep-portfolio}{\mdcaptionlabel{4}}\mdline{250}.%mdk
 
-%mdk-data-line={251}
+%mdk-data-line={252}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{252}}&{\bfseries\mdline{252}\textbf{Forecast}\mdline{252}}&{\bfseries\mdline{252}\textbf{Analysis}\mdline{252}}\\
+\begin{tabular}{lll}{\bfseries\mdline{253}}&{\bfseries\mdline{253}\textbf{Forecast}\mdline{253}}&{\bfseries\mdline{253}\textbf{Analysis}\mdline{253}}\\
 
 \midrule
-\mdline{254}\textbf{Altitudes}\mdline{254}&\mdline{254}Surface, 50m, 250m, 500m,&\mdline{254}Surface\\
-\mdline{255}&\mdline{255}1000m, 2000m, 3000, 5000m&\mdline{255}\\
-\mdline{256}\textbf{Available at}&\mdline{256}2:00 UTC&\mdline{256}08:45 UTC for the day before\\
-\mdline{257}\textbf{Pollutants}\mdline{257}&\mdline{257}O\mdline{257}\mdsub{3}\mdline{257}, NO, NO\mdline{257}\mdsub{2}\mdline{257}&\mdline{257}O\mdline{257}\mdsub{3}\mdline{257}, NO\mdline{257}*\mdline{257}, NO\mdline{257}\mdsub{2}\mdline{257}\\
-\mdline{258}\textbf{Timespan}\mdline{258}&\mdline{258}0-96h, hourly&\mdline{258}0-24h for the day before, hourly\\
+\mdline{255}\textbf{Altitudes}\mdline{255}&\mdline{255}Surface, 50m, 250m, 500m,&\mdline{255}Surface\\
+\mdline{256}&\mdline{256}1000m, 2000m, 3000, 5000m&\mdline{256}\\
+\mdline{257}\textbf{Available at}&\mdline{257}2:00 UTC&\mdline{257}08:45 UTC for the day before\\
+\mdline{258}\textbf{Pollutants}\mdline{258}&\mdline{258}O\mdline{258}\mdsub{3}\mdline{258}, NO, NO\mdline{258}\mdsub{2}\mdline{258}&\mdline{258}O\mdline{258}\mdsub{3}\mdline{258}, NO\mdline{258}*\mdline{258}, NO\mdline{258}\mdsub{2}\mdline{258}\\
+\mdline{259}\textbf{Timespan}\mdline{259}&\mdline{259}0-96h, hourly&\mdline{259}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={259}
-\noindent\mdline{259}*\mdline{259} Not assimilated%mdk
-
 %mdk-data-line={260}
-\mdhr{}%mdk
+\noindent\mdline{260}*\mdline{260} Not assimilated%mdk
 
 %mdk-data-line={261}
-\noindent\mdline{261}\mdcaption{\textbf{Table~\mdcaptionlabel{4}.}~\mdcaptiontext{Products of EMEP model}}%mdk
+\mdhr{}%mdk
+
+%mdk-data-line={262}
+\noindent\mdline{262}\mdcaption{\textbf{Table~\mdcaptionlabel{4}.}~\mdcaptiontext{Products of EMEP model}}%mdk
 }}%mdk
 \end{mdcenter}\label{emep-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={262}
-\subsubsection{\mdline{262}3.2.3.\hspace*{0.5em}\mdline{262}EURAD-IM}\label{sec-eurad-im}%mdk%mdk
-
 %mdk-data-line={263}
-\noindent\mdline{263}EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
+\subsubsection{\mdline{263}3.2.3.\hspace*{0.5em}\mdline{263}EURAD-IM}\label{sec-eurad-im}%mdk%mdk
+
+%mdk-data-line={264}
+\noindent\mdline{264}EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
 EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).%mdk
 
-%mdk-data-line={266}
-\mdline{266}Availability information of EURAD-IM products as of May 2016 are presented in Table\mdline{266}~\mdref{eurad-portfolio}{\mdcaptionlabel{5}}\mdline{266}.%mdk
+%mdk-data-line={267}
+\mdline{267}Availability information of EURAD-IM products as of May 2016 are presented in Table\mdline{267}~\mdref{eurad-portfolio}{\mdcaptionlabel{5}}\mdline{267}.%mdk
 
-%mdk-data-line={268}
+%mdk-data-line={269}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{269}}&{\bfseries\mdline{269}\textbf{Forecast}\mdline{269}}&{\bfseries\mdline{269}\textbf{Analysis}\mdline{269}}\\
+\begin{tabular}{lll}{\bfseries\mdline{270}}&{\bfseries\mdline{270}\textbf{Forecast}\mdline{270}}&{\bfseries\mdline{270}\textbf{Analysis}\mdline{270}}\\
 
 \midrule
-\mdline{271}\textbf{Altitudes}\mdline{271}&\mdline{271}Surface, 50m, 250m, 500m,&\mdline{271}Surface\\
-\mdline{272}&\mdline{272}1000m, 2000m, 3000, 5000m&\mdline{272}\\
-\mdline{273}\textbf{Available at}&\mdline{273}6:00 UTC&\mdline{273}09:45 UTC for the day before\\
-\mdline{274}\textbf{Pollutants}\mdline{274}&\mdline{274}O\mdline{274}\mdsub{3}\mdline{274}, NO, NO\mdline{274}\mdsub{2}\mdline{274}&\mdline{274}O\mdline{274}\mdsub{3}\mdline{274}, NO\mdline{274}*\mdline{274}, NO\mdline{274}\mdsub{2}\mdline{274}\\
-\mdline{275}\textbf{Timespan}\mdline{275}&\mdline{275}0-96h, hourly&\mdline{275}0-24h for the day before, hourly\\
+\mdline{272}\textbf{Altitudes}\mdline{272}&\mdline{272}Surface, 50m, 250m, 500m,&\mdline{272}Surface\\
+\mdline{273}&\mdline{273}1000m, 2000m, 3000, 5000m&\mdline{273}\\
+\mdline{274}\textbf{Available at}&\mdline{274}6:00 UTC&\mdline{274}09:45 UTC for the day before\\
+\mdline{275}\textbf{Pollutants}\mdline{275}&\mdline{275}O\mdline{275}\mdsub{3}\mdline{275}, NO, NO\mdline{275}\mdsub{2}\mdline{275}&\mdline{275}O\mdline{275}\mdsub{3}\mdline{275}, NO\mdline{275}*\mdline{275}, NO\mdline{275}\mdsub{2}\mdline{275}\\
+\mdline{276}\textbf{Timespan}\mdline{276}&\mdline{276}0-96h, hourly&\mdline{276}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={276}
-\noindent\mdline{276}*\mdline{276} Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements.%mdk
-
 %mdk-data-line={277}
-\mdhr{}%mdk
+\noindent\mdline{277}*\mdline{277} Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements.%mdk
 
 %mdk-data-line={278}
-\noindent\mdline{278}\mdcaption{\textbf{Table~\mdcaptionlabel{5}.}~\mdcaptiontext{Products of EURAD-IM model}}%mdk
+\mdhr{}%mdk
+
+%mdk-data-line={279}
+\noindent\mdline{279}\mdcaption{\textbf{Table~\mdcaptionlabel{5}.}~\mdcaptiontext{Products of EURAD-IM model}}%mdk
 }}%mdk
 \end{mdcenter}\label{eurad-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={279}
-\subsubsection{\mdline{279}3.2.4.\hspace*{0.5em}\mdline{279}LOTOS-EUROS}\label{sec-lotos-euros}%mdk%mdk
-
 %mdk-data-line={280}
-\noindent\mdline{280}The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
+\subsubsection{\mdline{280}3.2.4.\hspace*{0.5em}\mdline{280}LOTOS-EUROS}\label{sec-lotos-euros}%mdk%mdk
+
+%mdk-data-line={281}
+\noindent\mdline{281}The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
 It is used for regional-scale air quality forecasts in Europe and the Netherlands (De Ruyter de Wildt et al., 2011).%mdk
 
-%mdk-data-line={283}
-\mdline{283}The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
+%mdk-data-line={284}
+\mdline{284}The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
 The lowest dynamic layer is the mixing layer, followed by two reservoir layers. 
 The height of the mixing layer is obtained from the ECMWF meteorological input data used to drive the model.%mdk
 
-%mdk-data-line={287}
-\mdline{287}The LOTOS-EUROS model has been designed as a model of intermediate complexity, to favour short computation times. 
+%mdk-data-line={288}
+\mdline{288}The LOTOS-EUROS model has been designed as a model of intermediate complexity, to favour short computation times. 
 For this, the vertical top of the operational model version is limited and covers only the boundary layer and reservoir layers (up to 3.5km); effectively, the model therefore employs only four dynamic layers. 
 Concentrations from the free troposphere are taken from the global boundary conditions, and therefore fully incorporate the knowledge, assimilations, and validation efforts present in the global model.%mdk
 
-%mdk-data-line={291}
-\mdline{291}In spite of the limited complexity, the model performs well in simulation of O\mdline{291}\mdsub{3}\mdline{291} (Curier et al., 2012).%mdk
+%mdk-data-line={292}
+\mdline{292}In spite of the limited complexity, the model performs well in simulation of O\mdline{292}\mdsub{3}\mdline{292} (Curier et al., 2012).%mdk
 
-%mdk-data-line={293}
-\mdline{293}Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO\mdline{293}\mdsub{2}\mdline{293} (Vlemmix et al., 2015).%mdk
+%mdk-data-line={294}
+\mdline{294}Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO\mdline{294}\mdsub{2}\mdline{294} (Vlemmix et al., 2015).%mdk
 
-%mdk-data-line={295}
-\mdline{295}Availability information of LOTOS-EUROS products as of May 2016 are presented in Table\mdline{295}~\mdref{lotos-portfolio}{\mdcaptionlabel{6}}\mdline{295}.%mdk
+%mdk-data-line={296}
+\mdline{296}Availability information of LOTOS-EUROS products as of May 2016 are presented in Table\mdline{296}~\mdref{lotos-portfolio}{\mdcaptionlabel{6}}\mdline{296}.%mdk
 
-%mdk-data-line={297}
+%mdk-data-line={298}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{298}}&{\bfseries\mdline{298}\textbf{Forecast}\mdline{298}}&{\bfseries\mdline{298}\textbf{Analysis}\mdline{298}}\\
+\begin{tabular}{lll}{\bfseries\mdline{299}}&{\bfseries\mdline{299}\textbf{Forecast}\mdline{299}}&{\bfseries\mdline{299}\textbf{Analysis}\mdline{299}}\\
 
 \midrule
-\mdline{300}\textbf{Altitudes}\mdline{300}&\mdline{300}Surface, 50m, 250m, 500m,&\mdline{300}Surface\\
-\mdline{301}&\mdline{301}1000m, 2000m, 3000, 5000m&\mdline{301}\\
-\mdline{302}\textbf{Available at}&\mdline{302}4:00 UTC&\mdline{302}10:00 UTC for the day before\\
-\mdline{303}\textbf{Pollutants}\mdline{303}&\mdline{303}O\mdline{303}\mdsub{3}\mdline{303}, NO, NO\mdline{303}\mdsub{2}\mdline{303}&\mdline{303}O\mdline{303}\mdsub{3}\mdline{303}, NO\mdline{303}*\mdline{303}, NO\mdline{303}\mdsub{2}\mdline{303}\\
-\mdline{304}\textbf{Timespan}\mdline{304}&\mdline{304}0-96h, hourly&\mdline{304}0-24h for the day before, hourly\\
+\mdline{301}\textbf{Altitudes}\mdline{301}&\mdline{301}Surface, 50m, 250m, 500m,&\mdline{301}Surface\\
+\mdline{302}&\mdline{302}1000m, 2000m, 3000, 5000m&\mdline{302}\\
+\mdline{303}\textbf{Available at}&\mdline{303}4:00 UTC&\mdline{303}10:00 UTC for the day before\\
+\mdline{304}\textbf{Pollutants}\mdline{304}&\mdline{304}O\mdline{304}\mdsub{3}\mdline{304}, NO, NO\mdline{304}\mdsub{2}\mdline{304}&\mdline{304}O\mdline{304}\mdsub{3}\mdline{304}, NO\mdline{304}*\mdline{304}, NO\mdline{304}\mdsub{2}\mdline{304}\\
+\mdline{305}\textbf{Timespan}\mdline{305}&\mdline{305}0-96h, hourly&\mdline{305}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={305}
-\noindent\mdline{305}*\mdline{305} Not assimilated%mdk
-
 %mdk-data-line={306}
-\mdhr{}%mdk
+\noindent\mdline{306}*\mdline{306} Not assimilated%mdk
 
 %mdk-data-line={307}
-\noindent\mdline{307}\mdcaption{\textbf{Table~\mdcaptionlabel{6}.}~\mdcaptiontext{Products of LOTOS-EUROS model}}%mdk
+\mdhr{}%mdk
+
+%mdk-data-line={308}
+\noindent\mdline{308}\mdcaption{\textbf{Table~\mdcaptionlabel{6}.}~\mdcaptiontext{Products of LOTOS-EUROS model}}%mdk
 }}%mdk
 \end{mdcenter}\label{lotos-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={308}
-\subsubsection{\mdline{308}3.2.5.\hspace*{0.5em}\mdline{308}MATCH}\label{sec-match}%mdk%mdk
+%mdk-data-line={309}
+\subsubsection{\mdline{309}3.2.5.\hspace*{0.5em}\mdline{309}MATCH}\label{sec-match}%mdk%mdk
 
-%mdk-data-line={310}
-\noindent\mdline{310}The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).%mdk
+%mdk-data-line={311}
+\noindent\mdline{311}The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).%mdk
 
-%mdk-data-line={312}
-\mdline{312}The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
+%mdk-data-line={313}
+\mdline{313}The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
 Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required. 
 Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version%mdk
 
-%mdk-data-line={316}
-\mdline{316}Availability information of MATCH products as of May 2016 are presented in Table\mdline{316}~\mdref{match-portfolio}{\mdcaptionlabel{7}}\mdline{316}.%mdk
+%mdk-data-line={317}
+\mdline{317}Availability information of MATCH products as of May 2016 are presented in Table\mdline{317}~\mdref{match-portfolio}{\mdcaptionlabel{7}}\mdline{317}.%mdk
 
-%mdk-data-line={318}
+%mdk-data-line={319}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{319}}&{\bfseries\mdline{319}\textbf{Forecast}\mdline{319}}&{\bfseries\mdline{319}\textbf{Analysis}\mdline{319}}\\
+\begin{tabular}{lll}{\bfseries\mdline{320}}&{\bfseries\mdline{320}\textbf{Forecast}\mdline{320}}&{\bfseries\mdline{320}\textbf{Analysis}\mdline{320}}\\
 
 \midrule
-\mdline{321}\textbf{Altitudes}\mdline{321}&\mdline{321}Surface, 50m, 250m, 500m,&\mdline{321}Surface\\
-\mdline{322}&\mdline{322}1000m, 2000m, 3000, 5000m&\mdline{322}\\
-\mdline{323}\textbf{Available at}&\mdline{323}3:00 UTC&\mdline{323}10:00 UTC for the day before\\
-\mdline{324}\textbf{Pollutants}\mdline{324}&\mdline{324}O\mdline{324}\mdsub{3}\mdline{324}, NO, NO\mdline{324}\mdsub{2}\mdline{324}&\mdline{324}O\mdline{324}\mdsub{3}\mdline{324}, NO\mdline{324}*\mdline{324}, NO\mdline{324}\mdsub{2}\mdline{324}\\
-\mdline{325}\textbf{Timespan}\mdline{325}&\mdline{325}0-96h, hourly&\mdline{325}0-24h for the day before, hourly\\
+\mdline{322}\textbf{Altitudes}\mdline{322}&\mdline{322}Surface, 50m, 250m, 500m,&\mdline{322}Surface\\
+\mdline{323}&\mdline{323}1000m, 2000m, 3000, 5000m&\mdline{323}\\
+\mdline{324}\textbf{Available at}&\mdline{324}3:00 UTC&\mdline{324}10:00 UTC for the day before\\
+\mdline{325}\textbf{Pollutants}\mdline{325}&\mdline{325}O\mdline{325}\mdsub{3}\mdline{325}, NO, NO\mdline{325}\mdsub{2}\mdline{325}&\mdline{325}O\mdline{325}\mdsub{3}\mdline{325}, NO\mdline{325}*\mdline{325}, NO\mdline{325}\mdsub{2}\mdline{325}\\
+\mdline{326}\textbf{Timespan}\mdline{326}&\mdline{326}0-96h, hourly&\mdline{326}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={326}
-\noindent\mdline{326}*\mdline{326} Not assimilated%mdk
-
 %mdk-data-line={327}
-\mdhr{}%mdk
+\noindent\mdline{327}*\mdline{327} Not assimilated%mdk
 
 %mdk-data-line={328}
-\noindent\mdline{328}\mdcaption{\textbf{Table~\mdcaptionlabel{7}.}~\mdcaptiontext{Products of MATCH model}}%mdk
+\mdhr{}%mdk
+
+%mdk-data-line={329}
+\noindent\mdline{329}\mdcaption{\textbf{Table~\mdcaptionlabel{7}.}~\mdcaptiontext{Products of MATCH model}}%mdk
 }}%mdk
 \end{mdcenter}\label{match-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={329}
-\subsubsection{\mdline{329}3.2.6.\hspace*{0.5em}\mdline{329}MOCAGE}\label{sec-mocage}%mdk%mdk
-
 %mdk-data-line={330}
-\noindent\mdline{330}The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
+\subsubsection{\mdline{330}3.2.6.\hspace*{0.5em}\mdline{330}MOCAGE}\label{sec-mocage}%mdk%mdk
+
+%mdk-data-line={331}
+\noindent\mdline{331}The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
 Its assimilation system has been developed jointly with CERFACS. 
 This model and its assimilation system have been successfully used for tropospheric and stratospheric research (e.g. Bousserez et al., 2007; Barré et al., 2013, 2014; Lacressonnière et al., 2014) and also for operational purposes (Rouïl et al., 2009).%mdk
 
-%mdk-data-line={334}
-\mdline{334}The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
+%mdk-data-line={335}
+\mdline{335}The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
 Thus, it provides a full representation of transport processes, in particular boundary layer–troposphere and troposphere–stratosphere exchanges, and the time evolution of stratospheric conditions for accurate photolysis rate calculations at the surface.%mdk
 
-%mdk-data-line={337}
-\mdline{337}The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O\mdline{337}\mdsub{3}\mdline{337} and NO\mdline{337}\mdsub{2}\mdline{337} as illustrated in the annual re-analysis reports\mdline{337} \mdline{337}\mdfootnote{8}{%mdk-data-line={338}
 %mdk-data-line={338}
-\noindent\mdline{338}http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/%mdk
+\mdline{338}The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O\mdline{338}\mdsub{3}\mdline{338} and NO\mdline{338}\mdsub{2}\mdline{338} as illustrated in the annual re-analysis reports\mdline{338} \mdline{338}\mdfootnote{8}{%mdk-data-line={339}
+%mdk-data-line={339}
+\noindent\mdline{339}http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/%mdk
 \label{fn-mocage1}%mdk%mdk
-}\mdline{337}%mdk
+}\mdline{338}%mdk
 
-%mdk-data-line={340}
-\mdline{340}Availability information of MOCAGE products as of May 2016 are presented in Table\mdline{340}~\mdref{mocage-portfolio}{\mdcaptionlabel{8}}\mdline{340}.%mdk
+%mdk-data-line={341}
+\mdline{341}Availability information of MOCAGE products as of May 2016 are presented in Table\mdline{341}~\mdref{mocage-portfolio}{\mdcaptionlabel{8}}\mdline{341}.%mdk
 
-%mdk-data-line={342}
+%mdk-data-line={343}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{343}}&{\bfseries\mdline{343}\textbf{Forecast}\mdline{343}}&{\bfseries\mdline{343}\textbf{Analysis}\mdline{343}}\\
+\begin{tabular}{lll}{\bfseries\mdline{344}}&{\bfseries\mdline{344}\textbf{Forecast}\mdline{344}}&{\bfseries\mdline{344}\textbf{Analysis}\mdline{344}}\\
 
 \midrule
-\mdline{345}\textbf{Altitudes}\mdline{345}&\mdline{345}Surface, 50m, 250m, 500m,&\mdline{345}Surface\\
-\mdline{346}&\mdline{346}1000m, 2000m, 3000, 5000m&\mdline{346}\\
-\mdline{347}\textbf{Available at}&\mdline{347}0:30 UTC&\mdline{347}10:30 UTC for the day before\\
-\mdline{348}\textbf{Pollutants}\mdline{348}&\mdline{348}O\mdline{348}\mdsub{3}\mdline{348}, NO, NO\mdline{348}\mdsub{2}\mdline{348}&\mdline{348}O\mdline{348}\mdsub{3}\mdline{348}, NO\mdline{348}*\mdline{348}, NO\mdline{348}\mdsub{2}\mdline{348}\\
-\mdline{349}\textbf{Timespan}\mdline{349}&\mdline{349}0-96h, hourly&\mdline{349}0-24h for the day before, hourly\\
+\mdline{346}\textbf{Altitudes}\mdline{346}&\mdline{346}Surface, 50m, 250m, 500m,&\mdline{346}Surface\\
+\mdline{347}&\mdline{347}1000m, 2000m, 3000, 5000m&\mdline{347}\\
+\mdline{348}\textbf{Available at}&\mdline{348}0:30 UTC&\mdline{348}10:30 UTC for the day before\\
+\mdline{349}\textbf{Pollutants}\mdline{349}&\mdline{349}O\mdline{349}\mdsub{3}\mdline{349}, NO, NO\mdline{349}\mdsub{2}\mdline{349}&\mdline{349}O\mdline{349}\mdsub{3}\mdline{349}, NO\mdline{349}*\mdline{349}, NO\mdline{349}\mdsub{2}\mdline{349}\\
+\mdline{350}\textbf{Timespan}\mdline{350}&\mdline{350}0-96h, hourly&\mdline{350}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={350}
-\noindent\mdline{350}*\mdline{350} Not assimilated%mdk
-
 %mdk-data-line={351}
-\mdhr{}%mdk
+\noindent\mdline{351}*\mdline{351} Not assimilated%mdk
 
 %mdk-data-line={352}
-\noindent\mdline{352}\mdcaption{\textbf{Table~\mdcaptionlabel{8}.}~\mdcaptiontext{Products of MOCAGE model}}%mdk
+\mdhr{}%mdk
+
+%mdk-data-line={353}
+\noindent\mdline{353}\mdcaption{\textbf{Table~\mdcaptionlabel{8}.}~\mdcaptiontext{Products of MOCAGE model}}%mdk
 }}%mdk
 \end{mdcenter}\label{mocage-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={353}
-\subsubsection{\mdline{353}3.2.7.\hspace*{0.5em}\mdline{353}SILAM}\label{sec-silam}%mdk%mdk
-
 %mdk-data-line={354}
-\noindent\mdline{354}SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
-The model has been applied with resolutions ranging from 1km up to 3\mdline{355}\textdegree{}\mdline{355}, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
+\subsubsection{\mdline{354}3.2.7.\hspace*{0.5em}\mdline{354}SILAM}\label{sec-silam}%mdk%mdk
+
+%mdk-data-line={355}
+\noindent\mdline{355}SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
+The model has been applied with resolutions ranging from 1km up to 3\mdline{356}\textdegree{}\mdline{356}, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
 SILAM is publicly available since 2007 and is used as an operational and research tool.%mdk
 
-%mdk-data-line={358}
-\mdline{358}Availability information of SILAM products as of May 2016 are presented in Table\mdline{358}~\mdref{silam-portfolio}{\mdcaptionlabel{9}}\mdline{358}.%mdk
+%mdk-data-line={359}
+\mdline{359}Availability information of SILAM products as of May 2016 are presented in Table\mdline{359}~\mdref{silam-portfolio}{\mdcaptionlabel{9}}\mdline{359}.%mdk
 
-%mdk-data-line={360}
+%mdk-data-line={361}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{361}}&{\bfseries\mdline{361}\textbf{Forecast}\mdline{361}}&{\bfseries\mdline{361}\textbf{Analysis}\mdline{361}}\\
+\begin{tabular}{lll}{\bfseries\mdline{362}}&{\bfseries\mdline{362}\textbf{Forecast}\mdline{362}}&{\bfseries\mdline{362}\textbf{Analysis}\mdline{362}}\\
 
 \midrule
-\mdline{363}\textbf{Altitudes}\mdline{363}&\mdline{363}Surface, 50m, 250m, 500m,&\mdline{363}Surface\\
-\mdline{364}&\mdline{364}1000m, 2000m, 3000, 5000m&\mdline{364}\\
-\mdline{365}\textbf{Available at}&\mdline{365}3:00 UTC&\mdline{365}9:30 UTC for the day before\\
-\mdline{366}\textbf{Pollutants}\mdline{366}&\mdline{366}O\mdline{366}\mdsub{3}\mdline{366}, NO, NO\mdline{366}\mdsub{2}\mdline{366}&\mdline{366}O\mdline{366}\mdsub{3}\mdline{366}, NO\mdline{366}*\mdline{366}, NO\mdline{366}\mdsub{2}\mdline{366}\\
-\mdline{367}\textbf{Timespan}\mdline{367}&\mdline{367}0-96h, hourly&\mdline{367}0-24h for the day before, hourly\\
+\mdline{364}\textbf{Altitudes}\mdline{364}&\mdline{364}Surface, 50m, 250m, 500m,&\mdline{364}Surface\\
+\mdline{365}&\mdline{365}1000m, 2000m, 3000, 5000m&\mdline{365}\\
+\mdline{366}\textbf{Available at}&\mdline{366}3:00 UTC&\mdline{366}9:30 UTC for the day before\\
+\mdline{367}\textbf{Pollutants}\mdline{367}&\mdline{367}O\mdline{367}\mdsub{3}\mdline{367}, NO, NO\mdline{367}\mdsub{2}\mdline{367}&\mdline{367}O\mdline{367}\mdsub{3}\mdline{367}, NO\mdline{367}*\mdline{367}, NO\mdline{367}\mdsub{2}\mdline{367}\\
+\mdline{368}\textbf{Timespan}\mdline{368}&\mdline{368}0-96h, hourly&\mdline{368}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={368}
-\noindent\mdline{368}*\mdline{368} Not assimilated%mdk
-
 %mdk-data-line={369}
-\mdhr{}%mdk
+\noindent\mdline{369}*\mdline{369} Not assimilated%mdk
 
 %mdk-data-line={370}
-\noindent\mdline{370}\mdcaption{\textbf{Table~\mdcaptionlabel{9}.}~\mdcaptiontext{Products of SILAM model}}%mdk
+\mdhr{}%mdk
+
+%mdk-data-line={371}
+\noindent\mdline{371}\mdcaption{\textbf{Table~\mdcaptionlabel{9}.}~\mdcaptiontext{Products of SILAM model}}%mdk
 }}%mdk
 \end{mdcenter}\label{silam-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={371}
-\subsubsection{\mdline{371}3.2.8.\hspace*{0.5em}\mdline{371}ENSEMBLE}\label{sec-ensemble}%mdk%mdk
-
 %mdk-data-line={372}
-\noindent\mdline{372}To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
+\subsubsection{\mdline{372}3.2.8.\hspace*{0.5em}\mdline{372}ENSEMBLE}\label{sec-ensemble}%mdk%mdk
+
+%mdk-data-line={373}
+\noindent\mdline{373}To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
 For each grid point, the ensemble model value is calculated as the median value of the individual model forecasts or analyses available. 
 The median is defined as the value having 50\% of individual models with higher values and 50\% with lower values. 
 This method is rather insensitive to outliers in the forecasts or analyses and is very efficient computationally. 
 It is also little sensitive if a particular model forecast or analysis is occasionally missing.
 These properties are very useful from an operational point of view.%mdk
 
-%mdk-data-line={379}
-\mdline{379}For the forecasts, the ENSEMBLE is produced for all levels and all pollutants. 
+%mdk-data-line={380}
+\mdline{380}For the forecasts, the ENSEMBLE is produced for all levels and all pollutants. 
 For the analyses, the individual assimilation systems provide only analyses at the surface level.%mdk
 
-%mdk-data-line={382}
-\mdline{382}Availability information of ENSEMBLE products as of May 2016 are presented in Table\mdline{382}~\mdref{ensemble-portfolio}{\mdcaptionlabel{10}}\mdline{382}.%mdk
+%mdk-data-line={383}
+\mdline{383}Availability information of ENSEMBLE products as of May 2016 are presented in Table\mdline{383}~\mdref{ensemble-portfolio}{\mdcaptionlabel{10}}\mdline{383}.%mdk
 
-%mdk-data-line={384}
+%mdk-data-line={385}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{385}}&{\bfseries\mdline{385}\textbf{Forecast}\mdline{385}}&{\bfseries\mdline{385}\textbf{Analysis}\mdline{385}}\\
+\begin{tabular}{lll}{\bfseries\mdline{386}}&{\bfseries\mdline{386}\textbf{Forecast}\mdline{386}}&{\bfseries\mdline{386}\textbf{Analysis}\mdline{386}}\\
 
 \midrule
-\mdline{387}\textbf{Altitudes}\mdline{387}&\mdline{387}Surface, 50m, 250m, 500m,&\mdline{387}Surface\\
-\mdline{388}&\mdline{388}1000m, 2000m, 3000, 5000m&\mdline{388}\\
-\mdline{389}\textbf{Available at}&\mdline{389}6:45 UTC for D0-D1&\mdline{389}11:30 UTC for the day before\\
-\mdline{390}&\mdline{390}8:45 UTC for D2-D3&\mdline{390}\\
-\mdline{391}\textbf{Pollutants}\mdline{391}&\mdline{391}O\mdline{391}\mdsub{3}\mdline{391}, NO, NO\mdline{391}\mdsub{2}\mdline{391}&\mdline{391}O\mdline{391}\mdsub{3}\mdline{391}, NO, NO\mdline{391}\mdsub{2}\mdline{391}\\
-\mdline{392}\textbf{Timespan}\mdline{392}&\mdline{392}0-96h, hourly&\mdline{392}0-24h for the day before, hourly\\
+\mdline{388}\textbf{Altitudes}\mdline{388}&\mdline{388}Surface, 50m, 250m, 500m,&\mdline{388}Surface\\
+\mdline{389}&\mdline{389}1000m, 2000m, 3000, 5000m&\mdline{389}\\
+\mdline{390}\textbf{Available at}&\mdline{390}6:45 UTC for D0-D1&\mdline{390}11:30 UTC for the day before\\
+\mdline{391}&\mdline{391}8:45 UTC for D2-D3&\mdline{391}\\
+\mdline{392}\textbf{Pollutants}\mdline{392}&\mdline{392}O\mdline{392}\mdsub{3}\mdline{392}, NO, NO\mdline{392}\mdsub{2}\mdline{392}&\mdline{392}O\mdline{392}\mdsub{3}\mdline{392}, NO, NO\mdline{392}\mdsub{2}\mdline{392}\\
+\mdline{393}\textbf{Timespan}\mdline{393}&\mdline{393}0-96h, hourly&\mdline{393}0-24h for the day before, hourly\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={393}
+%mdk-data-line={394}
 \mdhr{}%mdk
 
-%mdk-data-line={394}
-\noindent\mdline{394}\mdcaption{\textbf{Table~\mdcaptionlabel{10}.}~\mdcaptiontext{Products of SILAM model}}%mdk
+%mdk-data-line={395}
+\noindent\mdline{395}\mdcaption{\textbf{Table~\mdcaptionlabel{10}.}~\mdcaptiontext{Products of SILAM model}}%mdk
 }}%mdk
 \end{mdcenter}\label{ensemble-portfolio}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={395}
-\subsubsection{\mdline{395}3.2.9.\hspace*{0.5em}\mdline{395}Availability statistics}\label{sec-availability-statistics}%mdk%mdk
-
 %mdk-data-line={396}
-\noindent\mdline{396}The statistics in Table\mdline{396}~\mdref{models-3}{\mdcaptionlabel{11}}\mdline{396} describe the ratio of days for which the models\mdline{396}'\mdline{396} outputs were available on time to be included in the ENSEMBLE fields (analyses and forecasts) that are computed at METEO-FRANCE. 
+\subsubsection{\mdline{396}3.2.9.\hspace*{0.5em}\mdline{396}Availability statistics}\label{sec-availability-statistics}%mdk%mdk
+
+%mdk-data-line={397}
+\noindent\mdline{397}The statistics in Table\mdline{397}~\mdref{models-3}{\mdcaptionlabel{11}}\mdline{397} describe the ratio of days for which the models\mdline{397}'\mdline{397} outputs were available on time to be included in the ENSEMBLE fields (analyses and forecasts) that are computed at METEO-FRANCE. 
 They are based on the following schedule:%mdk
 
-%mdk-data-line={399}
+%mdk-data-line={400}
 \begin{itemize}[noitemsep,topsep=\mdcompacttopsep]%mdk
 
-%mdk-data-line={399}
-\item\mdline{399}forecasts data before: 05:30 UTC for Day0-Day1 (up to 48h), 07:30 UTC for Day2-Day3 (from 49h to 96h)%mdk
-
 %mdk-data-line={400}
-\item\mdline{400}analyses data before: 11:00 UTC%mdk
+\item\mdline{400}forecasts data before: 05:30 UTC for Day0-Day1 (up to 48h), 07:30 UTC for Day2-Day3 (from 49h to 96h)%mdk
+
+%mdk-data-line={401}
+\item\mdline{401}analyses data before: 11:00 UTC%mdk
 %mdk
 \end{itemize}%mdk
 
-%mdk-data-line={402}
-\noindent\mdline{402}Statistics are based on the quarter of March\mdline{402} \mdline{402}- May 2016, which is the latest with published data\mdline{402}\mdfootnote{9}{%mdk-data-line={438}
-%mdk-data-line={438}
-\noindent\mdline{438}https://atmosphere.copernicus.eu/documentation-regional-systems%mdk
+%mdk-data-line={403}
+\noindent\mdline{403}Statistics are based on the quarter of March\mdline{403} \mdline{403}- May 2016, which is the latest with published data\mdline{403}\mdfootnote{9}{%mdk-data-line={439}
+%mdk-data-line={439}
+\noindent\mdline{439}https://atmosphere.copernicus.eu/documentation-regional-systems%mdk
 \label{fn-dossiers}%mdk%mdk
-}\mdline{402}.%mdk
+}\mdline{403}.%mdk
 
-%mdk-data-line={404}
+%mdk-data-line={405}
 \begin{table}[h!]%mdk
 \begin{mdcenter}%mdk
 {\mdlineheight{1.5em}{\mdfontsize{8pt}\begin{mdtabular}{3}{\dimeval{(\linewidth)/3}}{1ex}%mdk
-\begin{tabular}{lll}{\bfseries\mdline{405}\textbf{Model}\mdline{405}}&{\bfseries\mdline{405}\textbf{Forecast Availability}\mdline{405}}&{\bfseries\mdline{405}\textbf{Analysis Availability}\mdline{405}}\\
+\begin{tabular}{lll}{\bfseries\mdline{406}\textbf{Model}\mdline{406}}&{\bfseries\mdline{406}\textbf{Forecast Availability}\mdline{406}}&{\bfseries\mdline{406}\textbf{Analysis Availability}\mdline{406}}\\
 
 \midrule
-\mdline{407}CHIMERE&\mdline{407}Day0: 85\mdline{407}\%\mdline{407}&\mdline{407}83\mdline{407}\%\mdline{407}\\
-\mdline{408}&\mdline{408}Day1: 85\mdline{408}\%\mdline{408}&\mdline{408}\\
-\mdline{409}&\mdline{409}Day2: 85\mdline{409}\%\mdline{409}&\mdline{409}\\
-\mdline{410}&\mdline{410}Day3: 75\mdline{410}\%\mdline{410}&\mdline{410}\\
-\mdline{411}EMEP&\mdline{411}Day0: 97\mdline{411}\%\mdline{411}&\mdline{411}97\mdline{411}\%\mdline{411}\\
-\mdline{412}&\mdline{412}Day1: 96\mdline{412}\%\mdline{412}&\mdline{412}\\
-\mdline{413}&\mdline{413}Day2: 96\mdline{413}\%\mdline{413}&\mdline{413}\\
-\mdline{414}&\mdline{414}Day3: 96\mdline{414}\%\mdline{414}&\mdline{414}\\
-\mdline{415}EURAD-IM&\mdline{415}Day0: 99\mdline{415}\%\mdline{415}&\mdline{415}98\mdline{415}\%\mdline{415}\\
-\mdline{416}&\mdline{416}Day1: 99\mdline{416}\%\mdline{416}&\mdline{416}\\
-\mdline{417}&\mdline{417}Day2: 99\mdline{417}\%\mdline{417}&\mdline{417}\\
-\mdline{418}&\mdline{418}Day: 99\mdline{418}\%\mdline{418}&\mdline{418}\\
-\mdline{419}LOTOS-EURO&\mdline{419}Day0: 97\mdline{419}\%\mdline{419}&\mdline{419}97\mdline{419}\%\mdline{419}\\
-\mdline{420}&\mdline{420}Day1: 97\mdline{420}\%\mdline{420}&\mdline{420}\\
-\mdline{421}&\mdline{421}Day2: 97\mdline{421}\%\mdline{421}&\mdline{421}\\
-\mdline{422}&\mdline{422}Day3: 97\mdline{422}\%\mdline{422}&\mdline{422}\\
-\mdline{423}MATCH&\mdline{423}Day0: 99\mdline{423}\%\mdline{423}&\mdline{423}97\mdline{423}\%\mdline{423}\\
-\mdline{424}&\mdline{424}Day1: 99\mdline{424}\%\mdline{424}&\mdline{424}\\
-\mdline{425}&\mdline{425}Day2: 99\mdline{425}\%\mdline{425}&\mdline{425}\\
-\mdline{426}&\mdline{426}Day3: 97\mdline{426}\%\mdline{426}&\mdline{426}\\
-\mdline{427}MOCAGE&\mdline{427}Day0: 100\mdline{427}\%\mdline{427}&\mdline{427}98\mdline{427}\%\mdline{427}\\
-\mdline{428}&\mdline{428}Day1: 100\mdline{428}\%\mdline{428}&\mdline{428}\\
-\mdline{429}&\mdline{429}Day2: 99\mdline{429}\%\mdline{429}&\mdline{429}\\
-\mdline{430}&\mdline{430}Day3: 99\mdline{430}\%\mdline{430}&\mdline{430}\\
-\mdline{431}SILAM&\mdline{431}Day0: 97\mdline{431}\%\mdline{431}&\mdline{431}96\mdline{431}\%\mdline{431}\\
-\mdline{432}&\mdline{432}Day1: 97\mdline{432}\%\mdline{432}&\mdline{432}\\
-\mdline{433}&\mdline{433}Day2: 97\mdline{433}\%\mdline{433}&\mdline{433}\\
-\mdline{434}&\mdline{434}Day3: 97\mdline{434}\%\mdline{434}&\mdline{434}\\
-\mdline{435}&\mdline{435}&\mdline{435}\\
+\mdline{408}CHIMERE&\mdline{408}Day0: 85\mdline{408}\%\mdline{408}&\mdline{408}83\mdline{408}\%\mdline{408}\\
+\mdline{409}&\mdline{409}Day1: 85\mdline{409}\%\mdline{409}&\mdline{409}\\
+\mdline{410}&\mdline{410}Day2: 85\mdline{410}\%\mdline{410}&\mdline{410}\\
+\mdline{411}&\mdline{411}Day3: 75\mdline{411}\%\mdline{411}&\mdline{411}\\
+\mdline{412}EMEP&\mdline{412}Day0: 97\mdline{412}\%\mdline{412}&\mdline{412}97\mdline{412}\%\mdline{412}\\
+\mdline{413}&\mdline{413}Day1: 96\mdline{413}\%\mdline{413}&\mdline{413}\\
+\mdline{414}&\mdline{414}Day2: 96\mdline{414}\%\mdline{414}&\mdline{414}\\
+\mdline{415}&\mdline{415}Day3: 96\mdline{415}\%\mdline{415}&\mdline{415}\\
+\mdline{416}EURAD-IM&\mdline{416}Day0: 99\mdline{416}\%\mdline{416}&\mdline{416}98\mdline{416}\%\mdline{416}\\
+\mdline{417}&\mdline{417}Day1: 99\mdline{417}\%\mdline{417}&\mdline{417}\\
+\mdline{418}&\mdline{418}Day2: 99\mdline{418}\%\mdline{418}&\mdline{418}\\
+\mdline{419}&\mdline{419}Day: 99\mdline{419}\%\mdline{419}&\mdline{419}\\
+\mdline{420}LOTOS-EURO&\mdline{420}Day0: 97\mdline{420}\%\mdline{420}&\mdline{420}97\mdline{420}\%\mdline{420}\\
+\mdline{421}&\mdline{421}Day1: 97\mdline{421}\%\mdline{421}&\mdline{421}\\
+\mdline{422}&\mdline{422}Day2: 97\mdline{422}\%\mdline{422}&\mdline{422}\\
+\mdline{423}&\mdline{423}Day3: 97\mdline{423}\%\mdline{423}&\mdline{423}\\
+\mdline{424}MATCH&\mdline{424}Day0: 99\mdline{424}\%\mdline{424}&\mdline{424}97\mdline{424}\%\mdline{424}\\
+\mdline{425}&\mdline{425}Day1: 99\mdline{425}\%\mdline{425}&\mdline{425}\\
+\mdline{426}&\mdline{426}Day2: 99\mdline{426}\%\mdline{426}&\mdline{426}\\
+\mdline{427}&\mdline{427}Day3: 97\mdline{427}\%\mdline{427}&\mdline{427}\\
+\mdline{428}MOCAGE&\mdline{428}Day0: 100\mdline{428}\%\mdline{428}&\mdline{428}98\mdline{428}\%\mdline{428}\\
+\mdline{429}&\mdline{429}Day1: 100\mdline{429}\%\mdline{429}&\mdline{429}\\
+\mdline{430}&\mdline{430}Day2: 99\mdline{430}\%\mdline{430}&\mdline{430}\\
+\mdline{431}&\mdline{431}Day3: 99\mdline{431}\%\mdline{431}&\mdline{431}\\
+\mdline{432}SILAM&\mdline{432}Day0: 97\mdline{432}\%\mdline{432}&\mdline{432}96\mdline{432}\%\mdline{432}\\
+\mdline{433}&\mdline{433}Day1: 97\mdline{433}\%\mdline{433}&\mdline{433}\\
+\mdline{434}&\mdline{434}Day2: 97\mdline{434}\%\mdline{434}&\mdline{434}\\
+\mdline{435}&\mdline{435}Day3: 97\mdline{435}\%\mdline{435}&\mdline{435}\\
+\mdline{436}&\mdline{436}&\mdline{436}\\
 \end{tabular}\end{mdtabular}
 
-%mdk-data-line={436}
+%mdk-data-line={437}
 \mdhr{}%mdk
 
-%mdk-data-line={437}
-\noindent\mdline{437}\mdcaption{\textbf{Table~\mdcaptionlabel{11}.}~\mdcaptiontext{Availabilty statistics of models' outputs for usage in ENSEMBLE}}%mdk
+%mdk-data-line={438}
+\noindent\mdline{438}\mdcaption{\textbf{Table~\mdcaptionlabel{11}.}~\mdcaptiontext{Availabilty statistics of models' outputs for usage in ENSEMBLE}}%mdk
 }}%mdk
 \end{mdcenter}\label{models-3}%mdk
 %mdk
 \end{table}%mdk
 
-%mdk-data-line={440}
-\section{\mdline{440}4.\hspace*{0.5em}\mdline{440}Examples}\label{sec-examples}%mdk%mdk
+%mdk-data-line={441}
+\section{\mdline{441}4.\hspace*{0.5em}\mdline{441}Examples}\label{sec-examples}%mdk%mdk
 
-%mdk-data-line={442}
-\section{\mdline{442}5.\hspace*{0.5em}\mdline{442}Conclusions}\label{sec-conclusions}%mdk%mdk
+%mdk-data-line={443}
+\section{\mdline{443}5.\hspace*{0.5em}\mdline{443}Conclusions}\label{sec-conclusions}%mdk%mdk
 
-%mdk-data-line={444;out/technical_report-bib.bbl.mdk:1}
-%mdk-data-line={444;out/technical_report-bib.bbl.mdk:2}
+%mdk-data-line={445;out/technical_report-bib.bbl.mdk:1}
+%mdk-data-line={445;out/technical_report-bib.bbl.mdk:2}
 \mdsetrefname{References}%mdk
 {\mdsupressbiblabel\mdbibindent{2}\begin{thebibliography}{4}%mdk
 \label{sec-bibliography}%mdk
