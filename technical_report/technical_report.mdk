@@ -94,11 +94,11 @@ Vertically global services cover both the troposphere and stratosphere.
 
 #### Global analyses of chemical species
 This service provides daily analyses of chemical species, including O~3~, NO and NO~2~. 
-The Service became operational on 1 July 2015 and provides data every 6 hours.
+The Service became operational on July 1st 2015 and provides data every 6 hours.
 
 #### Global forecasts of chemical species 
 This service provides daily forecasts up to 5 days of chemical species, including O~3~, NO and NO~2~. 
-The service became operational on 1 July 2015.
+The service became operational on July 1st 2015.
 
 #### MACC global reanalysis of assimilated chemical species 
 This service provides global reanalysis of chemical species that are directly constrained by observations.
@@ -118,12 +118,12 @@ The service provides daily 4-day forecasts of the main air quality species and a
 The regional service also provides daily posteriori interim re-analyses based on fast-track in-situ observations, and annual re-analyses based on fully validated in-situ observations. 
 
 #### European-scale air quality analysis
+This service provides European-scale air quality analyses for every hour of the previous day for every of the 7 models and the ensemble median. 
+The service became operational on Octomber 1st 2015.
 
 #### European-scale air quality forecast
-
-#### European-scale air quality interim reanalysis
-
-#### European-scale air quality reanalysis
+This service provides European-scale air quality forecasts for every hour up to 4 days in advance for every of the 7 models and the ensemble median. 
+The service became operational on Octomber 1st 2015.
 
 ## Available Files
 
@@ -184,7 +184,6 @@ Detailed descriptions of each model are presented in the following sections.
 |MATCH      |3DVar                   |O~3, NO~2~ from surface stations      |O~3~, NO, NO~2~         |
 |MOCAGE     |3DVar                   |O~3~ from surface stations            |O~3~, NO, NO~2~         |
 |SILAM      |4DVar                   |O~3, NO~2~ from surface stations      |O~3~, NO, NO~2~         |
-|           |                        |                                      |                        |
 ~
 
 ### CHIMERE
