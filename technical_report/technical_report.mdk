@@ -550,7 +550,14 @@ In Figure [#regional-epsgram] forecasts at Athens between December 4th and Decem
 [regional-epsgram]: images/regional-epsgram.jpg "regional-epsgram" { width:auto; max-width:90% }
 
 
-*Individual Analyses* and *Individual Forecasts* tabs provide 
+*Individual Analyses* and *Individual Forecasts* tabs provide maps of pollutants' concentration based on individual models calculations.
+Analyses are available for the day before at an hourly step. 
+Forecasts are available up to 4 days ahead at an hourly step.
+It is interesting to see the relevance of the forecast for a given date/time to the post-analysis.
+In Figure 
+
+
+
 
 # Conclusions
 
