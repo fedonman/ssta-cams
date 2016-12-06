@@ -541,6 +541,14 @@ This feature is shown in Figure [#regional-maximum] for NO~2~ maximum concentrat
 ~
 [regional_maximum]: images/regional_maximum.jpg "regional_maximum" { width:auto; max-width:90% }
 
+*EPSgrams* tab provide 4-days forecasts of O~3~, NO~2~, SO~2~ and PM~10~ at the location of 41 major European cities and their uncertainty.
+In Figure forecasts at Athens between December 4th and December 8th, 2016 is shown.
+
+~ Figure { #regional-epsgram; caption: "4-day forecast of O~3~, NO~2~, SO~2~ and PM~10~ at the city of Athens for the period between December 4th - December 8th, 2016."; page-align: forcehere;}
+![regional-epsgram]
+~
+[regional-epsgram]: images/regional-epsgram.jpg "regional-epsgram" { width:auto; max-width:90% }
+
 
 *Individual Analyses* and *Individual Forecasts* tabs provide 
 
