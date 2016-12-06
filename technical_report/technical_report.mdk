@@ -517,7 +517,7 @@ For regional products, both *Plots* and *Data download* link to the regional sub
 The subdomain provides a universal access to individual models and ensemble plots and data for both analyses and forecasts.
 This is done by an easy-to-use tab section as seen in Figure. 
 
-In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps, additional plots of daily mean and maximum values as well as EPSgrams for 41 major European cities are available (Figure ).
+In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps, additional plots of daily mean and maximum values as well as EPSgrams for 41 major European cities are available (Figure #ensemble-tab).
 
 ~ Figure { #ensemble-tab; caption: "Available options in *Ensemble Analysis and Forecast* tab"; page-align: forcehere;}
 ![ensemble_tab]
@@ -525,7 +525,7 @@ In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps
 [ensemble_tab]: images/ensemble_tab.jpg "ensemble_tab" { width:auto; max-width:90% }
 
 *Hourly Ensemble Maps* (as well as individual models maps) provide a friendly user interface (UI) with details of the product, a time navigation bar, filters for base date/time, model, vertical level and parameter options.
-The outline is shown in Figure [re] 
+The outline is shown in Figure [#regional-map-details]. A useful *export to pdf* button is also present.
 
 ~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products"; page-align: forcehere;}
 ![regional_map_details]
