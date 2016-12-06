@@ -524,13 +524,22 @@ In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps
 ~
 [ensemble_tab]: images/ensemble_tab.jpg "ensemble_tab" { width:auto; max-width:90% }
 
-*Hourly Ensemble Maps* (as well as individual models maps) provide a friendly user interface (UI) with details of the product, a time navigation bar, filters for base date/time, model, vertical level and parameter options.
-The outline is shown in Figure [#regional-map-details]. A useful *export to pdf* button is also present.
+*Hourly Ensemble Maps* (as well as all regional maps) provide a friendly user interface (UI) with details of the product, a time navigation bar, filters for base date/time, model, vertical level and parameter options.
+The outline is shown in Figure [#regional-map-details]. A useful *Download PDF* button, which exports the map to PDF format, is also present.
 
-~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products"; page-align: forcehere;}
+~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products."; page-align: forcehere;}
 ![regional_map_details]
 ~
 [regional_map_details]: images/regional_map_details.jpg "regional_map_details" { width:auto; max-width:90% }
+
+*Daily mean and maximum* tab provides maps of the daily mean and maximum values of the concentration of pollutants as calculated by each model and ensemble.
+A useful feature is the ability to view the maps generated of all models side by side. 
+This feature is shown in Figure [#regional-maximum] for NO~2~ maximum concentration values on December 4th, 2016.
+
+~ Figure { #regional-maximum; caption: "Maximum concentrations of NO~2~ on December 4th, 2016 as calculated from all models and their ensemble."; page-align: forcehere;}
+![regional_maximum]
+~
+[regional_maximum]: images/regional_maximum.jpg "regional_maximum" { width:auto; max-width:90% }
 
 
 *Individual Analyses* and *Individual Forecasts* tabs provide 
