@@ -479,7 +479,18 @@ Statistics are based on the quarter of March - May 2016, which is the latest wit
 
 [^dossiers]: https://atmosphere.copernicus.eu/documentation-regional-systems
 
-# Examples
+# Results
+In this section, we will reproduce a real-life case of air quality monitoring, to test the validity of CAMS forecast services and evaluate its easiness of use.
+Specifically, we will study the concentration of nitrogen dioxide on Sunday 4th, December, 2016 in global and European scale.
+
+First, we access the online catalogue available on CAMS website. 
+We set the provided filters as following:  
+
+* Product family = \[Global analyses, Global forecasts, Regional analyses, Regional forecasts \]  
+
+* Parameter = Nitrogen Dioxide  
+
+18 results are returned. 1 global analysis, 1 global forecast, 8 regional forecasts and 8 regioanl analyses (7 individual models plus ensemble).
 
 # Conclusions
 
