@@ -519,13 +519,21 @@ This is done by an easy-to-use tab section as seen in Figure.
 
 In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps, additional plots of daily mean and maximum values as well as EPSgrams for 41 major European cities are available (Figure ).
 
-~ Figure { #ensemble-tab; caption: "Available options in *Ensemble Analysis and Forecast* tab"; page-align="}
+~ Figure { #ensemble-tab; caption: "Available options in *Ensemble Analysis and Forecast* tab"; page-align: forcehere;}
 ![ensemble_tab]
 ~
+[ensemble_tab]: images/ensemble_tab.jpg "ensemble_tab" { width:auto; max-width:90% }
+
+*Hourly Ensemble Maps* (as well as individual models maps) provide a friendly user interface (UI) with details of the product, a time navigation bar, filters for base date/time, model, vertical level and parameter options.
+The outline is shown in Figure [re] 
+
+~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products"; page-align: forcehere;}
+![regional_map_details]
+~
+[regional_map_details]: images/regional_map_details.jpg "regional_map_details" { width:auto; max-width:90% }
+
 
 *Individual Analyses* and *Individual Forecasts* tabs provide 
-
-[ensemble_tab]: images/ensemble_tab.jpg "ensemble_tab" { width:auto; max-width:90% }
 
 # Conclusions
 
