@@ -1,6 +1,251 @@
 {
   "_preamble": "",
   "_comments": "",
+  "forster2007changes": {
+    "id": "forster2007changes",
+    "type": "chapter",
+    "author": [
+      {
+        "family": "Forster",
+        "given": "Piers"
+      },
+      {
+        "family": "Ramaswamy",
+        "given": "Venkatachalam"
+      },
+      {
+        "family": "Artaxo",
+        "given": "Paulo"
+      },
+      {
+        "family": "Berntsen",
+        "given": "Terje"
+      },
+      {
+        "family": "Betts",
+        "given": "Richard"
+      },
+      {
+        "family": "Fahey",
+        "given": "David W"
+      },
+      {
+        "family": "Haywood",
+        "given": "James"
+      },
+      {
+        "family": "Lean",
+        "given": "Judith"
+      },
+      {
+        "family": "Lowe",
+        "given": "David C"
+      },
+      {
+        "family": "Myhre",
+        "given": "Gunnar"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "Changes in atmospheric constituents and in radiative forcing. Chapter 2",
+    "container-title": "Climate Change 2007. The Physical Science Basis",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "_line": "bibliography.bib:1"
+  },
+  "sabziparvar1998changes": {
+    "id": "sabziparvar1998changes",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Sabziparvar",
+        "given": "Ali A"
+      },
+      {
+        "family": "Forster",
+        "given": "De F"
+      },
+      {
+        "family": "Shine",
+        "given": "Keith P"
+      }
+    ],
+    "title": "Changes in ultraviolet radiation due to stratospheric and tropospheric ozone changes since preindustrial times",
+    "container-title": "Journal of geophysical research",
+    "issued": {
+      "date-parts": [
+        [
+          "1998"
+        ]
+      ]
+    },
+    "page": "26107-26113",
+    "page-first": "26107",
+    "volume": "103",
+    "issue": "D20",
+    "_line": "bibliography.bib:8"
+  },
+  "seinfeld2006atmospheric": {
+    "id": "seinfeld2006atmospheric",
+    "type": "book",
+    "author": [
+      {
+        "family": "Seinfeld",
+        "given": "John H"
+      },
+      {
+        "family": "Pandis",
+        "given": "Spyros N"
+      }
+    ],
+    "title": "Atmospheric chemistry and physics. Hoboken",
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    },
+    "publisher": "NJ: Wiley",
+    "volume": "450",
+    "_line": "bibliography.bib:18"
+  },
+  "bell2006exposure": {
+    "id": "bell2006exposure",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Bell",
+        "given": "Michelle L"
+      },
+      {
+        "family": "Peng",
+        "given": "Roger D"
+      },
+      {
+        "family": "Dominici",
+        "given": "Francesca"
+      }
+    ],
+    "title": "The exposure-response curve for ozone and risk of mortality and the adequacy of current ozone regulations",
+    "container-title": "Environmental health perspectives",
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    },
+    "publisher": "JSTOR",
+    "page": "532-536",
+    "page-first": "532",
+    "_line": "bibliography.bib:26"
+  },
+  "fowler2008ground": {
+    "id": "fowler2008ground",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Fowler",
+        "given": "David"
+      },
+      {
+        "family": "Amann",
+        "given": "M"
+      },
+      {
+        "family": "Anderson",
+        "given": "F"
+      },
+      {
+        "family": "Ashmore",
+        "given": "M"
+      },
+      {
+        "family": "Cox",
+        "given": "P"
+      },
+      {
+        "family": "Depledge",
+        "given": "M"
+      },
+      {
+        "family": "Derwent",
+        "given": "D"
+      },
+      {
+        "family": "Grennfelt",
+        "given": "P"
+      },
+      {
+        "family": "Hewitt",
+        "given": "N"
+      },
+      {
+        "family": "Hov",
+        "given": "O"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "Ground-level ozone in the 21st century: future trends, impacts and policy implications",
+    "container-title": "Royal Society Science Policy Report",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "volume": "15",
+    "issue": "08",
+    "_line": "bibliography.bib:35"
+  },
+  "sitch2007indirect": {
+    "id": "sitch2007indirect",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Sitch",
+        "given": "S"
+      },
+      {
+        "family": "Cox",
+        "given": "PM"
+      },
+      {
+        "family": "Collins",
+        "given": "WJ"
+      },
+      {
+        "family": "Huntingford",
+        "given": "C"
+      }
+    ],
+    "title": "Indirect radiative forcing of climate change through ozone effects on the land-carbon sink",
+    "container-title": "Nature",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "publisher": "Nature Publishing Group",
+    "page": "791-794",
+    "page-first": "791",
+    "volume": "448",
+    "issue": "7155",
+    "_line": "bibliography.bib:44"
+  },
   "mollenhauer2010handbook": {
     "id": "mollenhauer2010handbook",
     "type": "book",
@@ -24,7 +269,7 @@
     },
     "publisher": "Springer",
     "isbn": "9783540890829",
-    "_line": "bibliography.bib:1"
+    "_line": "bibliography.bib:55"
   },
   "omidvarborna2015113": {
     "id": "Omidvarborna2015113",
@@ -58,7 +303,7 @@
     "page": "113 - 118",
     "page-first": "113",
     "volume": "140",
-    "_line": "bibliography.bib:9"
+    "_line": "bibliography.bib:63"
   },
   "annamalai2007combustion": {
     "id": "annamalai2007combustion",
@@ -82,7 +327,7 @@
     "publisher-place": "Boca Raton",
     "page": "775",
     "page-first": "775",
-    "_line": "bibliography.bib:21"
+    "_line": "bibliography.bib:75"
   },
   "epabulletin": {
     "id": "epabulletin",
@@ -125,6 +370,1105 @@
         ]
       ]
     },
-    "_line": "bibliography.bib:31"
+    "_line": "bibliography.bib:85"
+  },
+  "menut2013chimere": {
+    "id": "menut2013chimere",
+    "type": "no-type",
+    "author": [
+      {
+        "family": "Menut",
+        "given": "L"
+      },
+      {
+        "family": "Bessagnet",
+        "given": "B"
+      },
+      {
+        "family": "Khvorostyanov",
+        "given": "D"
+      },
+      {
+        "family": "Beekmann",
+        "given": "M"
+      },
+      {
+        "family": "Blond",
+        "given": "N"
+      },
+      {
+        "family": "Colette",
+        "given": "A"
+      },
+      {
+        "family": "Coll",
+        "given": "I"
+      },
+      {
+        "family": "Curci",
+        "given": "G"
+      },
+      {
+        "family": "Foret",
+        "given": "G"
+      },
+      {
+        "family": "Hodzic",
+        "given": "A"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "CHIMERE 2013: a model for regional atmospheric composition modelling, Geosci. Model Dev., 6, 981&ndash;1028, doi: 10.5194",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "publisher": "gmd-6-981-2013",
+    "_line": "bibliography.bib:92"
+  },
+  "beekmann2010modelling": {
+    "id": "beekmann2010modelling",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Beekmann",
+        "given": "M"
+      },
+      {
+        "family": "Vautard",
+        "given": "R"
+      }
+    ],
+    "title": "A modelling study of photochemical regimes over Europe: robustness and variability",
+    "container-title": "Atmos. Chem. Phys",
+    "issued": {
+      "date-parts": [
+        [
+          "2010"
+        ]
+      ]
+    },
+    "page": "10067-10084",
+    "page-first": "10067",
+    "volume": "10",
+    "_line": "bibliography.bib:99"
+  },
+  "terrenoire2015high": {
+    "id": "terrenoire2015high",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Terrenoire",
+        "given": "E"
+      },
+      {
+        "family": "Bessagnet",
+        "given": "B"
+      },
+      {
+        "family": "Rou&iuml;l",
+        "given": "L"
+      },
+      {
+        "family": "Tognet",
+        "given": "F"
+      },
+      {
+        "family": "Pirovano",
+        "given": "G"
+      },
+      {
+        "family": "L&eacute;tinois",
+        "given": "L"
+      },
+      {
+        "family": "Beauchamp",
+        "given": "M"
+      },
+      {
+        "family": "Colette",
+        "given": "A"
+      },
+      {
+        "family": "Thunis",
+        "given": "P"
+      },
+      {
+        "family": "Amann",
+        "given": "M"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "High-resolution air quality simulation over Europe with the chemistry transport model CHIMERE",
+    "container-title": "Geoscientific Model Development",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "publisher": "Copernicus GmbH",
+    "page": "21-42",
+    "page-first": "21",
+    "volume": "8",
+    "issue": "1",
+    "_line": "bibliography.bib:108"
+  },
+  "colette2011air": {
+    "id": "colette2011air",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Colette",
+        "given": "Augustin"
+      },
+      {
+        "family": "Granier",
+        "given": "Claire"
+      },
+      {
+        "family": "Hodnebrog",
+        "given": "&Oslash;ivind"
+      },
+      {
+        "family": "Jakobs",
+        "given": "Hermann"
+      },
+      {
+        "family": "Maurizi",
+        "given": "Alberto"
+      },
+      {
+        "family": "Nyiri",
+        "given": "Agnes"
+      },
+      {
+        "family": "Bessagnet",
+        "given": "Bertrand"
+      },
+      {
+        "family": "D'Angiola",
+        "given": "Ariela"
+      },
+      {
+        "family": "D'Isidoro",
+        "given": "Massimo"
+      },
+      {
+        "family": "Gauss",
+        "given": "Michael"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "Air quality trends in Europe over the past decade: a first multi-model assessment",
+    "container-title": "Atmospheric Chemistry and Physics",
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "publisher": "Copernicus GmbH",
+    "page": "11657-11678",
+    "page-first": "11657",
+    "volume": "11",
+    "issue": "22",
+    "_line": "bibliography.bib:119"
+  },
+  "simpson2012emep": {
+    "id": "simpson2012emep",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Simpson",
+        "given": "David"
+      },
+      {
+        "family": "Benedictow",
+        "given": "Anna"
+      },
+      {
+        "family": "Berge",
+        "given": "Halldis"
+      },
+      {
+        "family": "Bergstr&ouml;m",
+        "given": "Robert"
+      },
+      {
+        "family": "Emberson",
+        "given": "Lisa D"
+      },
+      {
+        "family": "Fagerli",
+        "given": "Hilde"
+      },
+      {
+        "family": "Flechard",
+        "given": "Chris R"
+      },
+      {
+        "family": "Hayman",
+        "given": "Garry D"
+      },
+      {
+        "family": "Gauss",
+        "given": "Michael"
+      },
+      {
+        "family": "Jonson",
+        "given": "Jan Eiof"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "The EMEP MSC-W chemical transport model&ndash;technical description",
+    "container-title": "Atmospheric Chemistry and Physics",
+    "issued": {
+      "date-parts": [
+        [
+          "2012"
+        ]
+      ]
+    },
+    "publisher": "Copernicus GmbH",
+    "page": "7825-7865",
+    "page-first": "7825",
+    "volume": "12",
+    "issue": "16",
+    "_line": "bibliography.bib:130"
+  },
+  "jonson2006first": {
+    "id": "jonson2006first",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Jonson",
+        "given": "J"
+      },
+      {
+        "family": "Wind",
+        "given": "P"
+      },
+      {
+        "family": "Gauss",
+        "given": "M"
+      },
+      {
+        "family": "Tsyro",
+        "given": "S"
+      },
+      {
+        "family": "S&oslash;vde",
+        "given": "A"
+      },
+      {
+        "family": "Klein",
+        "given": "H"
+      },
+      {
+        "family": "Isaksen",
+        "given": "I"
+      },
+      {
+        "family": "Tarras&oacute;n",
+        "given": "L"
+      }
+    ],
+    "title": "First results from the hemispheric EMEP model and comparison with the global Oslo CTM2 model",
+    "container-title": "The Norwegian Meteorological Institute, Oslo, Norway",
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    },
+    "_line": "bibliography.bib:141"
+  },
+  "fagerli2008trends": {
+    "id": "fagerli2008trends",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Fagerli",
+        "given": "Hilde"
+      },
+      {
+        "family": "Aas",
+        "given": "Wenche"
+      }
+    ],
+    "title": "Trends of nitrogen in air and precipitation: Model results and observations at EMEP sites in Europe, 1980&ndash;2003",
+    "container-title": "Environmental Pollution",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "publisher": "Elsevier",
+    "page": "448-461",
+    "page-first": "448",
+    "volume": "154",
+    "issue": "3",
+    "_line": "bibliography.bib:148"
+  },
+  "genberg2013light": {
+    "id": "genberg2013light",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Genberg",
+        "given": "Johan"
+      },
+      {
+        "family": "Denier Van Der Gon",
+        "given": "HAC"
+      },
+      {
+        "family": "Simpson",
+        "given": "David"
+      },
+      {
+        "family": "Swietlicki",
+        "given": "Erik"
+      },
+      {
+        "family": "Areskoug",
+        "given": "Hans"
+      },
+      {
+        "family": "Beddows",
+        "given": "David"
+      },
+      {
+        "family": "Ceburnis",
+        "given": "Darius"
+      },
+      {
+        "family": "Fiebig",
+        "given": "Markus"
+      },
+      {
+        "family": "Hansson",
+        "given": "Hans-Christen"
+      },
+      {
+        "family": "Harrison",
+        "given": "RM"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "Light-absorbing carbon in Europe&ndash;measurement and modelling, with a focus on residential wood combustion emissions",
+    "container-title": "Atmospheric Chemistry and Physics",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "publisher": "Copernicus GmbH",
+    "page": "8719-8738",
+    "page-first": "8719",
+    "volume": "13",
+    "issue": "17",
+    "_line": "bibliography.bib:159"
+  },
+  "borrell2012transport": {
+    "id": "borrell2012transport",
+    "type": "book",
+    "author": [
+      {
+        "family": "Borrell",
+        "given": "Peter"
+      },
+      {
+        "family": "Borrell",
+        "given": "Patricia M"
+      }
+    ],
+    "title": "Transport and Chemical Transformation of Pollutants in the Troposphere: An Overview of the Work of EUROTRAC",
+    "issued": {
+      "date-parts": [
+        [
+          "2012"
+        ]
+      ]
+    },
+    "publisher": "Springer Science &amp; Business Media",
+    "volume": "1",
+    "_line": "bibliography.bib:170"
+  },
+  "memmesheimer2004long": {
+    "id": "memmesheimer2004long",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Memmesheimer",
+        "given": "M"
+      },
+      {
+        "family": "Friese",
+        "given": "E"
+      },
+      {
+        "family": "Ebel",
+        "given": "A"
+      },
+      {
+        "family": "Jakobs",
+        "given": "HJ"
+      },
+      {
+        "family": "Feldmann",
+        "given": "H"
+      },
+      {
+        "family": "Kessler",
+        "given": "C"
+      },
+      {
+        "family": "Piekorz",
+        "given": "G"
+      }
+    ],
+    "title": "Long-term simulations of particulate matter in Europe on different scales using sequential nesting of a regional model",
+    "container-title": "International Journal of Environment and Pollution",
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    },
+    "publisher": "Inderscience Publishers",
+    "page": "108-132",
+    "page-first": "108",
+    "volume": "22",
+    "issue": "1-2",
+    "_line": "bibliography.bib:178"
+  },
+  "elbern2007emission": {
+    "id": "elbern2007emission",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Elbern",
+        "given": "H"
+      },
+      {
+        "family": "Strunk",
+        "given": "A"
+      },
+      {
+        "family": "Schmidt",
+        "given": "H"
+      },
+      {
+        "family": "Talagrand",
+        "given": "O"
+      }
+    ],
+    "title": "Emission rate and chemical state estimation by 4-dimensional variational inversion",
+    "container-title": "Atmospheric Chemistry and Physics",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "publisher": "Copernicus GmbH",
+    "page": "3749-3769",
+    "page-first": "3749",
+    "volume": "7",
+    "issue": "14",
+    "_line": "bibliography.bib:189"
+  },
+  "monteiro2013bias": {
+    "id": "monteiro2013bias",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Monteiro",
+        "given": "A"
+      },
+      {
+        "family": "Ribeiro",
+        "given": "I"
+      },
+      {
+        "family": "Tchepel",
+        "given": "O"
+      },
+      {
+        "family": "S&aacute;",
+        "given": "E"
+      },
+      {
+        "family": "Ferreira",
+        "given": "J"
+      },
+      {
+        "family": "Carvalho",
+        "given": "A"
+      },
+      {
+        "family": "Martins",
+        "given": "V"
+      },
+      {
+        "family": "Strunk",
+        "given": "A"
+      },
+      {
+        "family": "Galmarini",
+        "given": "S"
+      },
+      {
+        "family": "Elbern",
+        "given": "H"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "Bias correction techniques to improve air quality ensemble predictions: focus on O3 and PM over Portugal",
+    "container-title": "Environmental Modeling &amp; Assessment",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "page": "533-546",
+    "page-first": "533",
+    "volume": "18",
+    "issue": "5",
+    "_line": "bibliography.bib:200"
+  },
+  "paschalidi2015inverse": {
+    "id": "paschalidi2015inverse",
+    "type": "thesis",
+    "genre": "phdthesis",
+    "author": [
+      {
+        "family": "Paschalidi",
+        "given": "Zoi"
+      }
+    ],
+    "title": "Inverse modelling for the tropospheric chemical state estimation by 4-dimensional variational data assimilation from routinely and campaign platforms",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "publisher": "Universit&auml;t zu K&ouml;ln",
+    "_line": "bibliography.bib:211"
+  },
+  "schaap2008lotos": {
+    "id": "schaap2008lotos",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Schaap",
+        "given": "Martijn"
+      },
+      {
+        "family": "Timmermans",
+        "given": "Renske MA"
+      },
+      {
+        "family": "Roemer",
+        "given": "Michiel"
+      },
+      {
+        "family": "Boersen",
+        "given": "GAC"
+      },
+      {
+        "family": "Builtjes",
+        "given": "Peter"
+      },
+      {
+        "family": "Sauter",
+        "given": "Ferd"
+      },
+      {
+        "family": "Velders",
+        "given": "Guus"
+      },
+      {
+        "family": "Beck",
+        "given": "Jeanette"
+      }
+    ],
+    "title": "The LOTOS-EUROS model: description, validation and latest developments",
+    "container-title": "International Journal of Environment and Pollution",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "publisher": "Inderscience Publishers",
+    "page": "270-290",
+    "page-first": "270",
+    "volume": "32",
+    "issue": "2",
+    "_line": "bibliography.bib:218"
+  },
+  "de2011six": {
+    "id": "de2011six",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Wildt",
+        "given": "Martijn de Ruyter",
+        "dropping-particle": "de"
+      },
+      {
+        "family": "Eskes",
+        "given": "Henk"
+      },
+      {
+        "family": "Manders",
+        "given": "Astrid"
+      },
+      {
+        "family": "Sauter",
+        "given": "Ferd"
+      },
+      {
+        "family": "Schaap",
+        "given": "Martijn"
+      },
+      {
+        "family": "Swart",
+        "given": "Daan"
+      },
+      {
+        "family": "Velthoven",
+        "given": "Peter",
+        "dropping-particle": "van"
+      }
+    ],
+    "title": "Six-day PM 10 air quality forecasts for the Netherlands with the chemistry transport model Lotos-Euros",
+    "container-title": "Atmospheric environment",
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "publisher": "Elsevier",
+    "page": "5586-5594",
+    "page-first": "5586",
+    "volume": "45",
+    "issue": "31",
+    "_line": "bibliography.bib:229"
+  },
+  "curier2012improving": {
+    "id": "curier2012improving",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Curier",
+        "given": "RL"
+      },
+      {
+        "family": "Timmermans",
+        "given": "R"
+      },
+      {
+        "family": "Calabretta-Jongen",
+        "given": "S"
+      },
+      {
+        "family": "Eskes",
+        "given": "H"
+      },
+      {
+        "family": "Segers",
+        "given": "A"
+      },
+      {
+        "family": "Swart",
+        "given": "D"
+      },
+      {
+        "family": "Schaap",
+        "given": "M"
+      }
+    ],
+    "title": "Improving ozone forecasts over Europe by synergistic use of the LOTOS-EUROS chemical transport model and in-situ measurements",
+    "container-title": "Atmospheric environment",
+    "issued": {
+      "date-parts": [
+        [
+          "2012"
+        ]
+      ]
+    },
+    "publisher": "Elsevier",
+    "page": "217-226",
+    "page-first": "217",
+    "volume": "60",
+    "_line": "bibliography.bib:240"
+  },
+  "vlemmix2015max": {
+    "id": "vlemmix2015max",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Vlemmix",
+        "given": "T"
+      },
+      {
+        "family": "Eskes",
+        "given": "HJ"
+      },
+      {
+        "family": "Piters",
+        "given": "AJM"
+      },
+      {
+        "family": "Schaap",
+        "given": "M"
+      },
+      {
+        "family": "Sauter",
+        "given": "FJ"
+      },
+      {
+        "family": "Kelder",
+        "given": "H"
+      },
+      {
+        "family": "Levelt",
+        "given": "PF"
+      }
+    ],
+    "title": "MAX-DOAS tropospheric nitrogen dioxide column measurements compared with the Lotos-Euros air quality model",
+    "container-title": "Atmospheric Chemistry and Physics",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "publisher": "Copernicus GmbH",
+    "page": "1313-1330",
+    "page-first": "1313",
+    "volume": "15",
+    "issue": "3",
+    "_line": "bibliography.bib:250"
+  },
+  "langner1998validation": {
+    "id": "langner1998validation",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Langner",
+        "given": "Joakim"
+      },
+      {
+        "family": "Robertson",
+        "given": "Lennart"
+      },
+      {
+        "family": "Persson",
+        "given": "Christer"
+      },
+      {
+        "family": "Ullerstig",
+        "given": "Anders"
+      }
+    ],
+    "title": "Validation of the operational emergency response model at the Swedish meteorological and hydrological institute using data from ETEX and the Chernobyl accident",
+    "container-title": "Atmospheric Environment",
+    "issued": {
+      "date-parts": [
+        [
+          "1998"
+        ]
+      ]
+    },
+    "publisher": "Elsevier",
+    "page": "4325-4333",
+    "page-first": "4325",
+    "volume": "32",
+    "issue": "24",
+    "_line": "bibliography.bib:261"
+  },
+  "josse2004radon": {
+    "id": "josse2004radon",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Josse",
+        "given": "B"
+      },
+      {
+        "family": "Simon",
+        "given": "P"
+      },
+      {
+        "family": "Peuch",
+        "given": "V-H"
+      }
+    ],
+    "title": "Radon global simulations with the multiscale chemistry and transport model MOCAGE",
+    "container-title": "Tellus B",
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    },
+    "publisher": "Wiley Online Library",
+    "page": "339-356",
+    "page-first": "339",
+    "volume": "56",
+    "issue": "4",
+    "_line": "bibliography.bib:272"
+  },
+  "bousserez2007evaluation": {
+    "id": "bousserez2007evaluation",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Bousserez",
+        "given": "N"
+      },
+      {
+        "family": "Atti&eacute;",
+        "given": "JL"
+      },
+      {
+        "family": "Peuch",
+        "given": "VH"
+      },
+      {
+        "family": "Michou",
+        "given": "M"
+      },
+      {
+        "family": "Pfister",
+        "given": "G"
+      },
+      {
+        "family": "Edwards",
+        "given": "D"
+      },
+      {
+        "family": "Emmons",
+        "given": "L"
+      },
+      {
+        "family": "Mari",
+        "given": "C"
+      },
+      {
+        "family": "Barret",
+        "given": "B"
+      },
+      {
+        "family": "Arnold",
+        "given": "SR"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "Evaluation of the MOCAGE chemistry transport model during the ICARTT/ITOP experiment",
+    "container-title": "Journal of Geophysical Research: Atmospheres",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "publisher": "Wiley Online Library",
+    "volume": "112",
+    "issue": "D10",
+    "_line": "bibliography.bib:283"
+  },
+  "lacressonniere2014european": {
+    "id": "lacressonniere2014european",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Lacressonni&egrave;re",
+        "given": "G"
+      },
+      {
+        "family": "Peuch",
+        "given": "V-H"
+      },
+      {
+        "family": "Vautard",
+        "given": "R"
+      },
+      {
+        "family": "Arteta",
+        "given": "J"
+      },
+      {
+        "family": "D&eacute;qu&eacute;",
+        "given": "M"
+      },
+      {
+        "family": "Joly",
+        "given": "M"
+      },
+      {
+        "family": "Josse",
+        "given": "B"
+      },
+      {
+        "family": "Mar&eacute;cal",
+        "given": "V"
+      },
+      {
+        "family": "Saint-Martin",
+        "given": "D"
+      }
+    ],
+    "title": "European air quality in the 2030s and 2050s: impacts of global and regional emission trends and of climate change",
+    "container-title": "Atmospheric Environment",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "publisher": "Elsevier",
+    "page": "348-358",
+    "page-first": "348",
+    "volume": "92",
+    "_line": "bibliography.bib:293"
+  },
+  "rouil2009prev": {
+    "id": "rouil2009prev",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Rouil",
+        "given": "Laurence"
+      },
+      {
+        "family": "Honore",
+        "given": "C&eacute;cile"
+      },
+      {
+        "family": "Vautard",
+        "given": "Robert"
+      },
+      {
+        "family": "Beekmann",
+        "given": "Matthias"
+      },
+      {
+        "family": "Bessagnet",
+        "given": "Bertrand"
+      },
+      {
+        "family": "Malherbe",
+        "given": "Laure"
+      },
+      {
+        "family": "Meleux",
+        "given": "Fr&eacute;d&eacute;rik"
+      },
+      {
+        "family": "Dufour",
+        "given": "Anne"
+      },
+      {
+        "family": "Elichegaray",
+        "given": "Christian"
+      },
+      {
+        "family": "Flaud",
+        "given": "Jean-Marie"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "PREV'AIR",
+    "container-title": "Bulletin of the American Meteorological Society",
+    "issued": {
+      "date-parts": [
+        [
+          "2009"
+        ]
+      ]
+    },
+    "publisher": "American Meteorological Society",
+    "page": "73",
+    "page-first": "73",
+    "volume": "90",
+    "issue": "1",
+    "_line": "bibliography.bib:303"
+  },
+  "sofiev2008construction": {
+    "id": "sofiev2008construction",
+    "type": "chapter",
+    "author": [
+      {
+        "family": "Sofiev",
+        "given": "Mikhail"
+      },
+      {
+        "family": "Galperin",
+        "given": "Michael"
+      },
+      {
+        "family": "Genikhovich",
+        "given": "Eugene"
+      }
+    ],
+    "title": "A construction and evaluation of Eulerian dynamic core for the air quality and emergency modelling system SILAM",
+    "container-title": "Air Pollution Modeling and Its Application XIX",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "page": "699-701",
+    "page-first": "699",
+    "_line": "bibliography.bib:314"
   }
 }
