@@ -495,7 +495,7 @@ All products when clicked lead to a page with several links available. This can 
 We are primarily concerned about the provided plots and data. 
 As is mentioned before, the procedure onward is different for global and regional products.
 
-Global product *Plots* link to a page within CAMS website where an interactive global map is provided. 
+For global products, *Plots* links to a page within CAMS website where an interactive global map is provided. 
 Figure shows the generated map of global analysis of NO~2~ for December 4th, 2016.
 Information about NO~2~ concentration is color-layered on the map with a measurement unit legend provided.
 The user is able to adjust the date/time and the vertical area of interest.
@@ -513,6 +513,20 @@ After the user has set the filters he is able to download data in both GRID and 
 In both cases he is led to an *Additional filtering* form where he can define the area of interest and the grid resolution as shown in Figure.
 The data is then available for downloading.
 
+For regional products, both *Plots* and *Data download* link to the regional subdomain of CAMS website.
+The subdomain provides a universal access to individual models and ensemble plots and data for both analyses and forecasts.
+This is done by an easy-to-use tab section as seen in Figure. 
+
+In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps, additional plots of daily mean and maximum values as well as EPSgrams for 41 major European cities are available (Figure ).
+
+~ Figure { #ensemble-tab; caption: "Available options in *Ensemble Analysis and Forecast* tab"; page-align="}
+![ensemble_tab]
+~
+
+*Individual Analyses* and *Individual Forecasts* tabs provide 
+
+[ensemble_tab]: images/ensemble_tab.jpg "ensemble_tab" { width:auto; max-width:90% }
+
 # Conclusions
- 
+
 [BIB]
