@@ -524,8 +524,12 @@ In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps
 ~
 [ensemble_tab]: images/ensemble_tab.jpg "ensemble_tab" { width:auto; max-width:90% }
 
-*Hourly Ensemble Maps* (as well as all regional maps) provide a friendly user interface (UI) with details of the product, a time navigation bar, filters for base date/time, model, vertical level and parameter options.
-The outline is shown in Figure [#regional-map-details]. A useful *Download PDF* button, which exports the map to PDF format, is also present.
+*Hourly Ensemble Maps* (as well as all maps) provide a friendly user interface (UI) with details of the product, a time navigation bar, filters for base date/time, model, vertical level and parameter options.
+The outline is shown in Figure [#regional-map-details].
+*Hourly Ensemble Maps* provide analysis and forecasts in the same UI. User first select a base date/time and then, depending on navigation's bar value, he selects forecast or analysis produced on that day.
+For example, if selected date/time is 00:00 UTC December 4th, 2016 and time navigation bar value is -10, then the analysis for 14:00 UTC December 3rd is depicted on the map.
+Similarly, given the same date/time and a value of $+48$ in time navigation bar, the forecast of 00:00 UTC December 6th is shown. 
+A useful *Download PDF* button, which exports the map to PDF format, is also present.
 
 ~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products."; page-align: forcehere;}
 ![regional_map_details]
