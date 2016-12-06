@@ -446,35 +446,34 @@ Statistics are based on the quarter of March - May 2016, which is the latest wit
 ~ TableFigure {#models-3; .booktable; caption: "Availabilty statistics of models' outputs for usage in ENSEMBLE"; line-height: 1.5; font-size: 8pt; page-align: forcehere;}
 |**Model**  |**Forecast Availability** |**Analysis Availability** |
 |:----------|:-------------------------|:-------------------------|
-|CHIMERE    |Day0: 85&perc;               |83&perc;        |
-|           |Day1: 85&perc;                             |                          |
-|           |Day2: 85&perc;                             |                          |
-|           |Day3: 75&perc;                             |                          |
-|EMEP       |Day0: 97&perc;           |97&perc;       |
-|           |Day1: 96&perc;                             |                          |
-|           |Day2: 96&perc;                             |                          |
-|           |Day3: 96&perc;                             |                          |
-|EURAD-IM   |Day0: 99&perc;            |98&perc;         |
-|           |Day1: 99&perc;            |      |
+|CHIMERE    |Day0: 85&perc;            |83&perc;                  |
+|           |Day1: 85&perc;            |                          |
+|           |Day2: 85&perc;            |                          |
+|           |Day3: 75&perc;            |                          |
+|EMEP       |Day0: 97&perc;            |97&perc;                  |
+|           |Day1: 96&perc;            |                          |
+|           |Day2: 96&perc;            |                          |
+|           |Day3: 96&perc;            |                          |
+|EURAD-IM   |Day0: 99&perc;            |98&perc;                  |
+|           |Day1: 99&perc;            |                          |
 |           |Day2: 99&perc;            |                          |
-|           |Day: 99&perc;            |                          |
-|LOTOS-EURO |Day0: 97&perc;            |97&perc;       |
+|           |Day: 99&perc;             |                          |
+|LOTOS-EURO |Day0: 97&perc;            |97&perc;                  |
 |           |Day1: 97&perc;            |                          |
 |           |Day2: 97&perc;            |                          |
 |           |Day3: 97&perc;            |                          |
-|MATCH      |Day0: 99&perc;            |97&perc;         |
+|MATCH      |Day0: 99&perc;            |97&perc;                  |
 |           |Day1: 99&perc;            |                          |
 |           |Day2: 99&perc;            |                          |
 |           |Day3: 97&perc;            |                          |
-|MOCAGE     |Day0: 100&perc;            |98&perc;         |
-|           |Day1: 100&perc;            |                          |
+|MOCAGE     |Day0: 100&perc;           |98&perc;                  |
+|           |Day1: 100&perc;           |                          |
 |           |Day2: 99&perc;            |                          |
 |           |Day3: 99&perc;            |                          |
 |SILAM      |Day0: 97&perc;            |96&perc;                  |
 |           |Day1: 97&perc;            |                          |
 |           |Day2: 97&perc;            |                          |
 |           |Day3: 97&perc;            |                          |
-|           |                          |                          |
 ~
 
 [^dossiers]: https://atmosphere.copernicus.eu/documentation-regional-systems
@@ -491,29 +490,51 @@ We set the provided filters as following:
 * Parameter = Nitrogen Dioxide  
 
 18 results are returned. 1 global analysis, 1 global forecast, 8 regional forecasts and 8 regional analyses (7 individual models plus ensemble). 
-All products when clicked lead to a page with several links available. This can be seen in Figure for the case of global analysis.
+All products when clicked lead to a page with several links available. This can be seen in Figure [#cams-catalogue] for the case of global analysis.
 We are primarily concerned about the provided plots and data. 
-As is mentioned before, the procedure onward is different for global and regional products.
+As it is mentioned before, the procedure onward is different for global and regional products.
 
-For global products, *Plots* links to a page within CAMS website where an interactive global map is provided. 
-Figure shows the generated map of global analysis of NO~2~ for December 4th, 2016.
+~ Figure { #cams-catalogue; caption: "Available options and details of CAMS Catalogue product \ *Global analyses of chemical species - nitrogen dioxide*"; page-align: forcehere;}
+![catalogue]
+~
+[catalogue]: images/catalogue.png "catalogue" { width:auto; max-width:90% }
+
+
+**For global products**, *Plots* links to a page within CAMS website where an interactive global map is provided. 
+Figure [#global-map] shows the generated map of global analysis of NO~2~ concentration for 00:00 UTC December 4th, 2016.
 Information about NO~2~ concentration is color-layered on the map with a measurement unit legend provided.
 The user is able to adjust the date/time and the vertical area of interest.
 
+~ Figure { #global-map; caption: "Global analysis of NO~2~ concentration for December 4th, 2016"; page-align: forcehere;}
+![global_map]
+~
+[global_map]: images/global_map.png "global_map" { width:auto; max-width:90% }
+
 It should be noted that the plots service seems confusing at first, since both global analyses and forecasts link to the same page.
-The distinction between analysis and forecast is based on the date/time selected in respect to curret date/time.
-Also, the plot service is time-limited in the sense that provides analyses for the past 5 days and forecasts for the following 5.
+The distinction between analysis and forecast is based on the date/time selected in respect to current date/time.
+Also, the plot service is time-limited in the sense that provides analyses for the past $5$ days and forecasts for the following $5$ days only.
 
 Global product *Data download* link to a page within CAMS website where the user can choose to download data through an interactive interface or through ftp access.
-Interactive data access link to ECMWF website. The user is presented a rich web form to select the exact product of interest. This is shown in Figure.
+Interactive data access link to ECMWF website. The user is presented a rich web form to select the exact product of interest. This is shown in Figure [#global-data].
 A date-span or specific months can be selected, different vertical levels (surface or pressure dependent or model dependent), multiple time-steps and a huge parameter list, which of course includes NO~2~.
 A drawback is that data for the past four days in respect to current date is not available.
 
+~ Figure { #global-data; caption: "User Interface of ECMWF website for downloading data of global analyses and forecasts."; page-align: forcehere;}
+![global_real_time]
+~
+[global_real_time]: images/global_real_time.png "global_real_time" { width:auto; max-width:90% }
+
 After the user has set the filters he is able to download data in both GRID and NetCDF format by clicking the relative link.
-In both cases he is led to an *Additional filtering* form where he can define the area of interest and the grid resolution as shown in Figure.
+In both cases he is led to an *Additional filtering* form where he can define the area of interest and the grid resolution as shown in Figure [#global-data-additional].
 The data is then available for downloading.
 
-For regional products, both *Plots* and *Data download* link to the regional subdomain of CAMS website.
+~ Figure { #global-data-additional; caption: "Additional filtering of global analyses' and forecasts' data before downloading."; page-align: forcehere;}
+![global_real_time_additional]
+~
+[global_real_time_additional]: images/global_real_time_additional.png "global_real_time_additional" { width:auto; max-width:90% }
+
+
+**For regional products**, both *Plots* and *Data download* link to the regional subdomain of CAMS website.
 The subdomain provides a universal access to individual models and ensemble plots and data for both analyses and forecasts.
 This is done by an easy-to-use tab section as seen in Figure. 
 
@@ -527,14 +548,22 @@ In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps
 *Hourly Ensemble Maps* (as well as all maps) provide a friendly user interface (UI) with details of the product, a time navigation bar, filters for base date/time, model, vertical level and parameter options.
 The outline is shown in Figure [#regional-map-details].
 *Hourly Ensemble Maps* provide analysis and forecasts in the same UI. User first select a base date/time and then, depending on navigation's bar value, he selects forecast or analysis produced on that day.
-For example, if selected date/time is 00:00 UTC December 4th, 2016 and time navigation bar value is -10, then the analysis for 14:00 UTC December 3rd is depicted on the map.
+For example, if selected date/time is 00:00 UTC December 4th, 2016 and time navigation bar value is $-10$, then the analysis for 14:00 UTC December 3rd is depicted on the map.
 Similarly, given the same date/time and a value of $+48$ in time navigation bar, the forecast of 00:00 UTC December 6th is shown. 
-A useful *Download PDF* button, which exports the map to PDF format, is also present.
+A useful *Download PDF* button, which exports the map to PDF format, is also present. 
+
+In order to obtain the analysis of NO~2~ concentration on 00:00 UTC December 4th, 2016 we set as date/time the December 5th and a time step of $-24$. 
+Obtained map is shown in Figure [#ensemble-maps].
 
 ~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products."; page-align: forcehere;}
 ![regional_map_details]
 ~
 [regional_map_details]: images/regional_map_details.jpg "regional_map_details" { width:auto; max-width:90% }
+
+~ Figure { #ensemble-maps; caption: "Analysis of NO~2~ concentration on 00:00 UTC December 4th, 2016 issued from the ENSEMBLE model."; page-align: forcehere;}
+![ensemble_analysis_surface]
+~
+[ensemble_analysis_surface]: images/ensemble_analysis_surface.jpg "ensemble_analysis_surface" { width:auto; max-width:90% }
 
 *Daily mean and maximum* tab provides maps of the daily mean and maximum values of the concentration of pollutants as calculated by each model and ensemble.
 A useful feature is the ability to view the maps generated of all models side by side. 
@@ -546,7 +575,7 @@ This feature is shown in Figure [#regional-maximum] for NO~2~ maximum concentrat
 [regional_maximum]: images/regional_maximum.jpg "regional_maximum" { width:auto; max-width:90% }
 
 *EPSgrams* tab provide 4-days forecasts of O~3~, NO~2~, SO~2~ and PM~10~ at the location of 41 major European cities and their uncertainty.
-In Figure [#regional-epsgram] forecasts at Athens between December 4th and December 8th, 2016 is shown.
+In Figure [#regional-epsgram] forecasts for the city of Athens between December 4th and December 8th, 2016 are shown.
 
 ~ Figure { #regional-epsgram; caption: "4-day forecast of O~3~, NO~2~, SO~2~ and PM~10~ at the city of Athens for the period between December 4th - December 8th, 2016."; page-align: forcehere;}
 ![regional-epsgram]
@@ -558,10 +587,27 @@ In Figure [#regional-epsgram] forecasts at Athens between December 4th and Decem
 Analyses are available for the day before at an hourly step. 
 Forecasts are available up to 4 days ahead at an hourly step.
 It is interesting to see the relevance of the forecast for a given date/time to the post-analysis.
-In Figure 
+In Figure [#chimere-map] we see the forecast of NO~2~ concentration for December 4th, 2016 issued on December 3rd and the relevant analysis issued on December 5th.
+It is obvious that results are quite different.
 
+~ Begin Figure { #chimere-map; caption: "Forecast and analysis maps of NO~2~ concentration for December 4th, 2016 issued by the CHIMERE model."; page-align: forcehere;}
+~ Begin SubFigureRow { vertical-align: bottom }
+~ Begin SubFigure { caption:"Forecast issued on December 3rd, 2016"; }
+![chimere_forecast]
+~ End SubFigure
+~ Begin SubFigure { caption: "Analysis issued on December 5th, 2016"; }
+![chimere_analysis]
+~ End SubFigure
+~ End SubFigureRow
+~ End Figure
 
+[chimere_analysis]: images/chimere_analysis.jpg "chimere_analysis" { width:auto; max-width:90% }
 
+[chimere_forecast]: images/chimere_forecast.jpg "chimere_forecast" { width:auto; max-width:90% }
+
+Data files are very easy to download. Under the filters section there is a *Direct Data Access* section with a checkbox for accepting the CAMS data licence.
+Once the checkbox is checked we are presented with the details of the product (model, pollutant, base date/time) and an optional selectbox with available options depending on the product.
+After an option is selected a direct download in NetCDF format is available by clicking the button.
 
 # Conclusions
 
