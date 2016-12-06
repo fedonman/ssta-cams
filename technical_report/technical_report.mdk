@@ -479,7 +479,7 @@ Statistics are based on the quarter of March - May 2016, which is the latest wit
 
 [^dossiers]: https://atmosphere.copernicus.eu/documentation-regional-systems
 
-# Results
+# Results & Discussions
 In this section, we will reproduce a real-life case of air quality monitoring, to test the validity of CAMS forecast services and evaluate its easiness of use.
 Specifically, we will study the concentration of nitrogen dioxide on December 4th, 2016 in global and European scale.
 
@@ -495,7 +495,7 @@ All products when clicked lead to a page with several links available. This can 
 We are primarily concerned about the provided plots and data. 
 As is mentioned before, the procedure onward is different for global and regional products.
 
-Global product plots link to a page within CAMS website where an interactive global map is provided. 
+Global product *Plots* link to a page within CAMS website where an interactive global map is provided. 
 Figure shows the generated map of global analysis of NO~2~ for December 4th, 2016.
 Information about NO~2~ concentration is color-layered on the map with a measurement unit legend provided.
 The user is able to adjust the date/time and the vertical area of interest.
@@ -504,6 +504,15 @@ It should be noted that the plots service seems confusing at first, since both g
 The distinction between analysis and forecast is based on the date/time selected in respect to curret date/time.
 Also, the plot service is time-limited in the sense that provides analyses for the past 5 days and forecasts for the following 5.
 
-# Conclusions
+Global product *Data download* link to a page within CAMS website where the user can choose to download data through an interactive interface or through ftp access.
+Interactive data access link to ECMWF website. The user is presented a rich web form to select the exact product of interest. This is shown in Figure.
+A date-span or specific months can be selected, different vertical levels (surface or pressure dependent or model dependent), multiple time-steps and a huge parameter list, which of course includes NO~2~.
+A drawback is that data for the past four days in respect to current date is not available.
 
+After the user has set the filters he is able to download data in both GRID and NetCDF format by clicking the relative link.
+In both cases he is led to an *Additional filtering* form where he can define the area of interest and the grid resolution as shown in Figure.
+The data is then available for downloading.
+
+# Conclusions
+ 
 [BIB]
