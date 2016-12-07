@@ -1,6 +1,69 @@
 {
   "_preamble": "",
   "_comments": "",
+  "ebel2007advanced": {
+    "id": "ebel2007advanced",
+    "type": "chapter",
+    "author": [
+      {
+        "family": "Ebel",
+        "given": "Adolf"
+      },
+      {
+        "family": "Memmesheimer",
+        "given": "Michael"
+      },
+      {
+        "family": "Jakobs",
+        "given": "Hermann J"
+      },
+      {
+        "family": "Feldmann",
+        "given": "Hendrik"
+      }
+    ],
+    "title": "Advanced air pollution models and their application to risk and impact assessment",
+    "container-title": "Air, Water and Soil Quality Modelling for Risk and Impact Assessment",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "page": "83-92",
+    "page-first": "83",
+    "_line": "bibliography.bib:1"
+  },
+  "menut2010atmospheric": {
+    "id": "menut2010atmospheric",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Menut",
+        "given": "Laurent"
+      },
+      {
+        "family": "Bessagnet",
+        "given": "Bertrand"
+      }
+    ],
+    "title": "Atmospheric composition forecasting in Europe",
+    "container-title": "Annales Geophysicae",
+    "issued": {
+      "date-parts": [
+        [
+          "2010"
+        ]
+      ]
+    },
+    "page": "61-74",
+    "page-first": "61",
+    "volume": "28",
+    "collection-number": "1",
+    "_line": "bibliography.bib:10"
+  },
   "forster2007changes": {
     "id": "forster2007changes",
     "type": "chapter",
@@ -58,7 +121,7 @@
         ]
       ]
     },
-    "_line": "bibliography.bib:1"
+    "_line": "bibliography.bib:20"
   },
   "sabziparvar1998changes": {
     "id": "sabziparvar1998changes",
@@ -90,7 +153,7 @@
     "page-first": "26107",
     "volume": "103",
     "issue": "D20",
-    "_line": "bibliography.bib:8"
+    "_line": "bibliography.bib:27"
   },
   "seinfeld2006atmospheric": {
     "id": "seinfeld2006atmospheric",
@@ -115,7 +178,7 @@
     },
     "publisher": "NJ: Wiley",
     "volume": "450",
-    "_line": "bibliography.bib:18"
+    "_line": "bibliography.bib:37"
   },
   "bell2006exposure": {
     "id": "bell2006exposure",
@@ -146,7 +209,7 @@
     "publisher": "JSTOR",
     "page": "532-536",
     "page-first": "532",
-    "_line": "bibliography.bib:26"
+    "_line": "bibliography.bib:45"
   },
   "fowler2008ground": {
     "id": "fowler2008ground",
@@ -207,7 +270,7 @@
     },
     "volume": "15",
     "issue": "08",
-    "_line": "bibliography.bib:35"
+    "_line": "bibliography.bib:54"
   },
   "sitch2007indirect": {
     "id": "sitch2007indirect",
@@ -244,7 +307,7 @@
     "page-first": "791",
     "volume": "448",
     "issue": "7155",
-    "_line": "bibliography.bib:44"
+    "_line": "bibliography.bib:63"
   },
   "mollenhauer2010handbook": {
     "id": "mollenhauer2010handbook",
@@ -269,7 +332,7 @@
     },
     "publisher": "Springer",
     "isbn": "9783540890829",
-    "_line": "bibliography.bib:55"
+    "_line": "bibliography.bib:74"
   },
   "omidvarborna2015113": {
     "id": "Omidvarborna2015113",
@@ -303,7 +366,7 @@
     "page": "113 - 118",
     "page-first": "113",
     "volume": "140",
-    "_line": "bibliography.bib:63"
+    "_line": "bibliography.bib:82"
   },
   "annamalai2007combustion": {
     "id": "annamalai2007combustion",
@@ -327,7 +390,7 @@
     "publisher-place": "Boca Raton",
     "page": "775",
     "page-first": "775",
-    "_line": "bibliography.bib:75"
+    "_line": "bibliography.bib:94"
   },
   "epabulletin": {
     "id": "epabulletin",
@@ -370,7 +433,7 @@
         ]
       ]
     },
-    "_line": "bibliography.bib:85"
+    "_line": "bibliography.bib:104"
   },
   "menut2013chimere": {
     "id": "menut2013chimere",
@@ -429,7 +492,7 @@
       ]
     },
     "publisher": "gmd-6-981-2013",
-    "_line": "bibliography.bib:92"
+    "_line": "bibliography.bib:111"
   },
   "beekmann2010modelling": {
     "id": "beekmann2010modelling",
@@ -456,7 +519,7 @@
     "page": "10067-10084",
     "page-first": "10067",
     "volume": "10",
-    "_line": "bibliography.bib:99"
+    "_line": "bibliography.bib:118"
   },
   "terrenoire2015high": {
     "id": "terrenoire2015high",
@@ -520,7 +583,7 @@
     "page-first": "21",
     "volume": "8",
     "issue": "1",
-    "_line": "bibliography.bib:108"
+    "_line": "bibliography.bib:127"
   },
   "colette2011air": {
     "id": "colette2011air",
@@ -584,7 +647,7 @@
     "page-first": "11657",
     "volume": "11",
     "issue": "22",
-    "_line": "bibliography.bib:119"
+    "_line": "bibliography.bib:138"
   },
   "simpson2012emep": {
     "id": "simpson2012emep",
@@ -648,7 +711,7 @@
     "page-first": "7825",
     "volume": "12",
     "issue": "16",
-    "_line": "bibliography.bib:130"
+    "_line": "bibliography.bib:149"
   },
   "jonson2006first": {
     "id": "jonson2006first",
@@ -696,7 +759,7 @@
         ]
       ]
     },
-    "_line": "bibliography.bib:141"
+    "_line": "bibliography.bib:160"
   },
   "fagerli2008trends": {
     "id": "fagerli2008trends",
@@ -725,7 +788,7 @@
     "page-first": "448",
     "volume": "154",
     "issue": "3",
-    "_line": "bibliography.bib:148"
+    "_line": "bibliography.bib:167"
   },
   "genberg2013light": {
     "id": "genberg2013light",
@@ -789,7 +852,7 @@
     "page-first": "8719",
     "volume": "13",
     "issue": "17",
-    "_line": "bibliography.bib:159"
+    "_line": "bibliography.bib:178"
   },
   "borrell2012transport": {
     "id": "borrell2012transport",
@@ -814,7 +877,7 @@
     },
     "publisher": "Springer Science &amp; Business Media",
     "volume": "1",
-    "_line": "bibliography.bib:170"
+    "_line": "bibliography.bib:189"
   },
   "memmesheimer2004long": {
     "id": "memmesheimer2004long",
@@ -863,7 +926,7 @@
     "page-first": "108",
     "volume": "22",
     "issue": "1-2",
-    "_line": "bibliography.bib:178"
+    "_line": "bibliography.bib:197"
   },
   "elbern2007emission": {
     "id": "elbern2007emission",
@@ -900,7 +963,7 @@
     "page-first": "3749",
     "volume": "7",
     "issue": "14",
-    "_line": "bibliography.bib:189"
+    "_line": "bibliography.bib:208"
   },
   "monteiro2013bias": {
     "id": "monteiro2013bias",
@@ -964,7 +1027,7 @@
     "page-first": "533",
     "volume": "18",
     "issue": "5",
-    "_line": "bibliography.bib:200"
+    "_line": "bibliography.bib:219"
   },
   "paschalidi2015inverse": {
     "id": "paschalidi2015inverse",
@@ -985,7 +1048,7 @@
       ]
     },
     "publisher": "Universit&auml;t zu K&ouml;ln",
-    "_line": "bibliography.bib:211"
+    "_line": "bibliography.bib:230"
   },
   "schaap2008lotos": {
     "id": "schaap2008lotos",
@@ -1038,7 +1101,7 @@
     "page-first": "270",
     "volume": "32",
     "issue": "2",
-    "_line": "bibliography.bib:218"
+    "_line": "bibliography.bib:237"
   },
   "de2011six": {
     "id": "de2011six",
@@ -1089,7 +1152,7 @@
     "page-first": "5586",
     "volume": "45",
     "issue": "31",
-    "_line": "bibliography.bib:229"
+    "_line": "bibliography.bib:248"
   },
   "curier2012improving": {
     "id": "curier2012improving",
@@ -1137,7 +1200,7 @@
     "page": "217-226",
     "page-first": "217",
     "volume": "60",
-    "_line": "bibliography.bib:240"
+    "_line": "bibliography.bib:259"
   },
   "vlemmix2015max": {
     "id": "vlemmix2015max",
@@ -1186,7 +1249,7 @@
     "page-first": "1313",
     "volume": "15",
     "issue": "3",
-    "_line": "bibliography.bib:250"
+    "_line": "bibliography.bib:269"
   },
   "langner1998validation": {
     "id": "langner1998validation",
@@ -1223,7 +1286,7 @@
     "page-first": "4325",
     "volume": "32",
     "issue": "24",
-    "_line": "bibliography.bib:261"
+    "_line": "bibliography.bib:280"
   },
   "josse2004radon": {
     "id": "josse2004radon",
@@ -1256,7 +1319,7 @@
     "page-first": "339",
     "volume": "56",
     "issue": "4",
-    "_line": "bibliography.bib:272"
+    "_line": "bibliography.bib:291"
   },
   "bousserez2007evaluation": {
     "id": "bousserez2007evaluation",
@@ -1318,7 +1381,7 @@
     "publisher": "Wiley Online Library",
     "volume": "112",
     "issue": "D10",
-    "_line": "bibliography.bib:283"
+    "_line": "bibliography.bib:302"
   },
   "lacressonniere2014european": {
     "id": "lacressonniere2014european",
@@ -1374,7 +1437,7 @@
     "page": "348-358",
     "page-first": "348",
     "volume": "92",
-    "_line": "bibliography.bib:293"
+    "_line": "bibliography.bib:312"
   },
   "rouil2009prev": {
     "id": "rouil2009prev",
@@ -1438,7 +1501,7 @@
     "page-first": "73",
     "volume": "90",
     "issue": "1",
-    "_line": "bibliography.bib:303"
+    "_line": "bibliography.bib:322"
   },
   "sofiev2008construction": {
     "id": "sofiev2008construction",
@@ -1469,6 +1532,6 @@
     "publisher": "Springer",
     "page": "699-701",
     "page-first": "699",
-    "_line": "bibliography.bib:314"
+    "_line": "bibliography.bib:333"
   }
 }

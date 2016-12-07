@@ -39,14 +39,15 @@ The chemical composition of the air close to Earth’s surface, generally referr
 Recently, the World Health Organization reported that in 2012 around 3.7 million deaths were attributable to ambient air pollution [^intro1]
 
 Since the Helsinki Protocol in 1985, many regions and countries, including the European Union countries, have progressively put in place tools to regulate and to control the emissions of the main air pollutants. 
-This has led to an important effort to monitor the air composition near the surface but also to develop air quality forecasting systems in experimental or operational modes (see reviews by Ebel et al., 2005; Menut and Bessagnet, 2010).
+This has led to an important effort to monitor the air composition near the surface but also to develop air quality forecasting systems in experimental or operational modes [@ebel2007advanced; @menut2010atmospheric].
 These tools can be used in cases of high pollution episodes to inform people and to take emergency measures to prevent harming effects. 
 They can also be used for policy makers for the regulations on air pollutant emissions and for monitoring the effect of these regulations on air quality.
 
 The Copernicus Atmosphere Monitoring Service (CAMS) 
-has been developed to meet these needs, aiming at supporting policymakers, 
+has been developed to meet these needs, aiming at supporting scientists, policymakers, 
 business and citizens with enhanced atmospheric environmental information.
 
+In the following sections, we will study the basic components of CAMS; the global and regional models it uses, and the data produced for three fundamental air pollutants: ozone, nitric oxide and nitrogen dioxide.
 [^intro1]: http://www.who.int/phe/health_topics/outdoorair/databases/en/ 
 
 # Study Area, Data & Materials 
