@@ -47,7 +47,7 @@ The Copernicus Atmosphere Monitoring Service (CAMS)
 has been developed to meet these needs, aiming at supporting scientists, policymakers, 
 business and citizens with enhanced atmospheric environmental information.
 
-In the following sections, we will study the basic components of CAMS; the global and regional models it uses, and the data produced for three fundamental air pollutants: ozone, nitric oxide and nitrogen dioxide.
+In the following sections, we will study the functionality of CAMS from; the global and regional models it uses, and the data produced for three fundamental air pollutants: ozone, nitric oxide and nitrogen dioxide.
 [^intro1]: http://www.who.int/phe/health_topics/outdoorair/databases/en/ 
 
 # Study Area, Data & Materials 
