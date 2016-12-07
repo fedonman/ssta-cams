@@ -59,12 +59,12 @@ Pollutants -> Areas -> Services
 ### Surface Ozone (O~3~)
 
 Ozone (O~3~) in the troposphere (the lowermost part of the atmosphere, from the surface to 6-15 km height depending on the latitude) is highly relevant for the Earth’s climate, ecosystems, and human health.
-Tropospheric ozone is the third largest contributor to greenhouse radiative forcing after carbon dioxide and methane (Forster et al., 2007).
-It is part of the Earth’s shield against ultraviolet radiation, particularly when there is stratospheric ozone depletion (Sabziparvar et al., 1998). 
+Tropospheric ozone is the third largest contributor to greenhouse radiative forcing after carbon dioxide and methane [@forster2007changes].
+It is part of the Earth’s shield against ultraviolet radiation, particularly when there is stratospheric ozone depletion [@sabziparvar1998changes]. 
 
-Ozone plays a crucial role in tropospheric chemistry as the main precursor for the OH radical which determines the oxidation capacity of the troposphere (Seinfeld and Pandis, 2006). 
-It is a toxic air pollutant affecting human health (Bell et al., 2006) and agriculture (Royal Society 2008).
-Furthermore, through plant damage, it impedes the uptake of carbon into the biosphere (Sitch et al., 2007). 
+Ozone plays a crucial role in tropospheric chemistry as the main precursor for the OH radical which determines the oxidation capacity of the troposphere [@seinfeld2006atmospheric]. 
+It is a toxic air pollutant affecting human health [@bell2006exposure] and agriculture [@fowler2008ground].
+Furthermore, through plant damage, it impedes the uptake of carbon into the biosphere [@sitch2007indirect]. 
 
 Accurate long-term measurements of ozone in the troposphere, including near the earth surface in unpolluted and polluted environments, are needed in order to assess the impacts of tropospheric ozone on the earth system, human health and ecosystems, and to detect changes in the atmospheric composition which could aggravate or reduce these impacts because of changing ozone precursor emissions or climate change.
 
@@ -256,8 +256,8 @@ Detailed descriptions of each model are presented in the following sections.
 
 ### CHIMERE
 
-CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale (Menut et al., 2013a). 
-The model is developed under the General Public License licence[^fn]. CHIMERE is used for analysis of pollution events, process studies, (Bessagnet et al., 2009; Beekmann and Vautard, 2010), experimental and operational forecasts (Rouïl et al., 2009), regional climate studies and trends (Colette et al., 2011), among others.
+CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale [@menut2013chimere]. 
+The model is developed under the General Public License licence[^fn]. CHIMERE is used for analysis of pollution events, process studies [@beekmann2010modelling], experimental and operational forecasts [@rouil2009prev], regional climate studies and trends [@colette2011air], among others.
 
 [^fn]:Official website: http://www.lmd.polytechnique.fr/chimere/
 
@@ -286,7 +286,7 @@ The model has been publicly available as open-source code since 2008, and a deta
 
 One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
 As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
-However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance (e.g. Jonson et al., 2006; Fagerli and Aas, 2008; Genberg et al., 2013). 
+However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance [@jonson2006first; @fagerli2008trends; @genberg2013light]. 
 
 Availability information of EMEP products as of May 2016 are presented in Table [#emep-portfolio]. 
 
@@ -303,7 +303,7 @@ Availability information of EMEP products as of May 2016 are presented in Table 
 
 ### EURAD-IM
 EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
-EURAD-IM has been applied on several recent air pollution studies (Monteiro et al., 2013;Zyryanov et al., 2012; Monteiro et al., 2012; Elbern et al., 2011; Kanakidou et al., 2011).
+EURAD-IM has been applied on several recent air pollution studies [@monteiro2013bias; @paschalidi2015inverse].
 
 Availability information of EURAD-IM products as of May 2016 are presented in Table [#eurad-portfolio]. 
 
@@ -319,8 +319,8 @@ Availability information of EURAD-IM products as of May 2016 are presented in Ta
 ~
 
 ### LOTOS-EUROS
-The 3-D chemistry-transport model LOTOS-EUROS (Schaap et al., 2008) is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
-It is used for regional-scale air quality forecasts in Europe and the Netherlands (De Ruyter de Wildt et al., 2011).
+The 3-D chemistry-transport model LOTOS-EUROS [@schaap2008lotos] is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
+It is used for regional-scale air quality forecasts in Europe and the Netherlands [@de2011six].
 
 The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
 The lowest dynamic layer is the mixing layer, followed by two reservoir layers. 
@@ -330,9 +330,9 @@ The LOTOS-EUROS model has been designed as a model of intermediate complexity, t
 For this, the vertical top of the operational model version is limited and covers only the boundary layer and reservoir layers (up to 3.5km); effectively, the model therefore employs only four dynamic layers. 
 Concentrations from the free troposphere are taken from the global boundary conditions, and therefore fully incorporate the knowledge, assimilations, and validation efforts present in the global model. 
 
-In spite of the limited complexity, the model performs well in simulation of O~3~ (Curier et al., 2012).
+In spite of the limited complexity, the model performs well in simulation of O~3~ [@curier2012improving].
 
-Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO~2~ (Vlemmix et al., 2015).
+Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO~2~ [@vlemmix2015max].
 
 Availability information of LOTOS-EUROS products as of May 2016 are presented in Table [#lotos-portfolio]. 
 
@@ -349,7 +349,7 @@ Availability information of LOTOS-EUROS products as of May 2016 are presented in
 
 ### MATCH
 
-The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling (Langner et al., 1998; Robertson et al., 1999).
+The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling [@langner1998validation].
 
 The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
 Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required. 
@@ -369,9 +369,9 @@ Availability information of MATCH products as of May 2016 are presented in Table
 ~
 
 ### MOCAGE
-The MOCAGE model (Josse et al., 2004; Dufour et al., 2004) has been developed at Météo-France since 2000. 
+The MOCAGE model [@josse2004radon] has been developed at Météo-France since 2000. 
 Its assimilation system has been developed jointly with CERFACS. 
-This model and its assimilation system have been successfully used for tropospheric and stratospheric research (e.g. Bousserez et al., 2007; Barré et al., 2013, 2014; Lacressonnière et al., 2014) and also for operational purposes (Rouïl et al., 2009).
+This model and its assimilation system have been successfully used for tropospheric and stratospheric research [@bousserez2007evaluation; @lacressonniere2014european] and also for operational purposes [@rouil2009prev].
 
 The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
 Thus, it provides a full representation of transport processes, in particular boundary layer–troposphere and troposphere–stratosphere exchanges, and the time evolution of stratospheric conditions for accurate photolysis rate calculations at the surface.
@@ -393,7 +393,7 @@ Availability information of MOCAGE products as of May 2016 are presented in Tabl
 ~
 
 ### SILAM
-SILAM is a meso-to-global-scale dispersion model (Sofiev et al., 2008) that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
+SILAM is a meso-to-global-scale dispersion model [@sofiev2008construction] that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
 The model has been applied with resolutions ranging from 1km up to 3&deg;, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
 SILAM is publicly available since 2007 and is used as an operational and research tool. 
 
