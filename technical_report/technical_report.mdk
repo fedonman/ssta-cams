@@ -13,7 +13,10 @@ Csl Style     : journal-of-geophysical-research-space-physics.csl
 [TITLE]
 
 ~ Abstract
-The abstract.
+Air Quality affects human, animal and vegetation health.
+Naturally, there have been many efforts to accurately describe the parameters and procedures that affect air quality and successfully predict them over a period of time.
+The most recent programme is the Copernicus Atmosphere Monitoring Service (CAMS). 
+In this paper, the functionality of CAMS is investigated from a user's perspective, both in respect to ease of use and to validity of results provided.
 ~
 
 &pagebreak;
@@ -47,13 +50,10 @@ The Copernicus Atmosphere Monitoring Service (CAMS)
 has been developed to meet these needs, aiming at supporting scientists, policymakers, 
 business and citizens with enhanced atmospheric environmental information.
 
-In the following sections, we will study the functionality of CAMS from; the global and regional models it uses, and the data produced for three fundamental air pollutants: ozone, nitric oxide and nitrogen dioxide.
+In the following sections, we will study the functionality of CAMS from a user's perspective, the global and regional models it uses, and the data produced for three fundamental air pollutants: ozone, nitric oxide and nitrogen dioxide.
 [^intro1]: http://www.who.int/phe/health_topics/outdoorair/databases/en/ 
 
-# Study Area, Data & Materials 
-
-{Introduction}
-Pollutants -> Areas -> Services
+# Study Area, Data & Materials
 
 ## Pollutants
 
@@ -611,5 +611,20 @@ Once the checkbox is checked we are presented with the details of the product (m
 After an option is selected a direct download in NetCDF format is available by clicking the button.
 
 # Conclusions
+
+When studying the usability of CAMS one must have in mind that it is essentially composed of two different services: global and regional. 
+
+The global model C-IFS is much more mature and tested with many pollutants. However, the website of ECMWF that provides the results is not very functional and can be frustrating for the common user.
+
+On the other hand, the regional models are quite fresh and several were developed for a different purpose, however quarterly reports show that all models are constantly improving over time[^reg-dossiers].
+There is also an important update scheduled to be applied within December, 2016.
+The update will provide improvements on regional models' analysis and forecasts.
+Moreover, website of regional products is very functional and easy to use, even by a completely inexperienced user.
+
+All in all, CAMS is a very powerful and important service. 
+Improvements, such as the unification of global and regional product delivery, are more than desired and should be a constant focus of partner institutes.
+CAMS has the potential to be the dominant service for atmosphere monitoring primarily in Europe, but also globally.
+
+[^reg-dossiers]: https://atmosphere.copernicus.eu/documentation-regional-systems
 
 [BIB]
