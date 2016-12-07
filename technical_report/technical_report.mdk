@@ -20,6 +20,7 @@ Air Quality affects human, animal and vegetation health.
 Naturally, there have been many efforts to accurately describe the parameters and procedures that affect air quality and successfully predict them over a period of time.
 The most recent programme is the Copernicus Atmosphere Monitoring Service (CAMS). 
 In this paper, the functionality of CAMS is investigated from a user's perspective, both in respect to ease of use and to validity of results provided.
+We show that CAMS is a very ambitious project, has shown impressive achievements for its lifespan, and has the potential to be the main tool for atmosphere monitoring in the future.
 ~
 
 &pagebreak;
@@ -88,7 +89,7 @@ NO~x~ also contributes to the formation of fine particles[^nox-1].
 [^nox-1]: http://www.icopal-noxite.co.uk/nox-problem/nox-pollution.aspx#sthash.esEBqdj6.dpuf
 ## Product Services 
 
-*an intro here*
+CAMS provides products on two scales: global and European-scale.
 
 ### Global
 The global products are provided by the ECMWF Composition-Integrated Forecast System (C-IFS).
@@ -622,7 +623,7 @@ The global model C-IFS is much more mature and tested with many pollutants. Howe
 On the other hand, the regional models are quite fresh and several were developed for a different purpose, however quarterly reports show that all models are constantly improving over time[^reg-dossiers].
 There is also an important update scheduled to be applied within December, 2016.
 The update will provide improvements on regional models' analysis and forecasts.
-Moreover, website of regional products is very functional and easy to use, even by a completely inexperienced user.
+Moreover, the website of regional services is very functional and easy to use, even by a completely inexperienced user.
 
 All in all, CAMS is a very powerful and important service. 
 Improvements, such as the unification of global and regional product delivery, are more than desired and should be a constant focus of partner institutes.
