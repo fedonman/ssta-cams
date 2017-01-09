@@ -1,6 +1,7 @@
 Title         : Copernicus Atmosphere Monitoring Service
-Title Note    : Work Package on O~3~, NO, NO~2~
+Title Note    : Final Report
 Author        : Vyron Vasileiadis
+Author        : Ioannis Karavasilis
 Affiliation   : National Observatory of Athens
 Email         : space15003@uop.gr
 Logo          : False
@@ -16,11 +17,9 @@ Csl Style     : journal-of-geophysical-research-space-physics.csl
 [TITLE]
 
 ~ Abstract
-Air Quality affects human, animal and vegetation health.
-Naturally, there have been many efforts to accurately describe the parameters and procedures that affect air quality and successfully predict them over a period of time.
-The most recent programme is the Copernicus Atmosphere Monitoring Service (CAMS). 
-In this paper, the functionality of CAMS is investigated from a user's perspective, both in respect to ease of use and to validity of results provided.
-We show that CAMS is a very ambitious project, has shown impressive achievements for its lifespan, and has the potential to be the main tool for atmosphere monitoring in the future.
+All Human, and not only, activities, are affected by the chemical composition of the air close to the surface of the Earth, generally referred as Air Quality (AQ). Low quality Air Exposure, affects a large percentage of human and animal population in the form of respiratory diseases and allergic responses. European commission is very sensitive with issues concerning public health and environment, and supports numerous efforts that describe and predict parameters and procedures that affect air quality. One of the most recent programme is the Copernicus Atmosphere Monitoring Service (CAMS).
+
+The purpose of this guide is to provide individuals, not necessarily scientists, who are looking for the kind of data, that will allow them to create, defend or even debunk Legislation & Polices concerning factors that affect AQ, with the help of CAMS. In order to evaluate CAMS functionality three different factors affecting AQ are examined: Dust aerosols, Pollen, Ozon and mononitrogen oxides.
 ~
 
 &pagebreak;
@@ -42,104 +41,171 @@ We show that CAMS is a very ambitious project, has shown impressive achievements
 
 # Introduction
 
-The chemical composition of the air close to Earth’s surface, generally referred as *air quality* (AQ), directly affects human and animal health and also the vegetation. 
+The chemical composition of the air close to Earth’s surface, generally referred as *air quality* (AQ), directly affects human and animal health and also the vegetation.
 Recently, the World Health Organization reported that in 2012 around 3.7 million deaths were attributable to ambient air pollution [^intro1]
 
-Since the Helsinki Protocol in 1985, many regions and countries, including the European Union countries, have progressively put in place tools to regulate and to control the emissions of the main air pollutants. 
+Since the Helsinki Protocol in 1985, many regions and countries, including the European Union countries, have progressively put in place tools to regulate and to control the emissions of the main air pollutants.
 This has led to an important effort to monitor the air composition near the surface but also to develop air quality forecasting systems in experimental or operational modes [@ebel2007advanced; @menut2010atmospheric].
-These tools can be used in cases of high pollution episodes to inform people and to take emergency measures to prevent harming effects. 
+These tools can be used in cases of high pollution episodes to inform people and to take emergency measures to prevent harming effects.
 They can also be used for policy makers for the regulations on air pollutant emissions and for monitoring the effect of these regulations on air quality.
 
-The Copernicus Atmosphere Monitoring Service (CAMS) 
-has been developed to meet these needs, aiming at supporting scientists, policymakers, 
+The Copernicus Atmosphere Monitoring Service (CAMS)
+has been developed to meet these needs, aiming at supporting scientists, policymakers,
 business and citizens with enhanced atmospheric environmental information.
 
 In the following sections, we will study the functionality of CAMS from a user's perspective, the global and regional models it uses, and the data produced for three fundamental air pollutants: ozone, nitric oxide and nitrogen dioxide.
-[^intro1]: http://www.who.int/phe/health_topics/outdoorair/databases/en/ 
+[^intro1]: http://www.who.int/phe/health_topics/outdoorair/databases/en/
 
 # Study Area, Data & Materials
 
 ## Pollutants
 
-### Surface Ozone (O~3~)
+### Aerosols: The case of Dust
 
-Ozone (O~3~) in the troposphere (the lowermost part of the atmosphere, from the surface to 6-15 km height depending on the latitude) is highly relevant for the Earth’s climate, ecosystems, and human health.
-Tropospheric ozone is the third largest contributor to greenhouse radiative forcing after carbon dioxide and methane [@forster2007changes].
-It is part of the Earth’s shield against ultraviolet radiation, particularly when there is stratospheric ozone depletion [@sabziparvar1998changes]. 
+Aerosols  are  tiny  solid  and  liquid  particles,  that  are  suspended  in  the atmosphere.
+Examples  of  aerosols  are    windblown  dust,  sea salts,  volcanic ash,  smoke  from  wildfires,  and  pollution  from  factories.
+Depending  upon their size, type, and location, aerosols can either cool the surface, or warm it.
+They  can  help  clouds  to  form,  or  they  can  inhibit  cloud formation.
+And  if inhaled, some aerosols can be harmful to people's health.
 
-Ozone plays a crucial role in tropospheric chemistry as the main precursor for the OH radical which determines the oxidation capacity of the troposphere [@seinfeld2006atmospheric]. 
-It is a toxic air pollutant affecting human health [@bell2006exposure] and agriculture [@fowler2008ground].
-Furthermore, through plant damage, it impedes the uptake of carbon into the biosphere [@sitch2007indirect]. 
+Aerosols  are  either  created  naturally  (nearly  90%  of  the  calculated mass), or generated from  human activities (the  remaining 10%).
+Dust is one of  the  most  abundant  aerosols,  since   sandstorms  whip small  pieces  of mineral  dust  from  deserts  into  the  atmosphere.
+Dust  tends  to  consists  of larger  particles, than  their  human-made  counterparts.
 
-Accurate long-term measurements of ozone in the troposphere, including near the earth surface in unpolluted and polluted environments, are needed in order to assess the impacts of tropospheric ozone on the earth system, human health and ecosystems, and to detect changes in the atmospheric composition which could aggravate or reduce these impacts because of changing ozone precursor emissions or climate change.
 
 ### NO~x~: Nitric Oxide (NO) + Nitrogen Dioxide (NO~2~)
 
 NO~x~ is a generic term for the mono-nitrogen oxides [@mollenhauer2010handbook; @Omidvarborna2015113], nitric oxide (NO) and nitrogen dioxide (NO~2~).
 They are produced from the reaction among nitrogen, oxygen and even hydrocarbons (during combustion), especially at high temperatures [@Omidvarborna2015113; @annamalai2007combustion].
 
-Because NO~x~ are transparent to most wavelengths of light, they allow the vast majority of photons to pass through and, therefore, have a lifetime of at least several days. 
+Because NO~x~ are transparent to most wavelengths of light, they allow the vast majority of photons to pass through and, therefore, have a lifetime of at least several days.
 Because NO~2~ is  recycled from NO by the photo reaction of VOC (volatile organic compounds) to make more ozone, NO~2~ seems to have an even longer lifetime and is capable of traveling considerable distances before creating ozone.  Weather systems usually travel over the earth’s surface and allow the atmospheric effects to move downwind for several hundred miles.
 This was noted in EPA reports more than twenty years ago. [@epabulletin]
 These reports found that each major city on the East coast has a plume of ozone that extends more than a hundred miles out to sea before concentrations drop to 100 parts per billion (ppb).
 
-NOx mainly impacts on respiratory conditions causing inflammation of the airways at high levels. Long term exposure can decrease lung function, increase the risk of respiratory conditions and increases the response to allergens. 
+NOx mainly impacts on respiratory conditions causing inflammation of the airways at high levels. Long term exposure can decrease lung function, increase the risk of respiratory conditions and increases the response to allergens.
 NO~x~ also contributes to the formation of fine particles[^nox-1].
 
 [^nox-1]: http://www.icopal-noxite.co.uk/nox-problem/nox-pollution.aspx#sthash.esEBqdj6.dpuf
-## Product Services 
+
+
+### Ozone (O~3~)
+
+Ozone (O~3~) in the troposphere (the lowermost part of the atmosphere, from the surface to 6-15 km height depending on the latitude) is highly relevant for the Earth’s climate, ecosystems, and human health.
+Tropospheric ozone is the third largest contributor to greenhouse radiative forcing after carbon dioxide and methane [@forster2007changes].
+It is part of the Earth’s shield against ultraviolet radiation, particularly when there is stratospheric ozone depletion [@sabziparvar1998changes].
+
+Ozone plays a crucial role in tropospheric chemistry as the main precursor for the OH radical which determines the oxidation capacity of the troposphere [@seinfeld2006atmospheric].
+It is a toxic air pollutant affecting human health [@bell2006exposure] and agriculture [@fowler2008ground].
+Furthermore, through plant damage, it impedes the uptake of carbon into the biosphere [@sitch2007indirect].
+
+Accurate long-term measurements of ozone in the troposphere, including near the earth surface in unpolluted and polluted environments, are needed in order to assess the impacts of tropospheric ozone on the earth system, human health and ecosystems, and to detect changes in the atmospheric composition which could aggravate or reduce these impacts because of changing ozone precursor emissions or climate change.
+
+
+### Pollen
+Pollen is a very fine powder produced by trees, flowers, grasses, and weeds in order to fertilize other plants of the same species.
+Then it is transported through air, especially through Spring months.
+
+These loose particles are one of the most common causes of allergies throughout the World, such as the Oral Allergy Syndrome (OAS)[^pollen-1].
+At the United States, only, pollen allergies affect up to 30 percent of adults and 40 percent of children.
+Other reports increase those numbers up to 75 percent of adult population, whereas asthma triggered by pollen affects around 300 million people worldwide[^pollen-2].
+
+Pollen is considered a chemically non-reactive aerosol, whose atmospheric dispersion only depends on the basic properties of the grains, such as their aerodynamic diameter and density (Belmonte and Berger and Šaulienė Šiauliai and Sofiev et al., 2013; An operational model for forecasting ragweed pollen release and dispersion in Europe; Agricultural and Forest Meteorology December 2013;).
+
+[^pollen-1]: https://www.aaaai.org/conditions-and-treatments/library/allergy-library/outdoor-allergies-and-food-allergies-can-be-relate
+[^pollen-2]: http://www.healthline.com/health/allergies/pollen#Overview1
+
+
+## Data generation
+
+CAMS is based on the processing of environmental data collected from Earth observation satellites and in situ sensors.
+Space segment is divided into two groups of missions:
+1. The Sentinels, which are currently being developed especially for Copernicus programme. Sentinel-1,-2, -3, -5P and -6 are dedicated satellites, while Sentinel-4 and 5 are instruments onboard EUMETSAT’s weather satellites. European Space Agency (ESA) is responsible for Sentinel-1,-2and 5P in the future, while EUMETSAT is responsible for operating the Sentinel-3,-6 and the instruments at -4 and -5.
+2. The Contributing Missions, which are operated by national, European or international organizations and already provide a wealth of data for Copernicus services. ESA and EUMETSAT will coordinate the delivery of data of these missions.
+
+Sentinel 4, 5 and 5P are dedicated satellites for Atmosphere Monitoring Services.
+
+The Sentinel-4 mission aims to support operational services covering air-quality near-real time applications, air-quality protocol monitoring and climate protocol monitoring. Also, wants to achieve this with a high revisit time over Europe.1 It uses Ultraviolet-Visible-Near-Infrared (UVN) instrument, a high-resolution spectrometer covering the ultraviolet, visible and near-infrared bands. The spectral resolution is 0.5 nm in the ultraviolet and visible bands, with the goal of 0.12 nm in near-infrared2. Moreover, it will use data from Eumetsat's thermal InfraRed Sounder (IRS), embarked on the MTG-Sounder (MTG-S) satellite. After the MTG-S satellite is in orbit, the Sentinel-4 mission also includes data from Eumetsat's Flexible Combined Imager (FCI) embarked on the MTG-Imager (MTG-I) satellite. Sentinel-4 will be a payload embarked on EUMETSAT's Meteosat Third Generation (MTG), which is scheduled to be launched around 2019.
+
+Sentinel-5 will be part of EUMETSAT's Metop Second Generation (Metop-SG), which is to be launched in 2020. It uses an Ultraviolet Visible Near-infrared Shortwave (UVNS) spectrometer and data from Eumetsat's IRS, the Visible Infrared Imager (VII) and the Multi-Viewing Multi-Channel Multi-Polarization Imager (3MI)1. The Sentinel-5/UVNS instrument is a high-resolution spectrometer operating in the ultraviolet to shortwave infrared range with 7 different spectral bands. Its spatial resolution is below 8km for wavelengths above 300nm and below 50km for wavelength below 300nm2. The orbit is high inclination (approximately 98.7°) LEO, with orbital cycle 29 days (14 orbits per day, 412 orbits per cycle)3. SENTINEL-5 mission will continue spectrometer measurements of previous missions, such as the Global Ozone Monitoring Experiment (GOME) (1995-2011), GOME-2 (2006 till now), with a second GOME-2 on MetOp-B satellite (2012 till now), SCanning Imaging Absorption spectroMeter for Atmospheric CartograpHY (SCIAMACHY) on ESA's ENVISAT mission (2002 – 2012) and Ozone Monitoring Instrument (OMI) on NASA's AURA spacecraft (2004 till now)1, but with a far better spatial resolution. Products from Sentinel-5 are associated with three levels of processing, with Level-0 not distributed to end-users, Level 1B delivered less than 135 minutes from sensing and Level-2 delivered within 165 minutes.
+
+Sentinel-5 Precursor mission will fill the five-year gap until the launch of Sentinel-5. It will use the TROPOMI UV-VIS-NIR-SWIR instrument which is an advanced spectrometer. It will use 8 spectral bands. It follows a high inclination (98.74°), Sun-synchronous, Low-Earth (824 km) polar orbit., with a repeat cycle of 17 days. For Near Real Time processing the following time constraints must be met: For Level-1B should be delivered by 2 h 15 min after sensing and Level-2 up to 3 h after sensing.
+
+It is obvious that in order for CAMS to take full advantage of Sentinels' potential it has to wait a few years. Until then it uses data from the contributing missions, a large number of stored data from previous observations and data gathered daily from ground stations.
+
+## Product Services
 
 CAMS provides products on two scales: global and European-scale.
 
 ### Global
-The global products are provided by the ECMWF Composition-Integrated Forecast System (C-IFS).
-The services consist of daily near real-time analyses and forecasts up to five days, and a re-analysis, currently for the period 2003 - 2012. 
-The geographical area covered is the whole Earth, from 180&deg;W to 180&deg; and 90&deg;S to 90&deg;N. 
-Vertically global services cover both the troposphere and stratosphere. 
+The global products are provided by the ECMWF Integrated Forecast System (IFS).
+Products concerning chemical species (O~3~, NO, NO~2~) use the Composition-Integrated Forecast System (C-IFS).
+Products concerning aerosols use a simple bin scheme (IFS-LMD), but there are plans for a more elaborate modal scheme for the future (IFS-GLOMAP).
+Currently there are no global products for pollen.
+
+The services consist of daily near real-time analyses and forecasts up to five days, and a re-analysis, currently for the period 2003 - 2012.
+The geographical area covered is the whole Earth, from 180&deg;W to 180&deg; and 90&deg;S to 90&deg;N.
+Vertically global services cover both the troposphere and stratosphere.
+
+#### Global analyses of aerosol concentrations - dust
+\
+This service provides daily analyses of dust concentrations.
+The Service became operational on July 1st 2015 and provides data every 6 hours.
 
 #### Global analyses of chemical species
 \
-This service provides daily analyses of chemical species, including O~3~, NO and NO~2~. 
-The Service became operational on July 1st 2015 and provides data every 6 hours.
+This service provides daily analyses of chemical species, including O~3~, NO and NO~2~.
+The service became operational on July 1st 2015 and provides data every 6 hours.
+
+#### Global forecasts of aerosol concentrations - dust
+\
+This service provides daily forecasts up to 5 days of dust concentrations.
+The service became operational on July 1st 2015.
 
 #### Global forecasts of chemical species
 \
-This service provides daily forecasts up to 5 days of chemical species, including O~3~, NO and NO~2~. 
+This service provides daily forecasts up to 5 days of chemical species, including O~3~, NO and NO~2~.
 The service became operational on July 1st 2015.
+
+#### MACC global reanalysis of aerosol concentrations - dust
+\
+This service provides global reanalysis of dust concentrations.
+The service time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
 
 #### MACC global reanalysis of assimilated chemical species
 \
 This service provides global reanalysis of chemical species that are directly constrained by observations.
-Only O~3~ and NO~2~ reanalysis data are available. 
+Only O~3~ and NO~2~ reanalysis data are available.
 This service time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
 Horizontal resolution is approximately 60 km.
 
 #### MACC global reanalysis of non-assimilated chemical species
 \
-This service provides global reanalysis of chemical species that are not directly constrained by observations. 
-Only NO and NO~2~ reanalysis data are available. 
+This service provides global reanalysis of chemical species that are not directly constrained by observations.
+Only NO and NO~2~ reanalysis data are available.
 This service time coverage spans from January 2003 to 31 December 2012, and has a time resolution of 3 hours.
 Horizontal resolution is 1.125&deg; x 1.125&deg;.
 
 ### European-scale
-The European-scale regional products are provided for the European domain (25&deg;W to 45&deg;E and from 30&deg;N to 70&deg;N). 
-The service provides daily 4-day forecasts of the main air quality species, including O~3~, NO, NO~2~, and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts. 
+The European-scale regional products are provided for the European domain (25&deg;W to 45&deg;E and from 30&deg;N to 70&deg;N).
+The service provides daily 4-day forecasts of the main air quality species, including O~3~, NO, NO~2~, and birch pollen and analyses of the day before, from 7 state-of-the-art atmospheric chemistry models and from the median ensemble calculated from the 7 model forecasts.
 The 7 atmospheric chemistry models are: CHIMERE, EMEP, EURAD-IM, LOTOS-EUROS, MATCH, MOCAGE, SILAM.
-The regional service also provides daily posteriori interim re-analyses based on fast-track in-situ observations, and annual re-analyses based on fully validated in-situ observations. 
+The regional service also provides daily posteriori interim re-analyses based on fast-track in-situ observations, and annual re-analyses based on fully validated in-situ observations.
+There are no regional products concerning dust concentrations.
 
 #### European-scale air quality analysis
 \
-This service provides European-scale air quality analyses for every hour of the previous day for every of the 7 models and the ensemble median. 
+This service provides European-scale air quality analyses for every hour of the previous day for every of the 7 models and the ensemble median.
 The service became operational on October 1st 2015.
 
 #### European-scale air quality forecast
 \
-This service provides European-scale air quality forecasts for every hour up to 4 days in advance for every of the 7 models and the ensemble median. 
+This service provides European-scale air quality forecasts for every hour up to 4 days in advance for every of the 7 models and the ensemble median.
 The service became operational on October 1st 2015.
 
 ## Data access
 Products delivered by CAMS are provided free of charge, since October 1st 2015.
-There is a universal search engine available on the CAMS web portal. 
+There is a universal search engine available on the CAMS web portal.
 The default procedure that should be used by common user is the following:
 
 1. Go to the CAMS website http://atmosphere.copernicus.eu
@@ -153,14 +219,14 @@ In particular:
 \
 \
 **Global products** are served by European Centre for Medium-Range Weather Forecasts (ECMWF).
-A registration is required to access the data. 
+A registration is required to access the data.
 CAMS provides its global data sets in two different ways.
 
 One option is the interactive web interface of ECMWF[^ecmwf-web] data server which provides batch data access to real-time analyses and forecasts, reanalysis results in GRIB and NetCDF format.
 It also provides a programmatic way of accessing data using python language. Detailed information can be found in ECMWF wiki[^ecmwf-wiki].
 
 The second option is through the ECMWF FTP server[^ecmwf-ftp], which provides archived real-time forecasts of the latest three days in GRIB and NetCDF format.
-CAMS data files can be accessed through directory \ `/DATA/CAMS_NREALTIME/${YYYYMMDDhh}` and follow a naming convention proposed by World Meteorological Organization (WMO). 
+CAMS data files can be accessed through directory \ `/DATA/CAMS_NREALTIME/${YYYYMMDDhh}` and follow a naming convention proposed by World Meteorological Organization (WMO).
 Detailed information can be found in CAMS website[^ftp].
 
 [^ecmwf-web]: http://apps.ecmwf.int/datasets/data/cams-nrealtime/levtype=sfc/
@@ -170,22 +236,21 @@ Detailed information can be found in CAMS website[^ftp].
 
 \
 **European-scale products** are accessed directly through CAMS web portal[^regional-web]. Files are available in Grib2 format and Netcdf format for model ENSEMBLE for both Forecast (surface as well as other levels ) & Analysis (surface).
-Files are available only in Netcdf format for models: CHIMERE, EMEP, EURAD, LOTOSEUROS, MATCH, MOCAGE, SILAM for both Forecast (surface as well as other levels) & Analysis (surface). 
+Files are available only in Netcdf format for models: CHIMERE, EMEP, EURAD, LOTOSEUROS, MATCH, MOCAGE, SILAM for both Forecast (surface as well as other levels) & Analysis (surface).
 There are six available choices:
 
-* **Download online data**  
+* **Download online data**
 Files produced less than 30 days ago are available. Available formats are GRIB2, NetCDF or TXT, depending on the type of product.
-* **Download archived data**  
-Archived data are older than 30 days. Archiving starts in October 2015. Available formats are GRIB2, NetCDF or TXT, depending on the type of product. 
-* **Download reanalysis data**  
+* **Download archived data**
+Archived data are older than 30 days. Archiving starts in October 2015. Available formats are GRIB2, NetCDF or TXT, depending on the type of product.
+* **Download reanalysis data**
 Download numerical data about atmospheric composition in Europe (reanalysis). Archiving starts in 2015 and the available data format is NetCDF.
-* **Download on map viewing**  
+* **Download on map viewing**
 Visualize data over a map of Europe. Very useful for an interesting air quality phenomenon spotted on a map view.
-* **Data server - subscribe mode**  
+* **Data server - subscribe mode**
 Data server subsribe mode allows users to subscribe to a product, to choose the delivery type (ftp,...), as well as the delivery time (upon arrival, on a specific chosen time).
-* **Data server - catalogue**  
+* **Data server - catalogue**
 Consult the catalogue of metadata, in order to discover all the CAMS Regional Air Quality products.
-
 
 
 [^regional-web]: http://www.regional.atmosphere.copernicus.eu/index.php?category=data_access&subensemble=dataserver_services
@@ -193,35 +258,44 @@ Consult the catalogue of metadata, in order to discover all the CAMS Regional Ai
 # Models
 
 ## Global
-The operational CAMS global assimilation and forecasting system uses fully integrated chemistry in the ECMWF Integrated Forecasting System (IFS). The version of the IFS is named Composition-IFS (C-IFS). 
-C-IFS makes it possible  
+The operational CAMS global assimilation and forecasting system uses fully integrated chemistry in the ECMWF Integrated Forecasting System (IFS).
 
-* to use the detailed meteorological simulation of the IFS for the simulation of the fate of constituents,  
+### C-IFS
+For chemical species, the version of the IFS is named Composition-IFS (C-IFS). C-IFS makes it possible
 
-* to simulate atmospheric chemistry globally at high resolution because of the computational parallel efficiency of the IFS,  
+* to use the detailed meteorological simulation of the IFS for the simulation of the fate of constituents,
 
-* to use the IFS data assimilation system to assimilate observation of atmospheric composition and  
+* to simulate atmospheric chemistry globally at high resolution because of the computational parallel efficiency of the IFS,
 
-* to simulate feedback between atmospheric composition and weather. Different chemical schemes can be used with the current operational version being based on the CB05 scheme. 
+* to use the IFS data assimilation system to assimilate observation of atmospheric composition and
 
-C-IFS  replaces the coupled system IFS-MOZART for forecast and assimilation of reactive gases within the pre-operational Copernicus Atmosphere Monitoring Service. 
+* to simulate feedback between atmospheric composition and weather. Different chemical schemes can be used with the current operational version being based on the CB05 scheme.
+
+C-IFS  replaces the coupled system IFS-MOZART for forecast and assimilation of reactive gases within the pre-operational Copernicus Atmosphere Monitoring Service.
+
+### IFS-LMD
+The IFS-LMD aerosol scheme is the scheme that was introduced to add aerosol modelling to the ECMWF IFS forecasting system. It is currently used for the daily analysis and 5-day forecast and was also used for the MACC reanalysis.
+
+The initial package of ECMWF physical parameterizations dedicated to aerosol processes mainly follows the aerosol treatment in the LOA/LMD-Z model (Boucher et al. 2002; Reddy et al. 2005). Five types of tropospheric aerosols are considered: sea salt, dust, organic and black carbon, and sulphate aerosols. Prognostic aerosols of natural origin, such as mineral dust and sea salt are described using three size bins. For dust, radius bin limits are at 0.03, 0.55, 0.9, and 20 microns while for sea-salt radius bin limits are at 0.03, 0.5, 5 and 20 microns.
+
+A detailed description of the ECMWF forecast and analysis model including aerosol processes is given in Morcrette et al. (2009) and Benedetti et al. (2009).
 
 ## European-scale
 
-Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between 10 and 20 km. 
+Each of the seven models is run at its own horizontal and vertical resolutions, with the horizontal resolutions varying between 10 and 20 km.
 This range of resolutions is not designed to reproduce local aspects of air pollution but to provide concentrations of pollutants at the regional scale that can then be used in particular as boundary conditions for air quality forecasts at finer resolution.
 
-The range of the forecasts is 96h from 00:00 UTC on Day0 with hourly outputs on eight vertical levels (surface, 50, 250, 500, 1000, 2000, 3000 and 5000m). 
-Day0 is defined as the day when the forecast is run. 
-The forecast initial time/date is Day0 at 00:00 UTC and final time/date is Day3 at 24:00UTC. 
-For each time step (1h), the individual model fields are interpolated on these vertical levels and on the same regular 0.1&deg; latitude by 0.1&deg; longitude grid over the European domain. 
+The range of the forecasts is 96h from 00:00 UTC on Day0 with hourly outputs on eight vertical levels (surface, 50, 250, 500, 1000, 2000, 3000 and 5000m).
+Day0 is defined as the day when the forecast is run.
+The forecast initial time/date is Day0 at 00:00 UTC and final time/date is Day3 at 24:00UTC.
+For each time step (1h), the individual model fields are interpolated on these vertical levels and on the same regular 0.1&deg; latitude by 0.1&deg; longitude grid over the European domain.
 It is from these re-gridded fields that the ensemble median and verification products are calculated.
 
-The analysis at the surface for Day0–1 (the day before Day0) is run daily a posteriori on Day0 using the assimilation of the hourly data from the AQ monitoring stations available in Europe between 00:00 and 23:00UTC on Day0– 1. 
-Like for the forecasts, Day0 is defined as the day when the analysis is run. 
-The analysis initial time/date is Day0–1 at 00:00 UTC and final time/date is Day0–1 at 23:00 UTC. 
-Similarly to the forecasts, the hourly individual model fields are interpolated on the same 0.1&deg; latitude by 0.1&deg; longitude grid. 
-The analyses are only produced at the surface level. 
+The analysis at the surface for Day0–1 (the day before Day0) is run daily a posteriori on Day0 using the assimilation of the hourly data from the AQ monitoring stations available in Europe between 00:00 and 23:00UTC on Day0– 1.
+Like for the forecasts, Day0 is defined as the day when the analysis is run.
+The analysis initial time/date is Day0–1 at 00:00 UTC and final time/date is Day0–1 at 23:00 UTC.
+Similarly to the forecasts, the hourly individual model fields are interpolated on the same 0.1&deg; latitude by 0.1&deg; longitude grid.
+The analyses are only produced at the surface level.
 
 An overview of the characteristics of the seven models can be seen in tables [#models-1] and [#models-2].
 Detailed descriptions of each model are presented in the following sections.
@@ -261,18 +335,18 @@ Detailed descriptions of each model are presented in the following sections.
 
 ### CHIMERE
 
-CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale [@menut2013chimere]. 
+CHIMERE is an Eulerian chemistry-transport model able to simulate concentration ﬁelds of gaseous and aerosols species at a regional scale [@menut2013chimere].
 The model is developed under the General Public License licence[^fn]. CHIMERE is used for analysis of pollution events, process studies [@beekmann2010modelling], experimental and operational forecasts [@rouil2009prev], regional climate studies and trends [@colette2011air], among others.
 
 [^fn]:Official website: http://www.lmd.polytechnique.fr/chimere/
 
-CHIMERE runs over a range of spatial scale from the regional scale (several thousand kilometres) to the urban scale (100-200 Km) with resolutions from 1-2 Km to 100 Km. 
-The model runs over the GEMS-MACC domain with a 0.1&deg; resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere. 
+CHIMERE runs over a range of spatial scale from the regional scale (several thousand kilometres) to the urban scale (100-200 Km) with resolutions from 1-2 Km to 100 Km.
+The model runs over the GEMS-MACC domain with a 0.1&deg; resolution and 8 vertical levels extending from the surface up to 500 hPa, covering the whole troposhphere.
 
-CHIMERE reproduces nicely the day to day O~3~ variation similarly at urban and rural sites with an overestimation which is higher during the winter at urban sites. 
+CHIMERE reproduces nicely the day to day O~3~ variation similarly at urban and rural sites with an overestimation which is higher during the winter at urban sites.
 CHIMERE reproduces the daily NO~x~ variability along the year but underestimates significantly the concentration especially during the cold season.
 
-Availability information of CHIMERE products as of May 2016 are presented in Table [#chimere-portfolio]. 
+Availability information of CHIMERE products as of May 2016 are presented in Table [#chimere-portfolio].
 
 ~ TableFigure {#chimere-portfolio; .booktable; caption: "Products of CHIMERE model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -286,14 +360,14 @@ Availability information of CHIMERE products as of May 2016 are presented in Tab
 ~
 
 ### EMEP
-The EMEP/MSC-W model has been developed at the EMEP Meteorological Synthesizing Centre-West at the Norwegian Meteorological Institute. 
-The model has been publicly available as open-source code since 2008, and a detailed description is given in Simpson et al. (2012). 
+The EMEP/MSC-W model has been developed at the EMEP Meteorological Synthesizing Centre-West at the Norwegian Meteorological Institute.
+The model has been publicly available as open-source code since 2008, and a detailed description is given in Simpson et al. (2012).
 
-One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere. 
-As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas. 
-However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance [@jonson2006first; @fagerli2008trends; @genberg2013light]. 
+One strength of the EMEP model is that its domain extends throughout the whole troposphere, thus taking accurate account of long-range transport of pollutants in the free troposphere.
+As the model is designed mainly for background concentrations, urban increments have not been implemented as in some other models with equally coarse resolution, leading to somewhat lower performance in urban and sub-urban areas.
+However, being one of the main research tools under the UN LRTAP (Long-range Transboundary Air Pollution) convention, the EMEP model is evaluated continuously against measurements of a large range of chemical parameters (including air concentrations, depositions, and trends) ensuring modelling capability with very good overall performance [@jonson2006first; @fagerli2008trends; @genberg2013light].
 
-Availability information of EMEP products as of May 2016 are presented in Table [#emep-portfolio]. 
+Availability information of EMEP products as of May 2016 are presented in Table [#emep-portfolio].
 
 ~ TableFigure {#emep-portfolio; .booktable; caption: "Products of EMEP model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -310,7 +384,7 @@ Availability information of EMEP products as of May 2016 are presented in Table 
 EURAD-IM is an Eulerian meso-scale chemistry transport model involving advection, diffusion, chemical transformation, wet and dry deposition and sedimentation of tropospheric trace gases and aerosols (Hass et al., 1995, Memmesheimer et al., 2004). It includes 3DVar and 4DVar chemical data assimilation (Elbern et al., 2007) and is able to run in nesting mode.
 EURAD-IM has been applied on several recent air pollution studies [@monteiro2013bias; @paschalidi2015inverse].
 
-Availability information of EURAD-IM products as of May 2016 are presented in Table [#eurad-portfolio]. 
+Availability information of EURAD-IM products as of May 2016 are presented in Table [#eurad-portfolio].
 
 ~ TableFigure {#eurad-portfolio; .booktable; caption: "Products of EURAD-IM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -327,19 +401,19 @@ Availability information of EURAD-IM products as of May 2016 are presented in Ta
 The 3-D chemistry-transport model LOTOS-EUROS [@schaap2008lotos] is developed by the Dutch institutes TNO, RIVM and, more recently, KNMI.
 It is used for regional-scale air quality forecasts in Europe and the Netherlands [@de2011six].
 
-The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer. 
-The lowest dynamic layer is the mixing layer, followed by two reservoir layers. 
+The model extends up to 3.5km above sea level, with three dynamic layers and a ﬁxed 25m thick surface layer.
+The lowest dynamic layer is the mixing layer, followed by two reservoir layers.
 The height of the mixing layer is obtained from the ECMWF meteorological input data used to drive the model.
 
-The LOTOS-EUROS model has been designed as a model of intermediate complexity, to favour short computation times. 
-For this, the vertical top of the operational model version is limited and covers only the boundary layer and reservoir layers (up to 3.5km); effectively, the model therefore employs only four dynamic layers. 
-Concentrations from the free troposphere are taken from the global boundary conditions, and therefore fully incorporate the knowledge, assimilations, and validation efforts present in the global model. 
+The LOTOS-EUROS model has been designed as a model of intermediate complexity, to favour short computation times.
+For this, the vertical top of the operational model version is limited and covers only the boundary layer and reservoir layers (up to 3.5km); effectively, the model therefore employs only four dynamic layers.
+Concentrations from the free troposphere are taken from the global boundary conditions, and therefore fully incorporate the knowledge, assimilations, and validation efforts present in the global model.
 
 In spite of the limited complexity, the model performs well in simulation of O~3~ [@curier2012improving].
 
 Apart from the relative short run-through time, the strength of the model is in the detailed description of anthropogenic emissions, given the close cooperation with the developers of the TNO-MACC emission inventory; this is for example shown by excellent simulation of boundary layer NO~2~ [@vlemmix2015max].
 
-Availability information of LOTOS-EUROS products as of May 2016 are presented in Table [#lotos-portfolio]. 
+Availability information of LOTOS-EUROS products as of May 2016 are presented in Table [#lotos-portfolio].
 
 ~ TableFigure {#lotos-portfolio; .booktable; caption: "Products of LOTOS-EUROS model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -356,11 +430,11 @@ Availability information of LOTOS-EUROS products as of May 2016 are presented in
 
 The MATCH model has been developed at SMHI over the past 20 years and is applied for emergency purposes as well as for regional-scale chemistry modelling [@langner1998validation].
 
-The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer. 
-Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required. 
+The strength of the MATCH model is that it spans vertically the troposphere and makes use of the same vertical layers as provided from the IFS model up to 300hPa. This means about 50 layers in the vertical and the lowest one just 20m thick and about 15 in the boundary layer.
+Using the same vertical resolution as the IFS model is an advantage because no vertical interpolation is required.
 Nevertheless, since the MATCH model has been developed mainly using HIRLAM (HIgh-Resolution Limited Area Model) data with a coarser vertical resolution, the use of the high-resolution vertical levels from IFS may lead to less accurate chemistry forecasts compared to the HIRLAM version
 
-Availability information of MATCH products as of May 2016 are presented in Table [#match-portfolio]. 
+Availability information of MATCH products as of May 2016 are presented in Table [#match-portfolio].
 
 ~ TableFigure {#match-portfolio; .booktable; caption: "Products of MATCH model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -374,17 +448,17 @@ Availability information of MATCH products as of May 2016 are presented in Table
 ~
 
 ### MOCAGE
-The MOCAGE model [@josse2004radon] has been developed at Météo-France since 2000. 
-Its assimilation system has been developed jointly with CERFACS. 
+The MOCAGE model [@josse2004radon] has been developed at Météo-France since 2000.
+Its assimilation system has been developed jointly with CERFACS.
 This model and its assimilation system have been successfully used for tropospheric and stratospheric research [@bousserez2007evaluation; @lacressonniere2014european] and also for operational purposes [@rouil2009prev].
 
-The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere. 
+The strength of MOCAGE is that it simulates the air composition of the whole troposphere and lower stratosphere.
 Thus, it provides a full representation of transport processes, in particular boundary layer–troposphere and troposphere–stratosphere exchanges, and the time evolution of stratospheric conditions for accurate photolysis rate calculations at the surface.
 
 The MOCAGE assimilation system in its MACC conﬁguration produces robust analyses for both O~3~ and NO~2~ as illustrated in the annual re-analysis reports [^mocage1]
 [^mocage1]: http://www.gmes-atmosphere.eu/documents/maccii/deliverables/eva/
 
-Availability information of MOCAGE products as of May 2016 are presented in Table [#mocage-portfolio]. 
+Availability information of MOCAGE products as of May 2016 are presented in Table [#mocage-portfolio].
 
 ~ TableFigure {#mocage-portfolio; .booktable; caption: "Products of MOCAGE model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -398,11 +472,11 @@ Availability information of MOCAGE products as of May 2016 are presented in Tabl
 ~
 
 ### SILAM
-SILAM is a meso-to-global-scale dispersion model [@sofiev2008construction] that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes. 
-The model has been applied with resolutions ranging from 1km up to 3&deg;, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere. 
-SILAM is publicly available since 2007 and is used as an operational and research tool. 
+SILAM is a meso-to-global-scale dispersion model [@sofiev2008construction] that is used for atmospheric composition, emergencies, composition–climate interactions, and air quality modeling purposes.
+The model has been applied with resolutions ranging from 1km up to 3&deg;, incorporates eight chemical and physical transformation modules and covers the troposphere and the stratosphere.
+SILAM is publicly available since 2007 and is used as an operational and research tool.
 
-Availability information of SILAM products as of May 2016 are presented in Table [#silam-portfolio]. 
+Availability information of SILAM products as of May 2016 are presented in Table [#silam-portfolio].
 
 ~ TableFigure {#silam-portfolio; .booktable; caption: "Products of SILAM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -416,17 +490,17 @@ Availability information of SILAM products as of May 2016 are presented in Table
 ~
 
 ### ENSEMBLE
-To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid. 
-For each grid point, the ensemble model value is calculated as the median value of the individual model forecasts or analyses available. 
-The median is defined as the value having 50% of individual models with higher values and 50% with lower values. 
-This method is rather insensitive to outliers in the forecasts or analyses and is very efficient computationally. 
+To process the ensemble median, all seven individual models are first interpolated to a common 0.1°×0.1° horizontal grid.
+For each grid point, the ensemble model value is calculated as the median value of the individual model forecasts or analyses available.
+The median is defined as the value having 50% of individual models with higher values and 50% with lower values.
+This method is rather insensitive to outliers in the forecasts or analyses and is very efficient computationally.
 It is also little sensitive if a particular model forecast or analysis is occasionally missing.
-These properties are very useful from an operational point of view. 
+These properties are very useful from an operational point of view.
 
-For the forecasts, the ENSEMBLE is produced for all levels and all pollutants. 
+For the forecasts, the ENSEMBLE is produced for all levels and all pollutants.
 For the analyses, the individual assimilation systems provide only analyses at the surface level.
 
-Availability information of ENSEMBLE products as of May 2016 are presented in Table [#ensemble-portfolio]. 
+Availability information of ENSEMBLE products as of May 2016 are presented in Table [#ensemble-portfolio].
 
 ~ TableFigure {#ensemble-portfolio; .booktable; caption: "Products of SILAM model"; font-size: 8pt; line-height: 1.5; page-align: forcehere;}
 |                |**Forecast**              |**Analysis**                     |
@@ -439,9 +513,9 @@ Availability information of ENSEMBLE products as of May 2016 are presented in Ta
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 ~
 
-### Availability statistics 
-The statistics in Table [#models-3] describe the ratio of days for which the models' outputs were available on time to be included in the ENSEMBLE fields (analyses and forecasts) that are computed at METEO-FRANCE. 
-They are based on the following schedule: 
+### Availability statistics
+The statistics in Table [#models-3] describe the ratio of days for which the models' outputs were available on time to be included in the ENSEMBLE fields (analyses and forecasts) that are computed at METEO-FRANCE.
+They are based on the following schedule:
 
 * forecasts data before: 05:30 UTC for Day0-Day1 (up to 48h), 07:30 UTC for Day2-Day3 (from 49h to 96h)
 * analyses data before: 11:00 UTC
@@ -487,16 +561,16 @@ Statistics are based on the quarter of March - May 2016, which is the latest wit
 In this section, we will reproduce a real-life case of air quality monitoring, to test the validity of CAMS forecast services and evaluate its easiness of use.
 Specifically, we will study the concentration of nitrogen dioxide on December 4th, 2016 in global and European scale.
 
-First, we access the online catalogue available on CAMS website. 
-We set the provided filters as following:  
+First, we access the online catalogue available on CAMS website.
+We set the provided filters as following:
 
-* Product family = \{ Global analyses, Global forecasts, Regional analyses, Regional forecasts \}  
+* Product family = \{ Global analyses, Global forecasts, Regional analyses, Regional forecasts \}
 
-* Parameter = Nitrogen Dioxide  
+* Parameter = Nitrogen Dioxide
 
-18 results are returned. 1 global analysis, 1 global forecast, 8 regional forecasts and 8 regional analyses (7 individual models plus ensemble). 
+18 results are returned. 1 global analysis, 1 global forecast, 8 regional forecasts and 8 regional analyses (7 individual models plus ensemble).
 All products when clicked lead to a page with several links available. This can be seen in Figure [#cams-catalogue] for the case of global analysis.
-We are primarily concerned about the provided plots and data. 
+We are primarily concerned about the provided plots and data.
 As it is mentioned before, the procedure onward is different for global and regional products.
 
 ~ Figure { #cams-catalogue; caption: "Available options and details of CAMS Catalogue product \ *Global analyses of chemical species - nitrogen dioxide*"; page-align: forcehere;}
@@ -505,7 +579,7 @@ As it is mentioned before, the procedure onward is different for global and regi
 [catalogue]: images/catalogue.png "catalogue" { width:auto; max-width:90% }
 
 
-**For global products**, *Plots* links to a page within CAMS website where an interactive global map is provided. 
+**For global products**, *Plots* links to a page within CAMS website where an interactive global map is provided.
 Figure [#global-map] shows the generated map of global analysis of NO~2~ concentration for 00:00 UTC December 4th, 2016.
 Information about NO~2~ concentration is color-layered on the map with a measurement unit legend provided.
 The user is able to adjust the date/time and the vertical area of interest.
@@ -541,7 +615,7 @@ The data is then available for downloading.
 
 **For regional products**, both *Plots* and *Data download* link to the regional subdomain of CAMS website.
 The subdomain provides a universal access to individual models and ensemble plots and data for both analyses and forecasts.
-This is done by an easy-to-use tab section as seen in Figure. 
+This is done by an easy-to-use tab section as seen in Figure.
 
 In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps, additional plots of daily mean and maximum values as well as EPSgrams for 41 major European cities are available (Figure #ensemble-tab).
 
@@ -554,10 +628,10 @@ In *Ensemble Analysis and Forecast* tab, except from forecasts and analyses maps
 The outline is shown in Figure [#regional-map-details].
 *Hourly Ensemble Maps* provide analysis and forecasts in the same UI. User first select a base date/time and then, depending on navigation's bar value, he selects forecast or analysis produced on that day.
 For example, if selected date/time is 00:00 UTC December 4th, 2016 and time navigation bar value is $-10$, then the analysis for 14:00 UTC December 3rd is depicted on the map.
-Similarly, given the same date/time and a value of $+48$ in time navigation bar, the forecast of 00:00 UTC December 6th is shown. 
-A useful *Download PDF* button, which exports the map to PDF format, is also present. 
+Similarly, given the same date/time and a value of $+48$ in time navigation bar, the forecast of 00:00 UTC December 6th is shown.
+A useful *Download PDF* button, which exports the map to PDF format, is also present.
 
-In order to obtain the analysis of NO~2~ concentration on 00:00 UTC December 4th, 2016 we set as date/time the December 5th and a time step of $-24$. 
+In order to obtain the analysis of NO~2~ concentration on 00:00 UTC December 4th, 2016 we set as date/time the December 5th and a time step of $-24$.
 Obtained map is shown in Figure [#ensemble-maps].
 
 ~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products."; page-align: forcehere;}
@@ -571,7 +645,7 @@ Obtained map is shown in Figure [#ensemble-maps].
 [ensemble_analysis_surface]: images/ensemble_analysis_surface.jpg "ensemble_analysis_surface" { width:auto; max-width:90% }
 
 *Daily mean and maximum* tab provides maps of the daily mean and maximum values of the concentration of pollutants as calculated by each model and ensemble.
-A useful feature is the ability to view the maps generated of all models side by side. 
+A useful feature is the ability to view the maps generated of all models side by side.
 This feature is shown in Figure [#regional-maximum] for NO~2~ maximum concentration values on December 4th, 2016.
 
 ~ Figure { #regional-maximum; caption: "Maximum concentrations of NO~2~ on December 4th, 2016 as calculated from all models and their ensemble."; page-align: forcehere;}
@@ -589,7 +663,7 @@ In Figure [#regional-epsgram] forecasts for the city of Athens between December 
 
 
 *Individual Analyses* and *Individual Forecasts* tabs provide maps of pollutants' concentration based on individual models calculations.
-Analyses are available for the day before at an hourly step. 
+Analyses are available for the day before at an hourly step.
 Forecasts are available up to 4 days ahead at an hourly step.
 It is interesting to see the relevance of the forecast for a given date/time to the post-analysis.
 In Figure [#chimere-map] we see the forecast of NO~2~ concentration for December 4th, 2016 issued on December 3rd and the relevant analysis issued on December 5th.
@@ -616,7 +690,7 @@ After an option is selected a direct download in NetCDF format is available by c
 
 # Conclusions
 
-When studying the usability of CAMS one must have in mind that it is essentially composed of two different services: global and regional. 
+When studying the usability of CAMS one must have in mind that it is essentially composed of two different services: global and regional.
 
 The global model C-IFS is much more mature and tested with many pollutants. However, the website of ECMWF that provides the results is not very functional and can be frustrating for the common user.
 
@@ -625,7 +699,7 @@ There is also an important update scheduled to be applied within December, 2016.
 The update will provide improvements on regional models' analysis and forecasts.
 Moreover, the website of regional services is very functional and easy to use, even by a completely inexperienced user.
 
-All in all, CAMS is a very powerful and important service. 
+All in all, CAMS is a very powerful and important service.
 Improvements, such as the unification of global and regional product delivery, are more than desired and should be a constant focus of partner institutes.
 CAMS has the potential to be the dominant service for atmosphere monitoring primarily in Europe, but also globally.
 
