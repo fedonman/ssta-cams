@@ -1,9 +1,14 @@
 Title         : Copernicus Atmosphere Monitoring Service
 Title Note    : Final Report
-Author        : Vyron Vasileiadis
-Author        : Ioannis Karavasilis
+Author        : Nikolaos Kalogeras
+Email         : space15009@uop.gr
 Affiliation   : National Observatory of Athens
+Author        : Ioannis Karavasilis
+Email         : space15011@uop.gr
+Affiliation   : National Observatory of Athens
+Author        : Vyron Vasileiadis
 Email         : space15003@uop.gr
+Affiliation   : National Observatory of Athens
 Logo          : False
 Doc Class     : [9pt]report
 Bibliography  : bibliography.bib
@@ -19,7 +24,7 @@ Csl Style     : journal-of-geophysical-research-space-physics.csl
 ~ Abstract
 All Human, and not only, activities, are affected by the chemical composition of the air close to the surface of the Earth, generally referred as Air Quality (AQ). Low quality Air Exposure, affects a large percentage of human and animal population in the form of respiratory diseases and allergic responses. European commission is very sensitive with issues concerning public health and environment, and supports numerous efforts that describe and predict parameters and procedures that affect air quality. One of the most recent programme is the Copernicus Atmosphere Monitoring Service (CAMS).
 
-The purpose of this guide is to provide individuals, not necessarily scientists, who are looking for the kind of data, that will allow them to create, defend or even debunk Legislation & Polices concerning factors that affect AQ, with the help of CAMS. In order to evaluate CAMS functionality three different factors affecting AQ are examined: Dust aerosols, Pollen, Ozon and mononitrogen oxides.
+The purpose of this guide is to provide individuals, not necessarily scientists, who are looking for the kind of data, that will allow them to create, defend or even debunk Legislation & Polices concerning factors that affect AQ, with the help of CAMS. In order to evaluate CAMS functionality three different factors affecting AQ are examined: dust aerosols, pollen, ozone and mononitrogen oxides.
 ~
 
 &pagebreak;
@@ -106,15 +111,11 @@ Accurate long-term measurements of ozone in the troposphere, including near the 
 Pollen is a very fine powder produced by trees, flowers, grasses, and weeds in order to fertilize other plants of the same species.
 Then it is transported through air, especially through Spring months.
 
-These loose particles are one of the most common causes of allergies throughout the World, such as the Oral Allergy Syndrome (OAS)[^pollen-1].
+These loose particles are one of the most common causes of allergies throughout the World, such as the Oral Allergy Syndrome (OAS)[^pollen1].
 At the United States, only, pollen allergies affect up to 30 percent of adults and 40 percent of children.
-Other reports increase those numbers up to 75 percent of adult population, whereas asthma triggered by pollen affects around 300 million people worldwide[^pollen-2].
+Other reports increase those numbers up to 75 percent of adult population, whereas asthma triggered by pollen affects around 300 million people worldwide[^pollen2].
 
-Pollen is considered a chemically non-reactive aerosol, whose atmospheric dispersion only depends on the basic properties of the grains, such as their aerodynamic diameter and density (Belmonte and Berger and Šaulienė Šiauliai and Sofiev et al., 2013; An operational model for forecasting ragweed pollen release and dispersion in Europe; Agricultural and Forest Meteorology December 2013;).
-
-[^pollen-1]: https://www.aaaai.org/conditions-and-treatments/library/allergy-library/outdoor-allergies-and-food-allergies-can-be-relate
-[^pollen-2]: http://www.healthline.com/health/allergies/pollen#Overview1
-
+Pollen is considered a chemically non-reactive aerosol, whose atmospheric dispersion only depends on the basic properties of the grains, such as their aerodynamic diameter and density.
 
 ## Data generation
 
@@ -566,9 +567,28 @@ We set the provided filters as following:
 
 * Product family = \{ Global analyses, Global forecasts, Regional analyses, Regional forecasts \}
 
-* Parameter = Nitrogen Dioxide
+* Parameter = \{ Birch pollen, Dust concentration, Nitrogen dioxide, Nitrogen monoxide, Ozone \}
 
-18 results are returned. 1 global analysis, 1 global forecast, 8 regional forecasts and 8 regional analyses (7 individual models plus ensemble).
+64 results are returned. Analytically:
+* 8 regional forecasts for birch pollen (7 individual models plus ensemble)
+* 8 regional analyses for birch pollen (7 individual models plus ensemble)
+* 1 global analysis for dust concentration
+* 1 global forecast for dust concentration
+* 1 global analysis for nitrogen dioxide
+* 1 global forecast for nitrogen dioxide
+* 8 regional forecasts for nitrogen dioxide (7 individual models plus ensemble)
+* 8 regional analyses for nitrogen dioxide (7 individual models plus ensemble)
+* 1 global analysis for nitrogen monoxide
+* 1 global forecast for nitrogen monoxide
+* 8 regional forecasts for nitrogen monoxide (7 individual models plus ensemble)
+* 8 regional analyses for nitrogen monoxide (7 individual models plus ensemble)
+* 1 global analysis for ozone
+* 1 global forecast for ozone
+* 8 regional forecasts for ozone (7 individual models plus ensemble)
+* 8 regional analyses for ozone (7 individual models plus ensemble)
+
+At first glance, we can verify that CAMS provides both global and regional products for chemical species (O~3~, NO, NO~2~), only global products for dust concentration and only regional products for birch pollen.
+
 All products when clicked lead to a page with several links available. This can be seen in Figure [#cams-catalogue] for the case of global analysis.
 We are primarily concerned about the provided plots and data.
 As it is mentioned before, the procedure onward is different for global and regional products.
@@ -690,18 +710,18 @@ After an option is selected a direct download in NetCDF format is available by c
 
 # Conclusions
 
+Satellites are capable of measuring the most important air pollutants, greenhouse gases and particles such as those from dust and pollen. They provide timely, spatially explicit, large-scale information on distribution in a cost-effective manner. When these data are coupled with ground-based measurements from monitoring stations and atmospheric chemistry models, accurate information on air quality can be provided in near-real time to support European air quality policies, air pollution mitigation and public health protection.
+
+CAMS provide services both global and regional, with each side having its advantages and drawbacks. For this reason, major updates are incorporated continually, new satellites are launched, and models used for prediction are also modified, in order to produce better assessments.
+
 When studying the usability of CAMS one must have in mind that it is essentially composed of two different services: global and regional.
 
-The global model C-IFS is much more mature and tested with many pollutants. However, the website of ECMWF that provides the results is not very functional and can be frustrating for the common user.
+The global models C-IFS and IFS-LMD are much more mature and tested. However, the website of ECMWF that provides the results is not very functional and can be frustrating for the common user.
 
 On the other hand, the regional models are quite fresh and several were developed for a different purpose, however quarterly reports show that all models are constantly improving over time[^reg-dossiers].
-There is also an important update scheduled to be applied within December, 2016.
-The update will provide improvements on regional models' analysis and forecasts.
 Moreover, the website of regional services is very functional and easy to use, even by a completely inexperienced user.
 
-All in all, CAMS is a very powerful and important service.
-Improvements, such as the unification of global and regional product delivery, are more than desired and should be a constant focus of partner institutes.
-CAMS has the potential to be the dominant service for atmosphere monitoring primarily in Europe, but also globally.
+What anyone can conclude is that we are only at the beginning. CAMS is a very powerful and important service, which has enormous possibilities of continuous and large-scale monitoring with advanced satellite-based systems. Also, can provide timely and reliable long-term information for assessment and verification purposes. It is sure that with its predictions can contribute to EU efforts to monitor health-related environmental phenomena.
 
 [^reg-dossiers]: https://atmosphere.copernicus.eu/documentation-regional-systems
 
