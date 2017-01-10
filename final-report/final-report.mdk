@@ -570,6 +570,7 @@ We set the provided filters as following:
 * Parameter = \{ Birch pollen, Dust concentration, Nitrogen dioxide, Nitrogen monoxide, Ozone \}
 
 64 results are returned. Analytically:
+
 * 8 regional forecasts for birch pollen (7 individual models plus ensemble)
 * 8 regional analyses for birch pollen (7 individual models plus ensemble)
 * 1 global analysis for dust concentration
@@ -585,7 +586,7 @@ We set the provided filters as following:
 * 1 global analysis for ozone
 * 1 global forecast for ozone
 * 8 regional forecasts for ozone (7 individual models plus ensemble)
-* 8 regional analyses for ozone (7 individual models plus ensemble)
+* 8 regional analyses for ozone (7 individual models plus ensemble)  
 
 At first glance, we can verify that CAMS provides both global and regional products for chemical species (O~3~, NO, NO~2~), only global products for dust concentration and only regional products for birch pollen.
 
