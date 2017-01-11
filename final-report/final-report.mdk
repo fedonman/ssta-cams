@@ -1,5 +1,6 @@
 Title         : Copernicus Atmosphere Monitoring Service
 Title Note    : Final Report
+Sub Title     : Technical User Guide
 Author        : Nikolaos Kalogeras
 Email         : space15009@uop.gr
 Affiliation   : National Observatory of Athens
@@ -13,7 +14,6 @@ Logo          : False
 Doc Class     : [9pt]report
 Bibliography  : bibliography.bib
 Cite Style    : natural
-Sub Title     : Technical User Guide
 Csl Style     : journal-of-geophysical-research-space-physics.csl
 
 ~ { tex-cmd-after: "\pagenumbering{roman}"}
@@ -46,19 +46,17 @@ The purpose of this guide is to provide individuals, not necessarily scientists,
 
 # Introduction
 
-The chemical composition of the air close to Earth’s surface, generally referred as *air quality* (AQ), directly affects human and animal health and also the vegetation.
-Recently, the World Health Organization reported that in 2012 around 3.7 million deaths were attributable to ambient air pollution [^intro1]
+Nowadays we live in a continually changing environment. Vast exploitation of natural resources change daily the face of the Earth and its atmosphere. In our effort to improve our quality of life, we managed to alter the quality of the air we breathe. According to World Health Organization (WHO) environmental factors such as water, sanitation, food and air quality can inﬂuence the spread of contagious diseases. Exposure to low quality air increase the severity of respiratory diseases and also affects larger numbers of population to develop allergic responses. In fact, recently was reported that in 2012 around 3.7 million deaths were attributable to ambient air pollution. [^intro1]
 
 Since the Helsinki Protocol in 1985, many regions and countries, including the European Union countries, have progressively put in place tools to regulate and to control the emissions of the main air pollutants.
 This has led to an important effort to monitor the air composition near the surface but also to develop air quality forecasting systems in experimental or operational modes [@ebel2007advanced; @menut2010atmospheric].
 These tools can be used in cases of high pollution episodes to inform people and to take emergency measures to prevent harming effects.
 They can also be used for policy makers for the regulations on air pollutant emissions and for monitoring the effect of these regulations on air quality.
 
-The Copernicus Atmosphere Monitoring Service (CAMS)
-has been developed to meet these needs, aiming at supporting scientists, policymakers,
-business and citizens with enhanced atmospheric environmental information.
+Such a promising effort is Copernicus Atmosphere Monitoring Service (CAMS). CAMS is one of the six services provided by the European programme Copernicus (the other five are land, marine, climate change, emergency management and security effort). CAMS aim to support scientists, policymakers, business and citizens with continuous data and information on atmospheric composition, near-real-time analysis and 4-day forecasts of air quality above Europe and in the same time supports health policies.
 
-In the following sections, we will study the functionality of CAMS from a user's perspective, the global and regional models it uses, and the data produced for three fundamental air pollutants: ozone, nitric oxide and nitrogen dioxide.
+In order to examine better the functionality of CAMS three different types of pollutants are examined: a) Pollen, b) Ozon and mononitrogen oxides and c) Dust. Pollen is a very fine powder produced by trees, flowers, grasses, and weeds in order to fertilize other plants of the same species. These loose particles are one of the most common causes of allergies throughout the World, such as the Oral Allergy Syndrome (OAS). Also, Ozone (O3) in the troposphere is highly relevant for the Earth’s climate. It is a toxic air pollutant affecting human health and agriculture. Moreover, Long term exposure in mononitrogen oxides can decrease lung function, increase the risk of respiratory conditions and increases the response to allergens. Finally, Dust is one of the most abundant aerosols in the atmosphere, that can be harmful to people's health.
+
 [^intro1]: http://www.who.int/phe/health_topics/outdoorair/databases/en/
 
 # Study Area, Data & Materials
@@ -67,16 +65,9 @@ In the following sections, we will study the functionality of CAMS from a user's
 
 ### Aerosols: The case of Dust
 
-Aerosols  are  tiny  solid  and  liquid  particles,  that  are  suspended  in  the atmosphere.
-Examples  of  aerosols  are    windblown  dust,  sea salts,  volcanic ash,  smoke  from  wildfires,  and  pollution  from  factories.
-Depending  upon their size, type, and location, aerosols can either cool the surface, or warm it.
-They  can  help  clouds  to  form,  or  they  can  inhibit  cloud formation.
-And  if inhaled, some aerosols can be harmful to people's health.
+Aerosols  are  tiny  solid  and  liquid  particles,  that  are  suspended  in  the atmosphere. Examples  of  aerosols  are    windblown  dust,  sea salts,  volcanic ash,  smoke  from  wildfires,  and  pollution  from  factories. Depending  upon their size, type, and location, aerosols can either cool the surface, or warm it. They  can  help  clouds  to  form,  or  they  can  inhibit  cloud formation. And  if inhaled, some aerosols can be harmful to people's health.
 
-Aerosols  are  either  created  naturally  (nearly  90%  of  the  calculated mass), or generated from  human activities (the  remaining 10%).
-Dust is one of  the  most  abundant  aerosols,  since   sandstorms  whip small  pieces  of mineral  dust  from  deserts  into  the  atmosphere.
-Dust  tends  to  consists  of larger  particles, than  their  human-made  counterparts.
-
+Aerosols  are  either  created  naturally  (nearly  90%  of  the  calculated mass), or generated from  human activities (the  remaining 10%). Dust is one of  the  most  abundant  aerosols,  since   sandstorms  whip small  pieces  of mineral  dust  from  deserts  into  the  atmosphere. Dust  tends  to  consists  of larger  particles, than  their  human-made  counterparts.
 
 ### NO~x~: Nitric Oxide (NO) + Nitrogen Dioxide (NO~2~)
 
@@ -355,9 +346,10 @@ Availability information of CHIMERE products as of May 2016 are presented in Tab
 |**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
 |                |1000m, 2000m, 3000, 5000m |                                 |
 |**Available at**|6:00 UTC                  |09:45 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~,      |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### EMEP
@@ -376,9 +368,10 @@ Availability information of EMEP products as of May 2016 are presented in Table 
 |**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
 |                |1000m, 2000m, 3000, 5000m |                                 |
 |**Available at**|2:00 UTC                  |08:45 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### EURAD-IM
@@ -393,9 +386,10 @@ Availability information of EURAD-IM products as of May 2016 are presented in Ta
 |**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
 |                |1000m, 2000m, 3000, 5000m |                                 |
 |**Available at**|6:00 UTC                  |09:45 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;          |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements.
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### LOTOS-EUROS
@@ -422,9 +416,10 @@ Availability information of LOTOS-EUROS products as of May 2016 are presented in
 |**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
 |                |1000m, 2000m, 3000, 5000m |                                 |
 |**Available at**|4:00 UTC                  |10:00 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### MATCH
@@ -446,6 +441,7 @@ Availability information of MATCH products as of May 2016 are presented in Table
 |**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### MOCAGE
@@ -467,9 +463,10 @@ Availability information of MOCAGE products as of May 2016 are presented in Tabl
 |**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
 |                |1000m, 2000m, 3000, 5000m |                                 |
 |**Available at**|0:30 UTC                  |10:30 UTC for the day before     |
-|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### SILAM
@@ -485,9 +482,10 @@ Availability information of SILAM products as of May 2016 are presented in Table
 |**Altitudes**   |Surface, 50m, 250m, 500m, |Surface                          |
 |                |1000m, 2000m, 3000, 5000m |                                 |
 |**Available at**|3:00 UTC                  |9:30 UTC for the day before      |
-|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
+|**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
 &ast; Not assimilated
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### ENSEMBLE
@@ -510,8 +508,9 @@ Availability information of ENSEMBLE products as of May 2016 are presented in Ta
 |                |1000m, 2000m, 3000, 5000m |                                 |
 |**Available at**|6:45 UTC for D0-D1        |11:30 UTC for the day before     |
 |                |8:45 UTC for D2-D3        |                                 |
-|**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO, NO~2~                  |
+|**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO, NO~2~                  |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
+&ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
 ### Availability statistics
@@ -586,7 +585,7 @@ We set the provided filters as following:
 * 1 global analysis for ozone
 * 1 global forecast for ozone
 * 8 regional forecasts for ozone (7 individual models plus ensemble)
-* 8 regional analyses for ozone (7 individual models plus ensemble)  
+* 8 regional analyses for ozone (7 individual models plus ensemble)
 
 At first glance, we can verify that CAMS provides both global and regional products for chemical species (O~3~, NO, NO~2~), only global products for dust concentration and only regional products for birch pollen.
 
