@@ -12,9 +12,8 @@ Email         : space15003@uop.gr
 Affiliation   : National Observatory of Athens
 Logo          : False
 Doc Class     : [9pt]report
-Bibliography  : bibliography.bib
+Bibliography  : ./bibliography.bib
 Cite Style    : natural
-Csl Style     : journal-of-geophysical-research-space-physics.csl
 
 ~ { tex-cmd-after: "\pagenumbering{roman}"}
 ~
@@ -67,7 +66,7 @@ In order to examine better the functionality of CAMS three different types of po
 
 Aerosols  are  tiny  solid  and  liquid  particles,  that  are  suspended  in  the atmosphere. Examples  of  aerosols  are    windblown  dust,  sea salts,  volcanic ash,  smoke  from  wildfires,  and  pollution  from  factories. Depending  upon their size, type, and location, aerosols can either cool the surface, or warm it. They  can  help  clouds  to  form,  or  they  can  inhibit  cloud formation. And  if inhaled, some aerosols can be harmful to people's health.
 
-Aerosols  are  either  created  naturally  (nearly  90%  of  the  calculated mass), or generated from  human activities (the  remaining 10%). Dust is one of  the  most  abundant  aerosols,  since   sandstorms  whip small  pieces  of mineral  dust  from  deserts  into  the  atmosphere. Dust  tends  to  consists  of larger  particles, than  their  human-made  counterparts.
+Aerosols  are  either  created  naturally  (nearly  90%  of  the  calculated mass), or generated from  human activities [@brechtel1998air]. Dust is one of  the  most  abundant  aerosols,  since   sandstorms  whip small  pieces  of mineral  dust  from  deserts  into  the  atmosphere. Dust  tends  to  consists  of larger  particles, than  their  human-made  counterparts.
 
 ### NO~x~: Nitric Oxide (NO) + Nitrogen Dioxide (NO~2~)
 
@@ -106,7 +105,11 @@ These loose particles are one of the most common causes of allergies throughout 
 At the United States, only, pollen allergies affect up to 30 percent of adults and 40 percent of children.
 Other reports increase those numbers up to 75 percent of adult population, whereas asthma triggered by pollen affects around 300 million people worldwide[^pollen2].
 
-Pollen is considered a chemically non-reactive aerosol, whose atmospheric dispersion only depends on the basic properties of the grains, such as their aerodynamic diameter and density.
+Pollen is considered a chemically non-reactive aerosol, whose atmospheric dispersion only depends on the basic properties of the grains, such as their aerodynamic diameter and density [@prank2013operational].
+
+[^pollen1]: https://www.aaaai.org/conditions-and-treatments/library/allergy-library/outdoor-allergies-and-food-allergies-can-be-relate
+
+[^pollen2]: http://www.healthline.com/health/allergies/pollen#Overview1
 
 ## Data generation
 
@@ -266,11 +269,11 @@ For chemical species, the version of the IFS is named Composition-IFS (C-IFS). C
 C-IFS  replaces the coupled system IFS-MOZART for forecast and assimilation of reactive gases within the pre-operational Copernicus Atmosphere Monitoring Service.
 
 ### IFS-LMD
-The IFS-LMD aerosol scheme is the scheme that was introduced to add aerosol modelling to the ECMWF IFS forecasting system. It is currently used for the daily analysis and 5-day forecast and was also used for the MACC reanalysis.
+The IFS-LMD aerosol scheme is the scheme that was introduced to add aerosol modeling to the ECMWF IFS forecasting system. It is currently used for the daily analysis and 5-day forecast and was also used for the MACC reanalysis.
 
-The initial package of ECMWF physical parameterizations dedicated to aerosol processes mainly follows the aerosol treatment in the LOA/LMD-Z model (Boucher et al. 2002; Reddy et al. 2005). Five types of tropospheric aerosols are considered: sea salt, dust, organic and black carbon, and sulphate aerosols. Prognostic aerosols of natural origin, such as mineral dust and sea salt are described using three size bins. For dust, radius bin limits are at 0.03, 0.55, 0.9, and 20 microns while for sea-salt radius bin limits are at 0.03, 0.5, 5 and 20 microns.
+The initial package of ECMWF physical parameterizations dedicated to aerosol processes mainly follows the aerosol treatment in the LOA/LMD-Z model [@boucher2002history; @reddy2005aerosol]. Five types of tropospheric aerosols are considered: sea salt, dust, organic and black carbon, and sulphate aerosols. Prognostic aerosols of natural origin, such as mineral dust and sea salt are described using three size bins. For dust, radius bin limits are at 0.03, 0.55, 0.9, and 20 microns while for sea-salt radius bin limits are at 0.03, 0.5, 5 and 20 microns.
 
-A detailed description of the ECMWF forecast and analysis model including aerosol processes is given in Morcrette et al. (2009) and Benedetti et al. (2009).
+A detailed description of the ECMWF forecast and analysis model including aerosol processes is given in Morcrette et al., 2009 and Benedetti et al., 2009.
 
 ## European-scale
 
@@ -348,7 +351,7 @@ Availability information of CHIMERE products as of May 2016 are presented in Tab
 |**Available at**|6:00 UTC                  |09:45 UTC for the day before     |
 |**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~,      |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
-&ast; Not assimilated
+&ast; Not assimilated \
 &ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
@@ -370,7 +373,7 @@ Availability information of EMEP products as of May 2016 are presented in Table 
 |**Available at**|2:00 UTC                  |08:45 UTC for the day before     |
 |**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
-&ast; Not assimilated
+&ast; Not assimilated \
 &ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
@@ -388,7 +391,7 @@ Availability information of EURAD-IM products as of May 2016 are presented in Ta
 |**Available at**|6:00 UTC                  |09:45 UTC for the day before     |
 |**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;          |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
-&ast; Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements.
+&ast; Until April 20th, 2016 NO observations from the German Umweltbundesamt (UBA) were assimilated. Thereafter surface in situ observations from UBA have been removed from the EURAD-IM assimilation chain, to be compliant with CAMS requirements. \
 &ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
@@ -418,7 +421,7 @@ Availability information of LOTOS-EUROS products as of May 2016 are presented in
 |**Available at**|4:00 UTC                  |10:00 UTC for the day before     |
 |**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
-&ast; Not assimilated
+&ast; Not assimilated \
 &ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
@@ -440,7 +443,7 @@ Availability information of MATCH products as of May 2016 are presented in Table
 |**Available at**|3:00 UTC                  |10:00 UTC for the day before     |
 |**Pollutants**  |O~3~, NO, NO~2~           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
-&ast; Not assimilated
+&ast; Not assimilated \
 &ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
@@ -465,7 +468,7 @@ Availability information of MOCAGE products as of May 2016 are presented in Tabl
 |**Available at**|0:30 UTC                  |10:30 UTC for the day before     |
 |**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
-&ast; Not assimilated
+&ast; Not assimilated \
 &ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
@@ -484,7 +487,7 @@ Availability information of SILAM products as of May 2016 are presented in Table
 |**Available at**|3:00 UTC                  |9:30 UTC for the day before      |
 |**Pollutants**  |O~3~, NO, NO~2~, Pollen&ast;&ast;           |O~3~, NO&ast;, NO~2~             |
 |**Timespan**    |0-96h, hourly             |0-24h for the day before, hourly |
-&ast; Not assimilated
+&ast; Not assimilated \
 &ast;&ast; Surface only. Birch pollen from 1st of March to 30th of June, olive pollen from 1st of January to 31st of May and grass pollen from 1st of March to 1st of August
 ~
 
@@ -559,7 +562,7 @@ Statistics are based on the quarter of March - May 2016, which is the latest wit
 
 # Results & Discussions
 In this section, we will reproduce a real-life case of air quality monitoring, to test the validity of CAMS forecast services and evaluate its easiness of use.
-Specifically, we will study the concentration of nitrogen dioxide on December 4th, 2016 in global and European scale.
+Specifically, we will study the concentration of dust, pollen, ozone, nitrogen monoxide and nitrogen dioxide on December 4th, 2016 in global and European scale.
 
 First, we access the online catalogue available on CAMS website.
 We set the provided filters as following:
@@ -571,7 +574,6 @@ We set the provided filters as following:
 64 results are returned. Analytically:
 
 * 8 regional forecasts for birch pollen (7 individual models plus ensemble)
-* 8 regional analyses for birch pollen (7 individual models plus ensemble)
 * 1 global analysis for dust concentration
 * 1 global forecast for dust concentration
 * 1 global analysis for nitrogen dioxide
@@ -601,7 +603,7 @@ As it is mentioned before, the procedure onward is different for global and regi
 
 **For global products**, *Plots* links to a page within CAMS website where an interactive global map is provided.
 Figure [#global-map] shows the generated map of global analysis of NO~2~ concentration for 00:00 UTC December 4th, 2016.
-Information about NO~2~ concentration is color-layered on the map with a measurement unit legend provided.
+Information about pollutant concentration is color-layered on the map with a measurement unit legend provided.
 The user is able to adjust the date/time and the vertical area of interest.
 
 ~ Figure { #global-map; caption: "Global analysis of NO~2~ concentration for December 4th, 2016"; page-align: forcehere;}
@@ -615,7 +617,7 @@ Also, the plot service is time-limited in the sense that provides analyses for t
 
 Global product *Data download* link to a page within CAMS website where the user can choose to download data through an interactive interface or through ftp access.
 Interactive data access link to ECMWF website. The user is presented a rich web form to select the exact product of interest. This is shown in Figure [#global-data].
-A date-span or specific months can be selected, different vertical levels (surface or pressure dependent or model dependent), multiple time-steps and a huge parameter list, which of course includes NO~2~.
+A date-span or specific months can be selected, different vertical levels (surface or pressure dependent or model dependent), multiple time-steps and a huge parameter list, which of course includes dust, O~3~, NO, NO~2~.
 A drawback is that data for the past four days in respect to current date is not available.
 
 ~ Figure { #global-data; caption: "User Interface of ECMWF website for downloading data of global analyses and forecasts."; page-align: forcehere;}
@@ -651,8 +653,8 @@ For example, if selected date/time is 00:00 UTC December 4th, 2016 and time navi
 Similarly, given the same date/time and a value of $+48$ in time navigation bar, the forecast of 00:00 UTC December 6th is shown.
 A useful *Download PDF* button, which exports the map to PDF format, is also present.
 
-In order to obtain the analysis of NO~2~ concentration on 00:00 UTC December 4th, 2016 we set as date/time the December 5th and a time step of $-24$.
-Obtained map is shown in Figure [#ensemble-maps].
+In order to obtain the analysis on 00:00 UTC December 4th, 2016 we set as date/time the December 5th and a time step of $-24$.
+A sample obtained map is shown in Figure [#ensemble-maps].
 
 ~ Figure { #regional-map-details; caption: "Outline of analyses and forecast maps of regional products."; page-align: forcehere;}
 ![regional_map_details]
@@ -718,8 +720,7 @@ When studying the usability of CAMS one must have in mind that it is essentially
 
 The global models C-IFS and IFS-LMD are much more mature and tested. However, the website of ECMWF that provides the results is not very functional and can be frustrating for the common user.
 
-On the other hand, the regional models are quite fresh and several were developed for a different purpose, however quarterly reports show that all models are constantly improving over time[^reg-dossiers].
-Moreover, the website of regional services is very functional and easy to use, even by a completely inexperienced user.
+On the other hand, the regional models are quite fresh and several were developed for a different purpose, however quarterly reports show that all models are constantly improving over time[^reg-dossiers]. Moreover, the website of regional services is very functional and easy to use, even by a completely inexperienced user.
 
 What anyone can conclude is that we are only at the beginning. CAMS is a very powerful and important service, which has enormous possibilities of continuous and large-scale monitoring with advanced satellite-based systems. Also, can provide timely and reliable long-term information for assessment and verification purposes. It is sure that with its predictions can contribute to EU efforts to monitor health-related environmental phenomena.
 
