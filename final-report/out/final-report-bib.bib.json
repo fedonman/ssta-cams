@@ -1719,5 +1719,101 @@
     "volume": "114",
     "issue": "D13",
     "_line": "./bibliography.bib:372"
+  },
+  "prank2013operational": {
+    "id": "prank2013operational",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Prank",
+        "given": "Marje"
+      },
+      {
+        "family": "Chapman",
+        "given": "Daniel S"
+      },
+      {
+        "family": "Bullock",
+        "given": "James M"
+      },
+      {
+        "family": "Belmonte",
+        "given": "Jordina"
+      },
+      {
+        "family": "Berger",
+        "given": "Uwe"
+      },
+      {
+        "family": "Dahl",
+        "given": "Aslog"
+      },
+      {
+        "family": "J&auml;ger",
+        "given": "Siegfried"
+      },
+      {
+        "family": "Kovtunenko",
+        "given": "Irina"
+      },
+      {
+        "family": "Magyar",
+        "given": "Don&aacute;t"
+      },
+      {
+        "family": "Niemel&auml;",
+        "given": "Sami"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "title": "An operational model for forecasting ragweed pollen release and dispersion in Europe",
+    "container-title": "Agricultural and forest meteorology",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "publisher": "Elsevier",
+    "page": "43-53",
+    "page-first": "43",
+    "volume": "182",
+    "_line": "./bibliography.bib:382"
+  },
+  "brechtel1998air": {
+    "id": "brechtel1998air",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Brechtel",
+        "given": "Fred J"
+      },
+      {
+        "family": "Kreidenweis",
+        "given": "Sonia M"
+      },
+      {
+        "family": "Swan",
+        "given": "Hilton B"
+      }
+    ],
+    "title": "Air mass characteristics, aerosol particle number concentrations, and number size distributions at Macquarie Island during the First Aerosol Characterization Experiment (ACE 1)",
+    "container-title": "Journal of Geophysical Research: Atmospheres",
+    "issued": {
+      "date-parts": [
+        [
+          "1998"
+        ]
+      ]
+    },
+    "publisher": "Wiley Online Library",
+    "page": "16351-16367",
+    "page-first": "16351",
+    "volume": "103",
+    "issue": "D13",
+    "_line": "./bibliography.bib:392"
   }
 }
